@@ -1,2 +1,2 @@
-# costasnicou
-Wordpress Template for costasnicou.com
+# personal-branding
+personal-branding

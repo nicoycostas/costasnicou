@@ -1,0 +1,23 @@
+@media (min-width:320px) and (max-width: 480px) {
+
+	main {
+		min-height: none;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-areas: "post-content";
+	}
+
+	.single-post-content h1 {
+		text-align: left;
+		color: #c26b2d;
+		font-weight: 400;
+	}
+
+	.single-post-content {
+		padding: 80px 40px;
+		font-size: 20px;
+		font-weight: 300;
+	}
+
+}
+

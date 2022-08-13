@@ -29,6 +29,10 @@
         top: 0;
     }
 
+    .welcome-msg{
+        display: none;
+    }
+
     .top-bar{
         background-color: rgb(43, 44, 43);
         height: 20px;
@@ -92,6 +96,10 @@
         // box-shadow: 4px -15px 56px 0px rgba(0,0,0,0.41);
         // -webkit-box-shadow: 4px -15px 56px 0px rgba(0,0,0,0.41);
         // -moz-box-shadow: 4px -15px 56px 0px rgba(0,0,0,0.41);
+
+        position: relative;
+        width: 100%;
+        bottom: 0;
 
         p{
             width: 300px;

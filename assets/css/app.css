@@ -25,6 +25,9 @@ section {
   z-index: 100;
   top: 0; }
 
+.welcome-msg {
+  display: none; }
+
 .top-bar {
   background-color: #2b2c2b;
   height: 20px; }
@@ -65,7 +68,10 @@ footer {
   background-color: #d48953;
   background-color: #312e2e;
   color: #fafafa;
-  text-align: center; }
+  text-align: center;
+  position: relative;
+  width: 100%;
+  bottom: 0; }
   footer p {
     width: 300px;
     margin: 0 auto;
@@ -263,6 +269,7 @@ footer {
 .btn-blog {
   background-color: #161616;
   color: white;
+  color: white;
   padding: 20px;
   border-radius: 5px;
   text-decoration: none;
@@ -434,7 +441,7 @@ html, body {
   grid-area: post-content; }
 
 main {
-  min-height: 900px;
+  min-height: 400px;
   display: grid;
   grid-template-columns: 20% 55% 1fr;
   grid-template-areas: "sidebar-left post-content sidebar-right"; }
@@ -456,6 +463,15 @@ main {
 @media (min-width: 320px) and (max-width: 480px) {
   /*Start Responsive Menu---------------------
   ------------------------------------------- */
+  .welcome-msg {
+    /* display: inline-block; */
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    position: relative;
+    top: 17px;
+    color: #484848; }
+
   .menu ul {
     display: block; }
 
@@ -541,7 +557,7 @@ main {
   /*End Cover Image---------------------
   ------------------------------------------- */
   .profile {
-    padding: 100px 0 50px 0; }
+    padding: 100px 0 80px 0; }
 
   .profile-content {
     width: 100%;
@@ -588,7 +604,9 @@ main {
 
   .exp-item h4 {
     font-size: 20px;
-    line-height: 35px; }
+    line-height: 35px;
+    padding: 0;
+    margin: 0; }
 
   .exp-item p {
     font-size: 19px;
@@ -764,5 +782,21 @@ main {
     color: #282828;
     font-family: 'Merienda', cursive;
     font-size: 15px; } }
+@media (min-width: 320px) and (max-width: 480px) {
+  main {
+    min-height: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "post-content"; }
+
+  .single-post-content h1 {
+    text-align: left;
+    color: #c26b2d;
+    font-weight: 400; }
+
+  .single-post-content {
+    padding: 80px 40px;
+    font-size: 20px;
+    font-weight: 300; } }
 
 /*# sourceMappingURL=app.css.map */

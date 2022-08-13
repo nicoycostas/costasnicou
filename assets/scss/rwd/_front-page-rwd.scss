@@ -4,6 +4,15 @@
     /*Start Responsive Menu---------------------
     ------------------------------------------- */
 
+        .welcome-msg {
+            /* display: inline-block; */
+            text-align: center;
+            margin: 0 auto;
+            display: block;
+            position: relative;
+            top: 17px;
+            color: rgb(72, 72, 72);
+        }
 
         .menu ul{
         display: block;
@@ -113,7 +122,7 @@
     // start profile
 
         .profile{
-            padding: 100px 0 50px 0;
+            padding: 100px 0 80px 0;
         }
 
         .profile-content {
@@ -164,17 +173,22 @@
             margin-left: 5px;
         }
 
+
+
         .exp-item {
             padding: 5px;
             margin-left: 75px;
             position: relative;
             color: whitesmoke;
         }
+
+
         .exp-item h4 {
             font-size: 20px;
             line-height: 35px;
+            padding: 0;
+            margin: 0;
         }
-
         .exp-item p {
             font-size: 19px;
             line-height: 30px;

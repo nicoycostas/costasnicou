@@ -204,7 +204,7 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 75%; }
+  width: 65%; }
 
 .project {
   /* border: 1px solid black; */
@@ -354,7 +354,6 @@ footer {
     text-align: center;
     padding-top: 10px;
     border-radius: 20px;
-    border: 1px solid red;
     background-color: #242424;
     color: white;
     padding: 40px;
@@ -723,9 +722,7 @@ main {
     background-color: #242424;
     color: white;
     padding: 30px;
-    box-shadow: 1px 0px 44px 0px rgba(0, 0, 0, 0.41);
-    -webkit-box-shadow: 1px 0px 44px 0px rgba(0, 0, 0, 0.41);
-    -moz-box-shadow: 1px 0px 44px 0px rgba(0, 0, 0, 0.41); }
+    box-shadow: none; }
 
   .contact .wpcf7 input[type="text"], .contact .wpcf7 input[type="email"], .contact .wpcf7 textarea {
     padding: 10px;
@@ -795,7 +792,7 @@ main {
     font-weight: 400; }
 
   .single-post-content {
-    padding: 80px 40px;
+    padding: 40px 40px 80px 40px;
     font-size: 20px;
     font-weight: 300; } }
 

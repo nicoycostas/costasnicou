@@ -26,8 +26,10 @@
         </div>
 
         <nav class="menu">
+            <p class="welcome-msg">costasnicou.com</p>
             <label for="toggle">&#9776;</label>
             <input type="checkbox" name="" id="toggle">
+        
             <ul class="menu-bar">
                 <li class="menu-list-item"><a class="menu-link" href="<?php echo get_home_url(); ?>">Home</a></li>
                 <li class="menu-list-item"><a class="menu-link" href="<?php echo get_home_url(); ?>/#profile">Experience & Education</a></li>

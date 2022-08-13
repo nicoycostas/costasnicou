@@ -4,12 +4,20 @@
     /*Start Responsive Menu---------------------
     ------------------------------------------- */
 
+
         .menu ul{
         display: block;
             // background-color: red;
         
         }
 
+        .menu-link {
+            text-decoration: none;
+            color: #575555;
+            font-weight: 300;
+            transition: all 0.2s;
+            font-size: 17px;
+        }
         .menu label {
             display: block;
             float: left;
@@ -104,6 +112,10 @@
 
     // start profile
 
+        .profile{
+            padding: 100px 0 50px 0;
+        }
+
         .profile-content {
             width: 100%;
             margin: 0 auto;
@@ -149,7 +161,7 @@
             font-size: 25px;
             font-family: 'Indie Flower', cursive;
             color: white;
-            margin-left: 25px;
+            margin-left: 5px;
         }
 
         .exp-item {
@@ -165,7 +177,7 @@
 
         .exp-item p {
             font-size: 19px;
-            line-height: 35px;
+            line-height: 30px;
         }
 
     // end eduexp
@@ -182,6 +194,21 @@
             height: 300px;
             margin-top: 25px;
             /* position: relative; */
+        }
+
+        .btn {
+            /* width: 200px; */
+            background-color: #313134;
+            background-color: #e00404;
+            background-color: #a41111;
+            color: white;
+            display: inline-block;
+            margin-top: 20px;
+            padding: 15px;
+            text-decoration: none;
+            transition: all 2s;
+            width: 100%;
+            text-align: center;
         }
 
 
@@ -255,6 +282,7 @@
             margin-top: 10px;
             fill: #d37d3f;
             fill:#d3a93f;
+            fill: rgb(232, 232, 232);
             width: 70px;
             height: 70px;
         }
@@ -262,6 +290,7 @@
         .services .services-content .service h4 {
             font-size: 20px;
             color: #d3a93f;
+            color: white;
             font-weight: 400;
         }
     // end services
@@ -319,7 +348,7 @@
             margin: 0 auto;
             position: relative;
             top: 70px;
-            left: 80px;
+            left: 75px;
         }
 
         .contact .social-icons {

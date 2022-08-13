@@ -11,7 +11,7 @@
         
     </div>
 
-    <section id="profile">
+    <section id="profile" class="profile">
         <!-- Profile -->
         <div class="profile-content">
             <!-- img -->

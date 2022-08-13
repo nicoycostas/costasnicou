@@ -17,12 +17,14 @@
     <title>Costas Nicou</title>
     <?php wp_head(); ?>
 </head>
+
 <body>
     <header id="header" class="header">
         <!-- cover image -->
         <div class="top-bar">
 
         </div>
+
         <nav class="menu">
             <label for="toggle">&#9776;</label>
             <input type="checkbox" name="" id="toggle">

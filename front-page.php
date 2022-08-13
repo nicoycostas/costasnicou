@@ -25,11 +25,11 @@
     </section>
 
     <!-- Education & Experience -->
-    <section id="eduexp">
-        <div class="content">
+    <section id="eduexp" class="eduexp-section" >
+        <div class="content ">
            
              <!-- experience -->
-            <article>
+            <article class="eduexp">
                 <h3>Experience</h3>
                 
                 <section class="exp-item">                  
@@ -56,7 +56,7 @@
             </article>
 
              <!-- education -->
-            <article>
+            <article class="eduexp">
                 <h3>Education</h3>
 
                 <section class="exp-item">
@@ -91,25 +91,25 @@
     <section id="portfolio" class="portfolio">
         <h2>Portfolio</h2>
         <div class="content">
-            <article>
-                <img src=" <?php echo get_template_directory_uri() . '/assets/imgs/blog.png';?>" alt="">
+            <article class="project">
+                <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/blog.png';?>" alt="">
                 <a href="https://nicoycostas.github.io/personalblog/" target="_blank" class="btn">View Project</a>
                 
 
             </article>
 
-            <article>
-                <img src="<?php echo get_template_directory_uri() . '/assets/imgs/leviotech.png'; ?>" alt="">
+            <article class="project">
+                <img class="project-img" src="<?php echo get_template_directory_uri() . '/assets/imgs/leviotech.png'; ?>" alt="">
                 <a href="https://nicoycostas.github.io/leviotech/" target="_blank" class="btn">View Project</a>
             </article>
 
-            <article>
-                <img src="<?php echo get_template_directory_uri() . '/assets/imgs/nasa.png';?>" alt="">
+            <article class="project">
+                <img class="project-img" src="<?php echo get_template_directory_uri() . '/assets/imgs/nasa.png';?>" alt="">
                 <a href="https://nicoycostas.github.io/server-arex/" target="_blank" class="btn">View Project</a>
             </article>
 
-            <article>
-                <img src=" <?php echo get_template_directory_uri() . '/assets/imgs/google-search.png';?>" alt="">
+            <article class="project">
+                <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/google-search.png';?>" alt="">
                 <a href="https://nicoycostas.github.io/google-search/" target="_blank" class="btn">View Project</a>
             </article>
            
@@ -178,7 +178,7 @@
         <div class="contact-content">
            
             <!-- content left -->
-            <div>
+            <div class="contact-content-left">
                 <img src=" <?php echo get_template_directory_uri() . '/assets/imgs/contact.png'; ?>" alt="" width="600" height="500">
                 <div class="social-icons">
                     
@@ -215,7 +215,7 @@
             
             
             <!-- content right-->
-            <div>
+            <div class="contact-content-right">
                  <?php echo apply_shortcodes( '[contact-form-7 id="21" title="Contact form 1"]' ); ?>
             </div>
         </div>

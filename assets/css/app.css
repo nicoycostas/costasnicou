@@ -12,22 +12,13 @@ html, body {
 * {
   box-sizing: border-box; }
 
+section {
+  padding: 100px 0; }
+
 /* END Global-----------
 ------------------------ */
-footer {
-  height: 110px;
-  background-color: #d48953;
-  background-color: #312e2e;
-  color: #fafafa;
-  text-align: center; }
-  footer p {
-    width: 300px;
-    margin: 0 auto;
-    padding: 35px;
-    font-family: 'Merienda', cursive;
-    font-size: 13px;
-    color: #ededed; }
-
+/*Start Header-----------
+------------------------ */
 .header {
   position: fixed;
   width: 100%;
@@ -62,6 +53,26 @@ footer {
   .menu-link:hover {
     color: black; }
 
+/*End Header-----------
+------------------------ */
+/*Start Footer-----------
+------------------------ */
+footer {
+  height: 110px;
+  background-color: #d48953;
+  background-color: #312e2e;
+  color: #fafafa;
+  text-align: center; }
+  footer p {
+    width: 300px;
+    margin: 0 auto;
+    padding: 35px;
+    font-family: 'Merienda', cursive;
+    font-size: 13px;
+    color: #ededed; }
+
+/*End Footer-----------
+------------------------ */
 /*START header------------
 --------------------------- */
 .cover-img {
@@ -103,9 +114,6 @@ footer {
 
 /*END header------------
 --------------------------- */
-#profile {
-  padding: 100px 0; }
-
 .profile-content {
   width: 50%;
   margin: 0 auto;
@@ -135,9 +143,7 @@ footer {
 --------------------------------------- */
 #eduexp {
   /* display: flex; */
-  background-color: #303030;
-  padding-top: 90px;
-  padding-bottom: 90px; }
+  background-color: #303030; }
 
 .content {
   width: 70%;
@@ -181,10 +187,6 @@ footer {
 --------------------------------------- */
 /*Start Portfolio.--------------------------
 ------------------------------------------- */
-.portfolio {
-  padding-top: 90px;
-  padding-bottom: 90px; }
-
 .portfolio h2 {
   text-align: center;
   font-family: 'Indie Flower', cursive;
@@ -224,10 +226,10 @@ footer {
 
 /*End Portfolio.--------------------------
 ------------------------------------------- */
+/*Start Blog.--------------------------
+------------------------------------------- */
 .blog {
   min-height: 400px;
-  padding: 40px;
-  padding-top: 90px;
   padding-bottom: 90px;
   background-color: #ececec;
   font-weight: 300; }
@@ -269,6 +271,10 @@ footer {
     background-color: #232222;
     color: white; }
 
+/*End Blog.--------------------------
+------------------------------------------- */
+/*Start Services.--------------------------
+------------------------------------------- */
 .services {
   background-image: url("../imgs/server-paralax.jpg");
   background-repeat: no-repeat;
@@ -317,6 +323,10 @@ footer {
         width: 100px;
         height: 100px; }
 
+/*Start Services.--------------------------
+------------------------------------------- */
+/*Start Contact.--------------------------
+------------------------------------------- */
 .contact {
   padding: 90px 0; }
   .contact h2 {
@@ -404,6 +414,8 @@ footer {
       font-family: 'Merienda', cursive;
       font-size: 15px; }
 
+/*End Contact.--------------------------
+------------------------------------------- */
 html, body {
   padding: 0;
   margin: 0; }

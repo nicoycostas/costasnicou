@@ -487,23 +487,48 @@ main {
   ------------------------------------------- */
   /*Start Cover Image---------------------
       ------------------------------------------- */
+  .cover-img {
+    background-image: url("../imgs/cover3.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+
   .cover-img-content h1 {
-    font-size: 57px;
-    line-height: 80px;
+    font-size: 45px;
+    line-height: 55px;
     text-shadow: 4px 5px 13px rgba(0, 0, 0, 0.74);
     padding: 0;
     margin-top: 0;
     margin: 0;
-    margin-top: 70px; }
+    margin-top: 70px;
+    width: 80%;
+    margin: 0 auto; }
 
   .cover-img-content h2 {
-    font-size: 35px;
+    font-size: 27px;
     text-shadow: 2px 0px 6px rgba(0, 0, 0, 0.74);
-    width: 80%;
+    width: 75%;
     margin: 0 auto;
     line-height: 50px;
     /* margin-top: 16px; */
     padding: 25px 0; }
+
+  .btn-cover {
+    background-color: #d37d3f;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 15px;
+    display: inline-block;
+    box-shadow: none;
+    font-size: 17px;
+    transition: all 0.5s; }
 
   /*End Cover Image---------------------
   ------------------------------------------- */
@@ -513,6 +538,14 @@ main {
     /* height: 300px; */
     /* background-color: crimson; */
     text-align: center; }
+
+  .profile-content p {
+    font-size: 20px;
+    font-weight: 300;
+    width: 80%;
+    margin: 0 auto;
+    width: 90%;
+    padding: 50px 0 0 0; }
 
   .eduexp-section {
     padding: 50px 0; }
@@ -526,7 +559,7 @@ main {
 
   .eduexp {
     /* border: 1px solid black; */
-    width: 95%;
+    width: 100%;
     color: white;
     padding: 10px; }
 
@@ -538,13 +571,17 @@ main {
 
   .exp-item {
     padding: 5px;
-    margin-left: 100px;
+    margin-left: 75px;
     position: relative;
     color: whitesmoke; }
 
   .exp-item h4 {
     font-size: 20px;
-    line-height: 25px; }
+    line-height: 35px; }
+
+  .exp-item p {
+    font-size: 19px;
+    line-height: 35px; }
 
   .portfolio {
     padding: 100px 0 50px 0; }
@@ -611,8 +648,14 @@ main {
   .services .services-content .service svg {
     margin-top: 10px;
     fill: #d37d3f;
+    fill: #d3a93f;
     width: 70px;
     height: 70px; }
+
+  .services .services-content .service h4 {
+    font-size: 20px;
+    color: #d3a93f;
+    font-weight: 400; }
 
   .contact {
     padding-bottom: 0; }
@@ -634,7 +677,7 @@ main {
     border: none;
     background-color: #242424;
     color: white;
-    padding: 40px;
+    padding: 30px;
     box-shadow: 1px 0px 44px 0px rgba(0, 0, 0, 0.41);
     -webkit-box-shadow: 1px 0px 44px 0px rgba(0, 0, 0, 0.41);
     -moz-box-shadow: 1px 0px 44px 0px rgba(0, 0, 0, 0.41); }
@@ -642,7 +685,7 @@ main {
   .contact .wpcf7 input[type="text"], .contact .wpcf7 input[type="email"], .contact .wpcf7 textarea {
     padding: 10px;
     border-radius: 20px;
-    width: 90%; }
+    width: 100%; }
 
   .contact .wpcf7 input[type="submit"], .contact .wpcf7 input[type="”button”"] {
     padding: 15px;
@@ -687,6 +730,12 @@ main {
       margin: 0; }
 
   .social-icons .icon:hover {
-    transform: none; } }
+    transform: none; }
+
+  .contact .contact-details p {
+    margin-left: 10px;
+    color: #282828;
+    font-family: 'Merienda', cursive;
+    font-size: 15px; } }
 
 /*# sourceMappingURL=app.css.map */

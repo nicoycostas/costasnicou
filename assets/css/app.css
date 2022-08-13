@@ -58,7 +58,7 @@ footer {
   text-decoration: none;
   color: #575555;
   font-weight: 300;
-  transition: all 0.5s; }
+  transition: all 0.2s; }
   .menu-link:hover {
     color: black; }
 
@@ -228,7 +228,7 @@ footer {
   padding: 40px;
   padding-top: 90px;
   padding-bottom: 90px;
-  background-color: #f9f9f9;
+  background-color: #ececec;
   font-weight: 300; }
 
 .blog h2 {

@@ -100,32 +100,31 @@
 /* Start Education & Experience-------------
 --------------------------------------- */
     #eduexp{
-        /* display: flex; */
+       
         background-color: rgb(48, 48, 48);
-        // padding-top: 90px;
-        // padding-bottom: 90px;
-        // position: ;
-
+      
     }
+
     .content{
         width: 70%;
-        /* background-color: aquamarine; */
         margin: 0 auto;
-        display: flex;
+        display: flex;        
     }
 
-    #eduexp h3{
-        /* padding: 40px; */
-        font-size: 25px;
-        font-family: 'Indie Flower', cursive;
-        
-    }
 
-    #eduexp article{
+    .eduexp{
         /* border: 1px solid black; */
         width: 50%;   
         color: white;
-        // padding: 50px;
+        padding: 50px;
+
+        h3{
+        
+            font-size: 25px;
+            font-family: 'Indie Flower', cursive;
+            color: white;
+            
+        }
     }
 
     .content ul li{
@@ -172,18 +171,23 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        width: 75%;
     }
 
-    .portfolio .content article{
+    // .portfolio .content article {
+       
+    // }
+
+    .project{
         /* border: 1px solid black; */
-        width: 200px;
+        width: 260px;
         height: 300px;
         margin-top: 50px;
         /* position: relative; */
     }
 
-    .portfolio .content article img{
-        width: 280px !important;
+    .project-img{
+        width: 260px !important;
         height: 200px;
     }
 
@@ -287,10 +291,10 @@
 ------------------------------------------- */
 
     .services{
-    background-image: url("../imgs/server-paralax.jpg");
+        background-image: url("../imgs/server-paralax.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        height: 650px;
+        min-height: 650px;
             /* Create the parallax scrolling effect */
         background-attachment: fixed;
         background-position: center;
@@ -439,48 +443,39 @@
             -webkit-box-shadow: 1px 0px 44px 0px rgba(0,0,0,0.41);
             -moz-box-shadow: 1px 0px 44px 0px rgba(0,0,0,0.41);
         
+           
             #fb-icon{
                 fill: rgb(20, 20, 214);
-                transition: all 1s;
-                &:hover{
-                    transform: rotate(360deg);
-                }
+               
             }
 
             #linkedin-icon{
                 fill: rgb(33, 33, 141);
-                transition: all 1s;
-                &:hover{
-                    transform: rotate(360deg);
-                }
+                
             }
 
             #twitter-icon{
                 fill: rgb(47, 124, 169);
-                transition: all 1s;
-                &:hover{
-                    transform: rotate(360deg);
-                }
             }
 
             #youtube-icon{
                 fill: rgb(197, 15, 15);
-                transition: all 1s;
-                &:hover{
-                    transform: rotate(360deg);
-                }
             }
 
             
         }
 
-        .social-icons svg{
-        width: 80px;
-        height: 80px;
+        .icon{
+                transition: all 1s;
+                &:hover{
+                    transform: rotate(360deg);
+                }
+        }
 
-        
-        
-        
+
+        .social-icons svg{
+            width: 80px;
+            height: 80px;        
         }
 
         .contact-details{

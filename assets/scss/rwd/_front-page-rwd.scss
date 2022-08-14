@@ -3,15 +3,16 @@
 
     /*Start Responsive Menu---------------------
     ------------------------------------------- */
-
         .welcome-msg {
             /* display: inline-block; */
             text-align: center;
             margin: 0 auto;
             display: block;
             position: relative;
-            top: 17px;
-            color: rgb(72, 72, 72);
+            top: 12px;
+            color: #484848;
+            font-family: 'Indie Flower', cursive;
+            font-size: 20px;
         }
 
         .menu ul{
@@ -173,27 +174,40 @@
             margin-left: 5px;
         }
 
-
-
         .exp-item {
-            padding: 5px;
+            padding: 5px 5px;
             margin-left: 75px;
             position: relative;
             color: whitesmoke;
         }
 
 
+        .exp-item .fas {
+            /* position: absolute; */
+            position: top;
+            position: relative;
+            top: 42px;
+        }
+
         .exp-item h4 {
-            font-size: 20px;
-            line-height: 35px;
+            font-size: 18px;
+            line-height: 25px;
             padding: 0;
             margin: 0;
         }
         .exp-item p {
-            font-size: 19px;
+            font-size: 16px;
             line-height: 30px;
         }
 
+        .exp-item p {
+            font-size: 16px;
+            line-height: 30px;
+            /* margin-top: 10px; */
+            margin: 0;
+        }
+
+       
     // end eduexp
 
     // start-portfolio
@@ -296,7 +310,7 @@
             margin-top: 10px;
             fill: #d37d3f;
             fill:#d3a93f;
-            fill: rgb(182, 182, 182);
+            fill: rgba(182, 182, 182, 0.526);
             width: 70px;
             height: 70px;
         }

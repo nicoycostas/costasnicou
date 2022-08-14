@@ -179,7 +179,7 @@ footer {
   .exp-item p {
     font-size: 19px; }
 
-.exp-item i {
+.exp-item .fas {
   font-size: 40px;
   /* float: left; */
   position: absolute;
@@ -468,8 +468,10 @@ main {
     margin: 0 auto;
     display: block;
     position: relative;
-    top: 17px;
-    color: #484848; }
+    top: 12px;
+    color: #484848;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px; }
 
   .menu ul {
     display: block; }
@@ -596,20 +598,32 @@ main {
     margin-left: 5px; }
 
   .exp-item {
-    padding: 5px;
+    padding: 5px 5px;
     margin-left: 75px;
     position: relative;
     color: whitesmoke; }
 
+  .exp-item .fas {
+    /* position: absolute; */
+    position: top;
+    position: relative;
+    top: 42px; }
+
   .exp-item h4 {
-    font-size: 20px;
-    line-height: 35px;
+    font-size: 18px;
+    line-height: 25px;
     padding: 0;
     margin: 0; }
 
   .exp-item p {
-    font-size: 19px;
+    font-size: 16px;
     line-height: 30px; }
+
+  .exp-item p {
+    font-size: 16px;
+    line-height: 30px;
+    /* margin-top: 10px; */
+    margin: 0; }
 
   .portfolio {
     padding: 100px 0 50px 0; }
@@ -691,7 +705,7 @@ main {
     margin-top: 10px;
     fill: #d37d3f;
     fill: #d3a93f;
-    fill: #b6b6b6;
+    fill: rgba(182, 182, 182, 0.526);
     width: 70px;
     height: 70px; }
 

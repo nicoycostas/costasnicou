@@ -438,7 +438,7 @@
 }
 
 // 481px — 768px: iPads, Tablets
-@media (min-width: 768px) and (max-width:1024px) {
+@media (min-width: 768px){
 
     // start header
 
@@ -662,6 +662,111 @@
 
 }
 
+@media(min-width: 769px) and (max-width:1024px){
+    body{
+        // background-color: #313134;
+    }
+
+    // start header
+        .cover-img-content h2 {
+            font-size: 45px;
+            text-shadow: 4px 5px 13px rgba(0, 0, 0, 0.74);
+        }
+    // end header
+
+    // start eduexp
+
+        .eduexp-section .content {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+            flex-direction: row;
+        }
+
+        .exp-item h4 {
+            font-size: 20px;
+            line-height: 28px;
+        }
+        
+        
+
+
+    // end edu exp
+
+    // start portfolio
+        .portfolio .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 65%;
+            flex-wrap: wrap;
+        }
+    // end portfolio
+
+    // start blog
+        .blog-content {
+            display: flex;
+            flex-wrap: wrap;
+            width: 65%;
+            margin: 0 auto;
+            justify-content: space-between;
+        }
+
+    // end blog
+
+    // start services
+
+        .services .services-content {
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            width: 95%;
+            margin: 0 auto;
+            padding-top: 20px;
+            flex-direction: column;
+            flex-direction: row;
+        }
+
+        .services .services-content .service {
+            text-align: center;
+            border: none;
+            margin-left: 20px;
+            background-color: rgba(0, 0, 0, 0.353);
+            -webkit-box-shadow: 5px 5px 25px 2px rgba(0, 0, 0, 0.24);
+            box-shadow: 5px 5px 25px 2px rgba(0, 0, 0, 0.24);
+            padding: 20px;
+            transition: all 2s;
+            /* width: 500px; */
+            margin: 0 auto;
+        }
+
+        .services .services-content .service svg {
+            margin-top: 10px;
+            fill: #d37d3f;
+            width: 70px;
+            height: 70px;
+        }
+
+    // end services
+
+    // start contact
+
+        .contact-content-left img {
+            width: 300px;
+            height: 300px;
+            /* margin: 40px; */
+            text-align: center;
+            /* display: flex; */
+            /* justify-content: center; */
+            position: relative;
+            top: 70px;
+            left: 32%;
+        }
+
+    // end contact
+   
+} 
 // 769px — 1024px: Small screens, laptops
 // 1025px — 1200px: Desktops, large screens
 // 1201px and more —  Extra large screens, TV

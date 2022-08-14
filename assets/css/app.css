@@ -124,6 +124,11 @@ html {
   .btn-cover:hover {
     background-color: #c26b2d; }
 
+.home-icon {
+  width: 20px;
+  height: 20px;
+  display: none; }
+
 /*END header------------
 --------------------------- */
 .profile-content {
@@ -511,6 +516,16 @@ main {
   #toggle:checked + .menu-bar {
     display: block; }
 
+  .home-icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 40px;
+    right: 40px;
+    fill: #999898;
+    fill: #d37d3fa0; }
+
   /*End Responsive Menu---------------------
   ------------------------------------------- */
   /*Start Cover Image---------------------
@@ -799,7 +814,7 @@ main {
     color: #282828;
     font-family: 'Merienda', cursive;
     font-size: 15px; } }
-@media (min-width: 768px) and (max-width: 769) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .menu ul {
     display: flex;
     justify-content: center;

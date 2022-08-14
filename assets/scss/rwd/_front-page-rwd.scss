@@ -58,6 +58,16 @@
         #toggle:checked + .menu-bar{
             display: block;
         }
+        .home-icon {
+            display: block;
+            width: 30px;
+            height: 30px;
+            position: absolute;
+            top: 40px;
+            right: 40px;
+            fill: #999898;
+            fill: #d37d3fa0;
+        }
     /*End Responsive Menu---------------------
     ------------------------------------------- */
 
@@ -428,7 +438,7 @@
 }
 
 // 481px — 768px: iPads, Tablets
-@media (min-width: 768px) and (max-width:769) {
+@media (min-width: 768px) and (max-width:1024px) {
 
     // start header
 

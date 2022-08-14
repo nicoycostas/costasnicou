@@ -1,6 +1,9 @@
 
 /*START header------------
 --------------------------- */
+    html{
+        overflow-x: hidden;
+    }
 
     .cover-img{
         background-image: url("../imgs/cover-image.png");

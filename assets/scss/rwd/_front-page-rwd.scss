@@ -310,7 +310,7 @@
             margin-top: 10px;
             fill: #d37d3f;
             fill:#d3a93f;
-            fill: rgba(182, 182, 182, 0.526);
+            fill: rgba(206, 204, 204, 0.661);
             width: 70px;
             height: 70px;
         }
@@ -347,6 +347,10 @@
             color: white;
             padding: 30px;
             box-shadow: none;
+        }
+
+        .contact .wpcf7 label {
+            font-size: 16px;
         }
 
         .contact .wpcf7 input[type="text"], .contact .wpcf7 input[type="email"], .contact .wpcf7 textarea {
@@ -425,11 +429,230 @@
 
 
 // 481px — 768px: iPads, Tablets
-// @media (min-width:481px) and (max-width: 768px) {
-//     .cover-img{
-//         display: none;
-//     }
-// }
+@media (min-width:481px) and (max-width: 768px) {
+
+    // start header
+
+        .menu ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            /* margin: 0; */
+            padding: 0;
+            width: 95%;
+        }
+
+        .cover-img{
+            // background-image: url("../imgs/cover-image.png");
+            // background-image: url("../imgs/cover2.jpg");
+            background-image: url("../imgs/cover3.jpg");
+            // background-image: url("../imgs/cover4.jpg");
+            // background-image: url("../imgs/cover5.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 750px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+    // end header
+
+    // start profile
+
+        .profile-content p {
+            font-size: 20px;
+            font-weight: 300;
+            width: 80%;
+            margin: 0 auto;
+            width: 100%;
+            padding: 50px 0 0 0;
+        }
+
+    // end profile
+
+
+    // start eduexp
+
+        .eduexp-section{
+            padding: 50px 0;
+        }
+
+        .eduexp-section .content {
+            width: 70%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .eduexp {
+            /* border: 1px solid black; */
+            width: 100%;
+            color: white;
+            /* padding: 50px; */
+            padding: 10px;
+        }
+
+    // end eduexp
+
+    // start porfolio
+
+        .portfolio .content {
+            flex-wrap: wrap;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: 25%;
+            align-items: center;
+            width: 80%;
+        }
+
+
+    // end portfolio
+
+    // start blog
+        .blog-content {
+            display: flex;
+            flex-wrap: wrap;
+            width: 80%;
+            margin: 0 auto;
+            justify-content: space-between;
+        }
+
+    // end blog
+
+    // start services 
+    .services .services-content {
+        display: flex;
+        justify-content: space-between;
+        color: white;
+        width: 70%;
+        margin: 0 auto;
+        padding-top: 20px;
+        flex-direction: column;
+    }
+
+    .service{
+        margin-top: 40px;
+    }
+
+    // end services
+
+    // start contact
+
+        .contact{
+            padding-bottom: 50px;
+        }
+
+        .contact .contact-content {
+            display: flex;
+            justify-content: space-around;
+            width: 70%;
+            margin: 0 auto;
+            padding: 50px 0;
+            flex-direction: column-reverse;
+        }
+
+        .contact .contact-content {
+            display: flex;
+            justify-content: space-around;
+            width: 100%;
+            margin: 0 auto;
+            padding: 50px 0;
+            flex-direction: column-reverse;
+        }
+
+        .contact .wpcf7 {
+            margin: 0 auto;
+            text-align: center;
+            padding-top: 10px;
+            border-radius: 0;
+            background-color: #242424;
+            color: white;
+            padding: 40px;
+            box-shadow: none;
+            
+        }
+
+        .contact .wpcf7 input[type="text"], .contact .wpcf7 input[type="email"], .contact .wpcf7 textarea {
+            padding: 10px;
+            border-radius: 20px;
+            width: 80%;
+        }
+
+
+        .contact .wpcf7 input[type="submit"], .contact .wpcf7 input[type="”button”"] {
+            padding: 15px;
+            width: 150px;
+            margin: 0 auto;
+            text-align: center;
+            transition: all 0.4s;
+            font-size: 15px;
+            position: relative;
+            /* left: 100px; */
+            right: -20px;
+            top: 20px;
+        }
+
+
+        .contact-content-left img{
+
+            width: 300px;
+            height: 300px;
+            /* margin: 40px; */
+            text-align: center;
+            /* display: flex; */
+            /* justify-content: center; */
+            position: relative;
+            top: 100px;
+            left: 25%;
+        }
+
+        .contact .social-icons {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 90px;
+            border-radius: 30px;
+            padding: 40px;
+            box-shadow: none;
+
+        }
+
+        .contact .social-icons svg{
+            width: 50px;
+            height: 50px;        
+        }
+
+        .contact .contact-details {
+            display: flex;
+            width: 100%;
+            margin-top: 10px;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+
+            p{
+                margin: 0;
+            }
+        }
+
+        .social-icons .icon{
+            &:hover{
+                transform: none;
+            }
+        }
+
+        .contact .contact-details p {
+            margin-left: 10px;
+            color: #282828;
+            font-family: 'Merienda', cursive;
+            font-size: 15px;
+        }
+    // end contact
+
+
+}
+
 // 769px — 1024px: Small screens, laptops
 // 1025px — 1200px: Desktops, large screens
 // 1201px and more —  Extra large screens, TV

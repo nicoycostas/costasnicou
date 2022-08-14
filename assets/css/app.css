@@ -956,7 +956,7 @@ main {
     color: #282828;
     font-family: 'Merienda', cursive;
     font-size: 15px; } }
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 767px) {
   main {
     min-height: none;
     display: grid;

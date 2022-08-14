@@ -427,10 +427,8 @@
         
 }
 
-
-
 // 481px — 768px: iPads, Tablets
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width:769) {
 
     // start header
 

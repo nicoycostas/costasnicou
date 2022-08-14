@@ -799,7 +799,7 @@ main {
     color: #282828;
     font-family: 'Merienda', cursive;
     font-size: 15px; } }
-@media (min-width: 768px) {
+@media (min-width: 768px) and (max-width: 769) {
   .menu ul {
     display: flex;
     justify-content: center;

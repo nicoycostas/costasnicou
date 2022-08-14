@@ -972,11 +972,29 @@ main {
     font-family: 'Merienda', cursive;
     font-size: 15px; } }
 @media (min-width: 769px) and (max-width: 1024px) {
+  .cover-img {
+    background-image: url("../imgs/cover3.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; }
+
   .cover-img-content h2 {
     font-size: 35px;
     text-shadow: 4px 5px 13px rgba(0, 0, 0, 0.74);
     width: 70%;
     margin: 0 auto 20px auto; }
+
+  .profile-content p {
+    font-size: 20px;
+    font-weight: 300;
+    width: 80%;
+    margin: 0 auto;
+    width: 95%;
+    padding: 50px 0 0 0; }
 
   .eduexp {
     /* border: 1px solid black; */

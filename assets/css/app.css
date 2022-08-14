@@ -462,7 +462,7 @@ main {
   .single-post-content p {
     color: #212121; }
 
-@media (min-width: 320px) and (max-width: 480px) {
+@media (min-width: 320px) and (max-width: 767px) {
   /*Start Responsive Menu---------------------
   ------------------------------------------- */
   .welcome-msg {
@@ -477,7 +477,7 @@ main {
     font-size: 20px; }
 
   .menu ul {
-    display: block; }
+    display: none; }
 
   .menu-link {
     text-decoration: none;
@@ -799,7 +799,7 @@ main {
     color: #282828;
     font-family: 'Merienda', cursive;
     font-size: 15px; } }
-@media (min-width: 481px) and (max-width: 768px) {
+@media (min-width: 768px) {
   .menu ul {
     display: flex;
     justify-content: center;

@@ -1,5 +1,5 @@
 // 320px — 480px: Mobile devices
-@media (min-width:320px) and (max-width: 480px) {
+@media (min-width:320px) and (max-width: 767px) {
 
     /*Start Responsive Menu---------------------
     ------------------------------------------- */
@@ -16,7 +16,7 @@
         }
 
         .menu ul{
-        display: block;
+            display: none;
             // background-color: red;
         
         }
@@ -428,8 +428,9 @@
 }
 
 
+
 // 481px — 768px: iPads, Tablets
-@media (min-width:481px) and (max-width: 768px) {
+@media (min-width: 768px) {
 
     // start header
 

@@ -973,8 +973,10 @@ main {
     font-size: 15px; } }
 @media (min-width: 769px) and (max-width: 1024px) {
   .cover-img-content h2 {
-    font-size: 45px;
-    text-shadow: 4px 5px 13px rgba(0, 0, 0, 0.74); }
+    font-size: 35px;
+    text-shadow: 4px 5px 13px rgba(0, 0, 0, 0.74);
+    width: 70%;
+    margin: 0 auto 20px auto; }
 
   .eduexp-section .content {
     width: 90%;
@@ -984,8 +986,11 @@ main {
     flex-direction: row; }
 
   .exp-item h4 {
-    font-size: 20px;
+    font-size: 18px;
     line-height: 28px; }
+
+  .exp-item p {
+    font-size: 17px; }
 
   .portfolio .content {
     display: flex;
@@ -1055,5 +1060,23 @@ main {
     padding: 40px 20px 80px 20px;
     font-size: 20px;
     font-weight: 300; } }
+@media (min-width: 769px) and (max-width: 1024px) {
+  main {
+    min-height: none;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: "post-content"; }
+
+  .single-post-content h1 {
+    text-align: left;
+    color: #c26b2d;
+    font-weight: 400; }
+
+  .single-post-content {
+    padding: 40px 20px 80px 20px;
+    font-size: 20px;
+    font-weight: 300;
+    width: 85%;
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=app.css.map */

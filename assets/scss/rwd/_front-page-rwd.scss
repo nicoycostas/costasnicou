@@ -669,8 +669,10 @@
 
     // start header
         .cover-img-content h2 {
-            font-size: 45px;
+            font-size: 35px;
             text-shadow: 4px 5px 13px rgba(0, 0, 0, 0.74);
+            width: 70%;
+            margin: 0 auto 20px auto;
         }
     // end header
 
@@ -685,10 +687,13 @@
         }
 
         .exp-item h4 {
-            font-size: 20px;
+            font-size: 18px;
             line-height: 28px;
         }
-        
+
+        .exp-item p {
+            font-size: 17px;
+        }
         
 
 

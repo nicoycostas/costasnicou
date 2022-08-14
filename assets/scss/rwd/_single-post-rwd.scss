@@ -21,7 +21,27 @@
 
 }
 
-@media (min-width: 768px){
+@media(min-width: 769px) and (max-width:1024px){
+	main {
+		min-height: none;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-areas: "post-content";
+	}
 
-}
+	.single-post-content h1 {
+		text-align: left;
+		color: #c26b2d;
+		font-weight: 400;
+	}
+
+	.single-post-content {
+		padding: 40px 20px 80px 20px;
+		font-size: 20px;
+		font-weight: 300;
+		width: 85%;
+		margin: 0 auto;
+	}
+   
+} 
 

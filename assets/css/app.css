@@ -423,6 +423,17 @@ html {
       font-family: 'Merienda', cursive;
       font-size: 17px; }
 
+.contact .wpcf7 input[type="submit"], .contact .wpcf7 input[type=”button”] {
+  padding: 15px;
+  width: 150px;
+  margin: 0 auto;
+  text-align: center;
+  transition: all 0.4s;
+  font-size: 15px;
+  position: relative;
+  left: 25px;
+  top: 15px; }
+
 /*End Contact.--------------------------
 ------------------------------------------- */
 html, body {
@@ -1169,6 +1180,10 @@ main {
     margin: 0 auto;
     display: flex; }
 
+  .exp-item h4 {
+    font-size: 20px;
+    line-height: 25px; }
+
   .portfolio .content {
     display: flex;
     justify-content: space-evenly;
@@ -1225,10 +1240,21 @@ main {
     width: 100%;
     margin-top: 10px; } }
 @media (min-width: 1201px) and (max-width: 1440px) {
+  .cover-img-content h2 {
+    font-size: 45px;
+    width: 70%;
+    text-shadow: 4px 5px 13px rgba(0, 0, 0, 0.74);
+    margin: 0 auto;
+    padding-bottom: 30px; }
+
   .content {
     width: 90%;
     margin: 0 auto;
     display: flex; }
+
+  .exp-item h4 {
+    font-size: 20px;
+    line-height: 25px; }
 
   .portfolio .content {
     display: flex;

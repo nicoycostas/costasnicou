@@ -944,6 +944,11 @@
             display: flex;
         }
 
+        .exp-item h4 {
+            font-size: 20px;
+            line-height: 25px;
+        }
+
     // end eduexp
 
 
@@ -1032,6 +1037,17 @@
 
 // 1201px and more —  Extra large screens, TV
 @media(min-width:1201px)and(max-width:1440px){
+
+    // start cover photo
+        .cover-img-content h2 {
+            font-size: 45px;
+            width: 70%;
+            text-shadow: 4px 5px 13px rgba(0,0,0,0.74);    
+            margin: 0 auto;
+            padding-bottom: 30px;
+        }
+
+    // end cover photo
    
     // start eduexp
 
@@ -1039,6 +1055,12 @@
             width: 90%;
             margin: 0 auto;
             display: flex;
+        }
+
+
+        .exp-item h4 {
+            font-size: 20px;
+            line-height: 25px;
         }
     // end eduexp
 

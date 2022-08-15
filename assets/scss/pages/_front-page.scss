@@ -505,5 +505,17 @@
         
     }
 
+    .contact .wpcf7 input[type="submit"], .contact .wpcf7 input[type=”button”] {
+        padding: 15px;
+        width: 150px;
+        margin: 0 auto;
+        text-align: center;
+        transition: all 0.4s;
+        font-size: 15px;
+        position: relative;
+        left: 25px;
+        top: 15px;
+    }
+
 /*End Contact.--------------------------
 ------------------------------------------- */

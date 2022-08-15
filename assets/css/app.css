@@ -88,7 +88,7 @@ html {
   overflow-x: hidden; }
 
 .cover-img {
-  background-image: url("../imgs/cover-image.png");
+  background-image: url("../imgs/cover/cover-image.webp");
   background-size: cover;
   background-repeat: no-repeat;
   height: 750px;
@@ -294,7 +294,7 @@ html {
 /*Start Services.--------------------------
 ------------------------------------------- */
 .services {
-  background-image: url("../imgs/server-paralax.jpg");
+  background-image: url("../imgs/services/server-paralax.webp");
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 650px;
@@ -542,7 +542,7 @@ main {
   /*Start Cover Image---------------------
       ------------------------------------------- */
   .cover-img {
-    background-image: url("../imgs/cover3.jpg");
+    background-image: url("../imgs/cover/cover-mobile.webp");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -835,7 +835,7 @@ main {
     width: 95%; }
 
   .cover-img {
-    background-image: url("../imgs/cover3.jpg");
+    background-image: url("../imgs/cover/cover-mobile.webp");
     background-size: cover;
     background-repeat: no-repeat;
     height: 750px;
@@ -984,7 +984,7 @@ main {
     font-size: 15px; } }
 @media (min-width: 769px) and (max-width: 1024px) {
   .cover-img {
-    background-image: url("../imgs/cover3.jpg");
+    background-image: url("../imgs/cover/cover-mobile.webp");
     background-size: cover;
     background-repeat: no-repeat;
     height: 750px;

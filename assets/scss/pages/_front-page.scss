@@ -6,11 +6,7 @@
     }
 
     .cover-img{
-        background-image: url("../imgs/cover-image.png");
-        // background-image: url("../imgs/cover2.jpg");
-        // background-image: url("../imgs/cover3.jpg");
-        // background-image: url("../imgs/cover4.jpg");
-        // background-image: url("../imgs/cover5.jpg");
+        background-image: url("../imgs/cover/cover-image.webp");
         background-size: cover;
         background-repeat: no-repeat;
         height: 750px;
@@ -302,7 +298,7 @@
 ------------------------------------------- */
 
     .services{
-        background-image: url("../imgs/server-paralax.jpg");
+        background-image: url("../imgs/services/server-paralax.webp");
         background-repeat: no-repeat;
         background-size: cover;
         min-height: 650px;

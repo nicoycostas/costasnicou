@@ -1029,4 +1029,69 @@
     // end contact
 
 }
+
 // 1201px and more —  Extra large screens, TV
+@media(min-width:1201px)and(max-width:1440px){
+   
+    // start eduexp
+
+        .content {
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+        }
+    // end eduexp
+
+    // start portfolio
+
+        .portfolio .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 80%;
+        }
+        
+    // end portfolio
+
+    // start blog
+
+        .blog-content {
+            display: flex;
+            width: 85%;
+            margin: 0 auto;
+            justify-content: space-between;
+        }
+
+    // end blog
+    
+    // start services
+
+        .services .services-content {
+            display: flex;
+            justify-content: space-between;
+            color: white;
+            width: 85%;
+            margin: 0 auto;
+            padding-top: 20px;
+        }
+
+    // end services
+
+    // start contact
+
+        .contact .contact-content {
+            display: flex;
+            justify-content: space-around;
+            width: 90%;
+            margin: 0 auto;
+            padding: 50px 0;
+        }
+
+        .contact-content-left img{
+            width: 500px;
+            height: 450px;
+        }
+   
+
+    // end contact
+}

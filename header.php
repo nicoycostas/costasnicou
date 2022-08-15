@@ -14,7 +14,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Merienda&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300&display=swap" rel="stylesheet">
     
-    <title>Costas Nicou</title>
+    <title><?php wp_title(''); ?></title>
     <?php wp_head(); ?>
 </head>
 

@@ -59,6 +59,8 @@
       add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
 
 
+    //   add theme support title tag
+    add_theme_support( 'title-tag' );
 
 
 

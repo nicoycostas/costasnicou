@@ -1,4 +1,4 @@
-@media (min-width:320px) and (max-width: 767px) {
+@media (min-width:320px) and (max-width: 768px) {
 
 	main {
 		min-height: none;
@@ -45,3 +45,48 @@
    
 } 
 
+@media(min-width:1025px) and (max-width:1200px){
+	main {
+		min-height: none;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-areas: "post-content";
+	}
+
+	.single-post-content h1 {
+		text-align: left;
+		color: #c26b2d;
+		font-weight: 400;
+	}
+
+	.single-post-content {
+		padding: 40px 20px 80px 20px;
+		font-size: 20px;
+		font-weight: 300;
+		width: 80%;
+		margin: 0 auto;
+	}
+}
+
+@media(min-width:1201px)and(max-width:1440px){
+	main {
+		min-height: none;
+		display: grid;
+		grid-template-columns: 1fr;
+		grid-template-areas: "post-content";
+	}
+
+	.single-post-content h1 {
+		text-align: left;
+		color: #c26b2d;
+		font-weight: 400;
+	}
+
+	.single-post-content {
+		padding: 40px 20px 80px 20px;
+		font-size: 20px;
+		font-weight: 300;
+		width: 65%;
+		margin: 0 auto;
+	}
+}

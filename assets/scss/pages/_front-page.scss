@@ -70,11 +70,7 @@
     .profile-content {
         width: 50%;
         margin: 0 auto;
-        // padding: 20px;
-        /* height: 300px; */
-        /* background-color: crimson; */
         text-align: center;
-        // margin-top: 40px;
     }
 
     .profile-content img{
@@ -223,8 +219,6 @@
 
     .blog{
         min-height: 400px;
-        // padding: 40px;
-        // padding-top: 90px;
         padding-bottom:  90px;
         background-color: rgb(236, 236, 236);
         font-weight: 300;
@@ -373,7 +367,6 @@
 
     .contact{
         padding: 90px 0;
-    // background-color: rgb(233, 88, 72);
         h2{
             text-align: center;
             font-family: 'Indie Flower', cursive;
@@ -389,14 +382,10 @@
         }
 
         .wpcf7{
-            // width: 80%;
             margin: 0 auto;
-            // background-color: bisque;
             text-align: center;
             padding-top: 10px;
             border-radius: 20px;
-
-            // border: 1px solid red;
             background-color: rgb(36, 36, 36);
             color: white;
             padding: 40px;
@@ -406,11 +395,6 @@
             p{
                 padding: 5px;
             }
-
-            // input{
-            //     padding: 5px;
-            
-            // }
 
             label{
                 font-size: 20px;
@@ -425,21 +409,6 @@
             border-radius: 20px;
         }
 
-        .wpcf7 input[type="submit"],.wpcf7 input[type=”button”]{
-            padding: 15px;
-            width: 150px;
-            margin: 0 auto;
-            text-align: center;
-            transition: all 0.4s;
-            font-size: 15px;
-
-            &:hover{
-                background-color: rgb(163, 19, 19);
-                color: white;
-                outline: none;
-            }
-        }
-        
         .social-icons{
             display: flex;
             justify-content: space-around;
@@ -511,6 +480,12 @@
         position: relative;
         left: 25px;
         top: 15px;
+
+        &:hover{
+            background-color: rgb(163, 19, 19);
+            color: white;
+            outline: none;
+        }
     }
 
 /*End Contact.--------------------------

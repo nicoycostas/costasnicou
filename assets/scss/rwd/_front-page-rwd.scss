@@ -181,7 +181,7 @@
         }
 
         .btn {
-            background-color: #d17738;
+            background-color: #d4854cda;
         }
 
 
@@ -219,7 +219,7 @@
 
         .services .services-content .service svg {
             margin-top: 10px;
-            fill: #d37d3f;
+            fill: #d37d3fc3;
             width: 70px;
             height: 70px;
         }
@@ -327,13 +327,6 @@
 
         .cover-img{
             background-image: url("../imgs/cover/cover-mobile.webp");
-            background-size: cover;
-            background-repeat: no-repeat;
-            height: 750px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
         }
 
     // end header
@@ -341,12 +334,7 @@
     // start profile
 
         .profile-content p {
-            font-size: 20px;
-            font-weight: 300;
-            width: 80%;
-            margin: 0 auto;
             width: 100%;
-            padding: 50px 0 0 0;
         }
 
     // end profile
@@ -359,17 +347,11 @@
         }
 
         .eduexp-section .content {
-            width: 70%;
-            margin: 0 auto;
-            display: flex;
             flex-direction: column;
         }
 
         .eduexp {
-            /* border: 1px solid black; */
             width: 100%;
-            color: white;
-            /* padding: 50px; */
             padding: 10px;
         }
 
@@ -391,29 +373,20 @@
 
     // start blog
         .blog-content {
-            display: flex;
             flex-wrap: wrap;
             width: 80%;
-            margin: 0 auto;
-            justify-content: space-between;
         }
 
     // end blog
 
     // start services 
-    .services .services-content {
-        display: flex;
-        justify-content: space-between;
-        color: white;
-        width: 70%;
-        margin: 0 auto;
-        padding-top: 20px;
-        flex-direction: column;
-    }
+        .services .services-content {
+            flex-direction: column;
+        }
 
-    .service{
-        margin-top: 40px;
-    }
+        .service{
+            margin-top: 40px;
+        }
 
     // end services
 
@@ -424,51 +397,24 @@
         }
 
         .contact .contact-content {
-            display: flex;
-            justify-content: space-around;
-            width: 70%;
-            margin: 0 auto;
-            padding: 50px 0;
-            flex-direction: column-reverse;
-        }
-
-        .contact .contact-content {
-            display: flex;
-            justify-content: space-around;
+           
             width: 100%;
-            margin: 0 auto;
-            padding: 50px 0;
             flex-direction: column-reverse;
         }
 
         .contact .wpcf7 {
-            margin: 0 auto;
-            text-align: center;
-            padding-top: 10px;
             border-radius: 0;
             background-color: #242424;
-            color: white;
-            padding: 40px;
             box-shadow: none;
             
         }
 
         .contact .wpcf7 input[type="text"], .contact .wpcf7 input[type="email"], .contact .wpcf7 textarea {
-            padding: 10px;
-            border-radius: 20px;
             width: 80%;
         }
 
 
         .contact .wpcf7 input[type="submit"], .contact .wpcf7 input[type="”button”"] {
-            padding: 15px;
-            width: 150px;
-            margin: 0 auto;
-            text-align: center;
-            transition: all 0.4s;
-            font-size: 15px;
-            position: relative;
-            /* left: 100px; */
             right: -20px;
             top: 20px;
         }
@@ -478,21 +424,14 @@
 
             width: 300px;
             height: 300px;
-            /* margin: 40px; */
             text-align: center;
-            /* display: flex; */
-            /* justify-content: center; */
             position: relative;
-            top: 100px;
-            left: 25%;
+            top: 70px;
+            left: 27%;
         }
 
         .contact .social-icons {
-            display: flex;
-            justify-content: space-around;
             margin-top: 90px;
-            border-radius: 30px;
-            padding: 40px;
             box-shadow: none;
 
         }
@@ -503,10 +442,8 @@
         }
 
         .contact .contact-details {
-            display: flex;
+          
             width: 100%;
-            margin-top: 10px;
-            justify-content: center;
             flex-direction: column;
             align-items: center;
 
@@ -522,9 +459,6 @@
         }
 
         .contact .contact-details p {
-            margin-left: 10px;
-            color: #282828;
-            font-family: 'Merienda', cursive;
             font-size: 15px;
         }
     // end contact
@@ -540,18 +474,10 @@
 
         .cover-img{
             background-image: url("../imgs/cover/cover-mobile.webp");
-            background-size: cover;
-            background-repeat: no-repeat;
-            height: 750px;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
         }
 
         .cover-img-content h2 {
             font-size: 35px;
-            text-shadow: 4px 5px 13px rgba(0, 0, 0, 0.74);
             width: 70%;
             margin: 0 auto 20px auto;
         }
@@ -560,12 +486,7 @@
     // start profile 
 
         .profile-content p {
-            font-size: 20px;
-            font-weight: 300;
-            width: 80%;
-            margin: 0 auto;
             width: 95%;
-            padding: 50px 0 0 0;
         }
 
     // end profile
@@ -573,9 +494,6 @@
     // start eduexp
 
         .eduexp {
-            /* border: 1px solid black; */
-            width: 50%;
-            color: white;
             padding: 25px;
         }
         
@@ -583,9 +501,6 @@
 
         .eduexp-section .content {
             width: 95%;
-            margin: 0 auto;
-            display: flex;
-            flex-direction: column;
             flex-direction: row;
         }
 
@@ -605,21 +520,14 @@
 
     // start portfolio
         .portfolio .content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 65%;
             flex-wrap: wrap;
         }
     // end portfolio
 
     // start blog
         .blog-content {
-            display: flex;
             flex-wrap: wrap;
             width: 65%;
-            margin: 0 auto;
-            justify-content: space-between;
         }
 
     // end blog
@@ -627,13 +535,8 @@
     // start services
 
         .services .services-content {
-            display: flex;
-            justify-content: space-between;
-            color: white;
             width: 95%;
             margin: 0 auto;
-            padding-top: 20px;
-            flex-direction: column;
             flex-direction: row;
         }
 
@@ -661,82 +564,37 @@
 
 
     
-        // start contact
+    // start contact
 
         .contact{
             padding-bottom: 50px;
         }
 
         .contact .contact-content {
-            display: flex;
-            justify-content: space-around;
-            width: 70%;
-            margin: 0 auto;
-            padding: 50px 0;
-            flex-direction: column-reverse;
-        }
-
-        .contact .contact-content {
-            display: flex;
-            justify-content: space-around;
             width: 100%;
-            margin: 0 auto;
-            padding: 50px 0;
             flex-direction: column-reverse;
         }
 
         .contact .wpcf7 {
-            margin: 0 auto;
-            text-align: center;
-            padding-top: 10px;
             border-radius: 0;
-            background-color: #242424;
-            color: white;
-            padding: 40px;
             box-shadow: none;
             
         }
 
         .contact .wpcf7 input[type="text"], .contact .wpcf7 input[type="email"], .contact .wpcf7 textarea {
-            padding: 10px;
-            border-radius: 20px;
             width: 80%;
         }
 
 
         .contact .wpcf7 input[type="submit"], .contact .wpcf7 input[type="”button”"] {
-            padding: 15px;
-            width: 150px;
-            margin: 0 auto;
-            text-align: center;
-            transition: all 0.4s;
-            font-size: 15px;
-            position: relative;
-            /* left: 100px; */
             right: -20px;
             top: 20px;
         }
 
 
-        .contact-content-left img{
-
-            width: 300px;
-            height: 300px;
-            /* margin: 40px; */
-            text-align: center;
-            /* display: flex; */
-            /* justify-content: center; */
-            position: relative;
-            top: 100px;
-            left: 25%;
-        }
 
         .contact .social-icons {
-            display: flex;
-            justify-content: space-around;
             margin-top: 90px;
-            border-radius: 30px;
-            padding: 40px;
             box-shadow: none;
 
         }
@@ -747,16 +605,12 @@
         }
 
         .contact .contact-details {
-            display: flex;
+           
             width: 100%;
             margin-top: 10px;
             justify-content: center;
             flex-direction: column;
             align-items: center;
-
-            p{
-                margin: 0;
-            }
         }
 
         .social-icons .icon{
@@ -766,18 +620,12 @@
         }
 
         .contact .contact-details p {
-            margin-left: 10px;
-            color: #282828;
-            font-family: 'Merienda', cursive;
             font-size: 15px;
         }
         .contact-content-left img {
             width: 350px;
             height: 350px;
-            /* margin: 40px; */
             text-align: center;
-            /* display: flex; */
-            /* justify-content: center; */
             position: relative;
             top: 60px;
             left: 30%;
@@ -791,13 +639,25 @@
 @media(min-width:1025px) and (max-width:1200px){
 
 
+    // start cover
+        .cover-img{
+            background-image: url("../imgs/cover/cover-mobile.webp");
+            height: 650px;
+        }
+
+        .cover-img-content h2 {
+            font-size: 40px;
+            width: 70%;
+            margin: 0 auto;
+            padding-bottom: 30px;
+        }
+
+    // end cover
+
+
     // start profile
         .profile-content {
             width: 80%;
-            margin: 0 auto;
-            /* height: 300px; */
-            /* background-color: crimson; */
-            text-align: center;
         }
     // end profile
 
@@ -807,12 +667,15 @@
         .content {
             width: 100%;
             margin: 0 auto;
-            display: flex;
         }
 
         .exp-item h4 {
-            font-size: 20px;
+            font-size: 18px;
             line-height: 25px;
+        }
+
+        .exp-item p {
+            font-size: 17px;
         }
 
     // end eduexp
@@ -820,9 +683,7 @@
 
     // start portfolio
         .portfolio .content {
-            display: flex;
             justify-content: space-evenly;
-            align-items: center;
             width: 70%;
             flex-wrap: wrap;
         }
@@ -831,9 +692,6 @@
     // start blog
 
         .blog-content {
-            display: flex;
-            width: 70%;
-            margin: 0 auto;
             justify-content: space-evenly;
             flex-wrap: wrap;
         }
@@ -843,12 +701,7 @@
 
     // start services 
         .services .services-content {
-            display: flex;
-            justify-content: space-between;
-            color: white;
             width: 90%;
-            margin: 0 auto;
-            padding-top: 20px;
         }
 
     // end services
@@ -858,43 +711,32 @@
     // start contact 
 
         .contact-content-left img{
-            width: 300px;
-            height: 300px;
+            width: 400px;
+            height: 350px;
         }
 
         .contact .contact-content {
-            display: flex;
-            justify-content: space-around;
             width: 95%;
-            margin: 0 auto;
-            padding: 50px 0;
         }
 
         .contact .social-icons {
-            display: flex;
             justify-content: space-between;
             margin-top: 100px;
-            border-radius: 30px;
             padding: 0;
             box-shadow: none;
             width: 300px;
             margin: 100px auto 0 auto;
         }
 
-        .icons{
-            margin: 20px;
-        }
-
+       
         .contact .social-icons svg {
             width: 60px;
             height: 60px;
         }
 
         .contact .contact-details {
-            display: flex;
             justify-content: center;
             width: 100%;
-            margin-top: 10px;
         }
 
     // end contact
@@ -917,11 +759,7 @@
    
     // start profile
         .profile-content {
-            width: 70%;
-            margin: 0 auto;
-            /* height: 300px; */
-            /* background-color: crimson; */
-            text-align: center;
+            width: 65%;
         }
     // end profile
 
@@ -929,8 +767,6 @@
 
         .content {
             width: 85%;
-            margin: 0 auto;
-            display: flex;
         }
 
         .exp-item h4 {
@@ -946,9 +782,6 @@
     // start portfolio
 
         .portfolio .content {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
             width: 85%;
         }
         
@@ -957,10 +790,7 @@
     // start blog
 
         .blog-content {
-            display: flex;
             width: 85%;
-            margin: 0 auto;
-            justify-content: space-between;
         }
 
     // end blog
@@ -968,12 +798,7 @@
     // start services
 
         .services .services-content {
-            display: flex;
-            justify-content: space-between;
-            color: white;
             width: 85%;
-            margin: 0 auto;
-            padding-top: 20px;
         }
 
     // end services
@@ -981,24 +806,16 @@
     // start contact
 
         .contact .contact-content {
-            display: flex;
-            justify-content: space-around;
             width: 90%;
-            margin: 0 auto;
-            padding: 50px 0;
         }
 
         .contact-content-left img{
-            width: 500px;
-            height: 450px;
+            width: 450px;
+            height: 400px;
         }
 
  
         .contact .social-icons {
-            display: flex;
-            justify-content: space-around;
-            margin-top: 80px;
-            border-radius: 30px;
             padding: 0;
             box-shadow: none;
           
@@ -1010,10 +827,7 @@
         }
 
         .contact .contact-details {
-            display: flex;
-            justify-content: start;
-            width: 80%;
-            margin-top: 10px;
+            width: 95%;
             margin-left: 30px;
         }
         

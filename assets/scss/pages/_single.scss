@@ -7,7 +7,6 @@ html,body{
     background-size: cover;
     background-position: center;
     height: 500px;
-    // margin-top: 90px ;
     text-align: center;
     box-shadow: 10px 10px 229px 0px rgba(0,0,0,0.58) inset;
     -webkit-box-shadow: 10px 10px 229px 0px rgba(0,0,0,0.58) inset;
@@ -34,17 +33,14 @@ html,body{
 
 // end defining grid areas
 
-main{
-    min-height: 400px;
-    // padding: 80px;
+    main{
+        min-height: 400px;
+        display: grid;
+        grid-template-columns: 20% 55% 1fr;
+        grid-template-areas: 
+        "sidebar-left post-content sidebar-right";  
 
-    // grid container
-    display: grid;
-    grid-template-columns: 20% 55% 1fr;
-    grid-template-areas: 
-    "sidebar-left post-content sidebar-right";  
-
-}
+    }
 
 
     .single-post-content{

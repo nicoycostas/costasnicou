@@ -45,7 +45,6 @@ section {
     display: flex;
     justify-content: center;
     list-style: none;
-    /* margin: 0; */
     padding: 0; }
 
 .menu-list-item {
@@ -660,13 +659,17 @@ main {
     right: -20px;
     top: 10px; }
 
+  .contact-content-left {
+    display: flex;
+    flex-direction: column; }
+
   .contact-content-left img {
-    width: 60%;
-    height: 50%;
+    width: 250px;
+    height: 200px;
     margin: 0 auto;
     position: relative;
     top: 70px;
-    left: 75px; }
+    /* left: 75px; */ }
 
   .contact .social-icons {
     display: flex;

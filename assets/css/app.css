@@ -469,6 +469,8 @@ main {
   .single-post-content h2, .single-post-content h3, .single-post-content p {
     font-weight: 300;
     font-family: 'Lato', sans-serif; }
+  .single-post-content h2 {
+    font-size: 25px; }
   .single-post-content p {
     color: #212121; }
   .single-post-content .get-back {

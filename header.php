@@ -26,7 +26,7 @@
         </div>
 
         <nav id="menu" class="menu">
-            <!-- <p class="welcome-msg">costasnicou.com</p> -->
+            <p class="welcome-msg">Made with Coffee</p>
             <label for="toggle">&#9776;</label>
             <input type="checkbox" name="" id="toggle">
         

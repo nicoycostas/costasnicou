@@ -472,11 +472,12 @@ main {
   .single-post-content p {
     color: #212121; }
   .single-post-content .get-back {
-    color: #c26b2d;
+    color: #ef6605;
     display: block;
-    margin-top: 40px; }
+    margin-top: 80px;
+    text-align: center; }
     .single-post-content .get-back:hover {
-      color: #c25405; }
+      color: #ff6a00; }
 
 @media (min-width: 320px) and (max-width: 767px) {
   /*Start Responsive Menu---------------------
@@ -490,7 +491,9 @@ main {
     top: 12px;
     color: #484848;
     font-family: 'Indie Flower', cursive;
-    font-size: 20px; }
+    font-size: 20px;
+    color: #131313;
+    text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2); }
 
   .menu ul {
     display: none; }
@@ -527,7 +530,7 @@ main {
 
   #toggle:checked + .menu-bar {
     visibility: visible;
-    margin-top: 120px;
+    margin-top: 110px;
     transition: opacity 1s ease-out;
     opacity: 1;
     height: 250px;
@@ -561,7 +564,7 @@ main {
     margin: 0 auto; }
 
   .cover-img-content h2 {
-    font-size: 27px;
+    font-size: 30px;
     width: 75%;
     margin: 0 auto;
     line-height: 40px;
@@ -1026,7 +1029,11 @@ main {
     padding: 40px 20px 80px 20px; }
 
   .single-post-content h1 {
-    text-align: left; } }
+    text-align: left; }
+
+  .single-post-img {
+    height: 350px;
+    background-position: center; } }
 @media (min-width: 769px) and (max-width: 1024px) {
   main {
     min-height: none;

@@ -1,14 +1,14 @@
 <?php get_header(); ?>
 
     <!-- background -->
-    <div class="single-post-img" style="background-size:cover; background-image: url(<?php echo the_post_thumbnail_url();?>)">
+    <div class="single-post-img" style="height:500px; background-size:cover; background-image: url(<?php echo the_post_thumbnail_url();?>)">
                
     </div>
 
     <main>
-        <div id="sidebar-left" class="grid-box">
+        <aside id="sidebar-left" class="grid-box">
 
-        </div>
+        </aside>
 
         <!-- post content -->
         <article id="post-content" class="grid-box single-post-content">           
@@ -25,9 +25,9 @@
                 <a class="get-back" href="<?php echo get_home_url(); ?>">Back to Homepage</a>
         </article>
 
-        <div id="sidebar-right" class="grid-box">
+        <aside id="sidebar-right" class="grid-box">
 
-        </div>
+        </aside>
 
 
         

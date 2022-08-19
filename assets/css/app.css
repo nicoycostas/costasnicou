@@ -1035,9 +1035,9 @@ main {
     height: 350px;
     background-position: center; }
 
-  .get-back {
-    text-align: left;
-    margin-top: 40px; } }
+  .single-post-content .get-back {
+    margin-top: 40px;
+    text-align: left; } }
 @media (min-width: 769px) and (max-width: 1024px) {
   main {
     min-height: none;

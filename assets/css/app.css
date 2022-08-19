@@ -1,9 +1,6 @@
 @charset "UTF-8";
 /* START Global-----------
 ------------------------ */
-html {
-  scroll-behavior: smooth; }
-
 html, body {
   padding: 0;
   margin: 0;
@@ -498,18 +495,30 @@ main {
     left: 30px; }
 
   nav .menu-bar {
-    display: none;
+    display: block;
+    visibility: hidden;
+    height: 0px;
     clear: both;
     padding: 0;
     position: relative;
     bottom: 44px;
-    margin-top: 120px;
-    margin-left: 79px; }
+    margin: 0;
+    margin-left: 79px;
+    transition: opacity 1s ease-out;
+    opacity: 0;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.3s; }
     nav .menu-bar li {
       padding: 10px; }
 
   #toggle:checked + .menu-bar {
-    display: block; }
+    visibility: visible;
+    margin-top: 120px;
+    transition: opacity 1s ease-out;
+    opacity: 1;
+    height: 250px;
+    transition: height 0.5s ease-out; }
 
   .home-icon {
     display: block;
@@ -519,7 +528,7 @@ main {
     top: 40px;
     right: 40px;
     fill: #999898;
-    fill: #d37d3fc0; }
+    fill: #d37d3fda; }
 
   /*End Responsive Menu---------------------
   ------------------------------------------- */
@@ -527,7 +536,8 @@ main {
       ------------------------------------------- */
   .cover-img {
     background-image: url("../imgs/cover/cover-mobile.webp");
-    height: 650px; }
+    height: 650px;
+    background-position: center; }
 
   .cover-img-content h1 {
     font-size: 45px;
@@ -541,7 +551,7 @@ main {
     font-size: 27px;
     width: 75%;
     margin: 0 auto;
-    line-height: 50px;
+    line-height: 40px;
     padding: 25px 0; }
 
   .btn-cover {
@@ -601,9 +611,6 @@ main {
 
   .project {
     margin-top: 25px; }
-
-  .btn {
-    background-color: #d4854cda; }
 
   .blog {
     padding-bottom: 50px; }

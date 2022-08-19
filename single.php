@@ -22,6 +22,7 @@
                         endwhile; 
                     endif; 
                 ?>
+                <a href="<?php echo get_home_url(); ?>">Back to Homepage</a>
         </article>
 
         <div id="sidebar-right" class="grid-box">

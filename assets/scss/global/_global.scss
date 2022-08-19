@@ -1,7 +1,7 @@
 /* START Global-----------
 ------------------------ */
     html{
-        // scroll-behavior: smooth;
+        scroll-behavior: smooth;
     }
     html,body{
         padding: 0;
@@ -22,10 +22,11 @@
         // decoration: none; 
     }
 
-    a:visited{
-        text-decoration: none; 
-        // decoration: none; 
-    }
+    // a:visited{
+    //     text-decoration: none; 
+    //     color:inherit;
+    //     // decoration: none; 
+    // }
 
 /* END Global-----------
 ------------------------ */

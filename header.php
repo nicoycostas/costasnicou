@@ -32,7 +32,7 @@
         
             <ul id="menu-bar" class="menu-bar">
                 <li class="menu-list-item"><a class="menu-link" href="<?php echo get_home_url(); ?>">Home</a></li>
-                <li class="menu-list-item"><a class="menu-link" href="<?php echo get_home_url(); ?>/#profile">Experience & Education</a></li>
+                <li class="menu-list-item"><a class="menu-link" href="<?php echo get_home_url() . '/#profile'; ?>">Experience & Education</a></li>
                 <li class="menu-list-item"><a class="menu-link" href="<?php echo get_home_url(); ?>/#portfolio">Portfolio</a></li>
                 <li class="menu-list-item"><a class="menu-link" href="<?php echo get_home_url(); ?>/#blog">Blog</a></li>
                 <li class="menu-list-item"><a class="menu-link" href="<?php echo get_home_url(); ?>/#services">Services</a></li>

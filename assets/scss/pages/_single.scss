@@ -43,6 +43,7 @@ html,body{
     }
 
 
+
     .single-post-content{
         // width: 55%;
         // margin: 0 auto;
@@ -50,6 +51,7 @@ html,body{
         font-size: 20px;
         font-weight: 300;
 
+        position: relative;
         h1{
             text-align: center;
             color: rgb(194, 107, 45);
@@ -66,6 +68,18 @@ html,body{
 
         p{
             color: rgb(33, 33, 33);
+        }
+
+        .get-back{
+           
+            color: rgb(194, 107, 45);
+            display: block;
+            margin-top: 40px;
+
+            &:hover{
+                color: rgb(194, 84, 5);
+            }
+        
         }
 
         

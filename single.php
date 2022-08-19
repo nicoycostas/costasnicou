@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
     <!-- background -->
-    <div class="single-post-img" style="height:500px; background-size:cover; background-image: url(<?php echo the_post_thumbnail_url();?>)">
+    <div class="single-post-img" style="background-size:cover; background-image: url(<?php echo the_post_thumbnail_url();?>)">
                
     </div>
 

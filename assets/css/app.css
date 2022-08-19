@@ -458,10 +458,9 @@ main {
   grid-template-areas: "sidebar-left post-content sidebar-right"; }
 
 .single-post-content {
-  padding: 80px;
+  padding: 40px 80px 40px 80px;
   font-size: 20px;
-  font-weight: 300;
-  position: relative; }
+  font-weight: 300; }
   .single-post-content h1 {
     text-align: center;
     color: #c26b2d;
@@ -475,7 +474,8 @@ main {
     color: #ef6605;
     display: block;
     margin-top: 80px;
-    text-align: center; }
+    text-align: center;
+    font-size: 18px; }
     .single-post-content .get-back:hover {
       color: #ff6a00; }
 
@@ -1039,7 +1039,8 @@ main {
   .single-post-content .get-back {
     margin-top: 40px;
     text-align: left;
-    margin-left: 5px; } }
+    margin-left: 5px;
+    font-size: 18px; } }
 @media (min-width: 769px) and (max-width: 1024px) {
   main {
     min-height: none;

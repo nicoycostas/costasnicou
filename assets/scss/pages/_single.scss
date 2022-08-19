@@ -73,7 +73,6 @@ html,body{
            
             color: rgb(239, 102, 5);
             display: block;
-            margin-top: 80px;
             text-align: center;
             font-size: 18px;
 
@@ -84,5 +83,10 @@ html,body{
         }
 
        
+    }
+
+    // social media share buttons
+    .shared-counts-wrap.after_content.style-rounded{
+	    margin-top: 30px;
     }
    

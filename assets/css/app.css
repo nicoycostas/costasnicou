@@ -474,11 +474,13 @@ main {
   .single-post-content .get-back {
     color: #ef6605;
     display: block;
-    margin-top: 80px;
     text-align: center;
     font-size: 18px; }
     .single-post-content .get-back:hover {
       color: #ff6a00; }
+
+.shared-counts-wrap.after_content.style-rounded {
+  margin-top: 30px; }
 
 @media (min-width: 320px) and (max-width: 767px) {
   /*Start Responsive Menu---------------------

@@ -12,6 +12,12 @@ html, body {
 section {
   padding: 100px 0; }
 
+a {
+  text-decoration: none; }
+
+a:visited {
+  text-decoration: none; }
+
 /* END Global-----------
 ------------------------ */
 /*Start Header-----------
@@ -380,13 +386,13 @@ html {
     box-shadow: 1px 0px 44px 0px rgba(0, 0, 0, 0.41);
     -webkit-box-shadow: 1px 0px 44px 0px rgba(0, 0, 0, 0.41);
     -moz-box-shadow: 1px 0px 44px 0px rgba(0, 0, 0, 0.41); }
-    .contact .social-icons #fb-icon {
+    .contact .social-icons #fb-icon a {
       fill: #1414d6; }
-    .contact .social-icons #linkedin-icon {
+    .contact .social-icons #linkedin-icon a {
       fill: #21218d; }
-    .contact .social-icons #twitter-icon {
+    .contact .social-icons #twitter-icon a {
       fill: #2f7ca9; }
-    .contact .social-icons #youtube-icon {
+    .contact .social-icons #youtube-icon a {
       fill: #c50f0f; }
   .contact .icon {
     transition: all 1s; }

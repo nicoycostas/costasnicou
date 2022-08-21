@@ -75,13 +75,14 @@ html,body{
 
         .get-back{
            
-            color: rgb(239, 102, 5);
+            color: #d37d3fda;
             display: block;
             text-align: center;
             font-size: 18px;
+            font-weight: 400;
 
             &:hover{
-                color: rgb(255, 106, 0);
+                color: #ec8237da;
             }
         
         }

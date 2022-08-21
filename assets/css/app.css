@@ -474,12 +474,13 @@ main {
   .single-post-content p {
     color: #212121; }
   .single-post-content .get-back {
-    color: #ef6605;
+    color: #d37d3fda;
     display: block;
     text-align: center;
-    font-size: 18px; }
+    font-size: 18px;
+    font-weight: 400; }
     .single-post-content .get-back:hover {
-      color: #ff6a00; }
+      color: #ec8237da; }
 
 .shared-counts-wrap.after_content.style-rounded {
   margin-top: 30px; }
@@ -512,7 +513,7 @@ main {
     padding: 10px;
     position: absolute;
     width: 49px;
-    top: 31px;
+    top: 30px;
     left: 30px; }
 
   nav .menu-bar {

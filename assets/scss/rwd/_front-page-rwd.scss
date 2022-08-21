@@ -106,6 +106,8 @@
             margin: 0 auto;
         }
 
+        
+
         .cover-img-content h2 {
             font-size: 30px;
             width: 80%;
@@ -229,8 +231,9 @@
     // start services
 
         .services .services-content {
-            flex-direction: column;            
+            flex-direction: column;
             width: 85%;
+            padding-top: 0;
         }
 
         .services .services-content .service {
@@ -251,6 +254,7 @@
 
         .services .services-content .service h4 {
             color: white;
+            margin-top: 0;
         }
     // end services
 

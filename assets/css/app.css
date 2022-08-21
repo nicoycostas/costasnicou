@@ -644,7 +644,8 @@ main {
 
   .services .services-content {
     flex-direction: column;
-    width: 85%; }
+    width: 85%;
+    padding-top: 0; }
 
   .services .services-content .service {
     border: none;
@@ -660,7 +661,8 @@ main {
     height: 70px; }
 
   .services .services-content .service h4 {
-    color: white; }
+    color: white;
+    margin-top: 0; }
 
   .contact {
     padding-bottom: 0; }

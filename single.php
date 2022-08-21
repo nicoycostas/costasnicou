@@ -28,7 +28,7 @@
         <aside id="sidebar-right" class="grid-box">
 
         </aside>
-
+        <?php echo wp_title(); ?> 
 
         
     </main>

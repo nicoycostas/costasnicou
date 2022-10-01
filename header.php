@@ -23,7 +23,7 @@
         </div>
 
         <nav id="menu" class="menu">
-            <p class="welcome-msg">Made with Coffee</p>
+            <p class="welcome-msg">Lion Made</p>
             <label for="toggle">&#9776;</label>
             <input type="checkbox" name="checkbox" id="toggle">
         

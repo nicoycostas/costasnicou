@@ -32,12 +32,13 @@ a {
   display: none; }
 
 .top-bar {
-  background-color: #2b2c2b;
+  background-color: #ffd900;
   height: 20px; }
 
 .menu {
   min-height: 70px;
   background-color: white;
+  background-color: #1c1d1c;
   padding: 10px;
   -webkit-box-shadow: 5px 5px 25px 2px rgba(0, 0, 0, 0.24);
   box-shadow: 5px 5px 25px 2px rgba(0, 0, 0, 0.24); }
@@ -56,10 +57,11 @@ a {
 .menu-link {
   text-decoration: none;
   color: #575555;
-  font-weight: 300;
-  transition: all 0.2s; }
+  font-size: large;
+  color: #ffd900;
+  font-weight: 300; }
   .menu-link:hover {
-    color: black; }
+    font-weight: 400; }
 
 /*End Header-----------
 ------------------------ */
@@ -90,7 +92,7 @@ html {
   overflow-x: hidden; }
 
 .cover-img {
-  background-image: url("../imgs/cover/cover-image.webp");
+  background-image: url("../imgs/cover/cover-img.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 750px;
@@ -101,7 +103,7 @@ html {
 
 .cover-img-content {
   color: white;
-  margin-top: 40px; }
+  margin-top: 0; }
   .cover-img-content h1 {
     font-size: 70px;
     line-height: 25px;
@@ -112,7 +114,9 @@ html {
 
 .btn-cover {
   background-color: #d37d3f;
-  color: white;
+  background-color: #ffd000;
+  background-color: #ffd900;
+  color: black;
   padding: 20px;
   border-radius: 5px;
   text-decoration: none;
@@ -124,7 +128,8 @@ html {
   font-size: 17px;
   transition: all 0.5s; }
   .btn-cover:hover {
-    background-color: #c26b2d; }
+    background-color: #c26b2d;
+    background-color: #e0ba0f; }
 
 .home-icon {
   width: 20px;
@@ -152,14 +157,17 @@ html {
 
 .brand {
   color: rgba(35, 35, 35, 0.726);
-  font-weight: bold; }
+  color: #ffd900;
+  font-weight: bold;
+  font-style: italic; }
 
 /* End Profile-------------
 ----------------------------------- */
 /* Start Education & Experience-------------
 --------------------------------------- */
 #eduexp {
-  background-color: #303030; }
+  background-color: #303030;
+  background-color: #161616; }
 
 .content {
   width: 70%;
@@ -174,7 +182,8 @@ html {
   .eduexp h3 {
     font-size: 25px;
     font-family: 'Indie Flower', cursive;
-    color: white; }
+    color: white;
+    color: #ffd900; }
 
 .content ul li {
   padding: 20px; }
@@ -192,7 +201,9 @@ html {
   /* float: left; */
   position: absolute;
   left: -70px;
-  top: 30px; }
+  top: 30px;
+  color: #ffd900;
+  color: #ffbb00; }
 
 .exp-item h4 {
   font-size: 20px;
@@ -230,7 +241,9 @@ html {
   background-color: #313134;
   background-color: #e00404;
   background-color: #a41111;
+  background-color: #ffd900;
   color: white;
+  color: black;
   display: inline-block;
   margin-top: 20px;
   padding: 15px;
@@ -239,7 +252,8 @@ html {
   width: 100%;
   text-align: center; }
   .btn:hover {
-    background-color: #b80101; }
+    background-color: #b80101;
+    background-color: #ffa600; }
 
 /*End Portfolio.--------------------------
 ------------------------------------------- */
@@ -499,6 +513,7 @@ main {
     font-family: 'Indie Flower', cursive;
     font-size: 20px;
     color: #131313;
+    color: #ffd900;
     text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2); }
 
   .menu ul {
@@ -514,7 +529,8 @@ main {
     position: absolute;
     width: 49px;
     top: 30px;
-    left: 30px; }
+    left: 30px;
+    color: #ffd900; }
 
   nav .menu-bar {
     display: block;
@@ -550,7 +566,8 @@ main {
     top: 40px;
     right: 40px;
     fill: #999898;
-    fill: #d37d3fda; }
+    fill: #d37d3fda;
+    fill: #ffd900; }
 
   /*End Responsive Menu---------------------
   ------------------------------------------- */
@@ -558,6 +575,7 @@ main {
       ------------------------------------------- */
   .cover-img {
     background-image: url("../imgs/cover/cover-mobile.webp");
+    background-image: url("../imgs/cover/cover-img.png");
     height: 650px;
     background-position: center; }
 

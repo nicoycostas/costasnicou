@@ -23,7 +23,7 @@
         </div>
 
         <nav id="menu" class="menu">
-            <p class="welcome-msg">Lion Made</p>
+            <p class="welcome-msg"><i class="fa-solid fa-paw-claws"></i> Lion Made</p>
             <label for="toggle">&#9776;</label>
             <input type="checkbox" name="checkbox" id="toggle">
         
@@ -32,7 +32,7 @@
                 <li class="menu-list-item"><a class="menu-link" href="<?php echo get_home_url() . '/#profile'; ?>">Experience & Education</a></li>
                 <li class="menu-list-item"><a class="menu-link" href="<?php echo get_home_url(); ?>/#portfolio">Portfolio</a></li>
                 <li class="menu-list-item"><a class="menu-link" href="<?php echo get_home_url(); ?>/#blog">Blog</a></li>
-                <li class="menu-list-item"><a class="menu-link" href="<?php echo get_home_url(); ?>/#services">Services</a></li>
+               
                 <li class="menu-list-item"><a class="menu-link" href="<?php echo get_home_url(); ?>/#contact">Contact</a></li>
             </ul>
 

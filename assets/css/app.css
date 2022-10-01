@@ -360,7 +360,9 @@ html {
 /*Start Contact.--------------------------
 ------------------------------------------- */
 .contact {
-  padding: 90px 0; }
+  padding: 90px 0;
+  background-color: #ffd900;
+  background-color: #ffbb00; }
   .contact h2 {
     text-align: center;
     font-family: 'Indie Flower', cursive;
@@ -377,6 +379,7 @@ html {
     padding-top: 10px;
     border-radius: 20px;
     background-color: #242424;
+    background-color: #ffbb00;
     color: white;
     padding: 40px;
     box-shadow: 1px 0px 44px 0px rgba(0, 0, 0, 0.41);

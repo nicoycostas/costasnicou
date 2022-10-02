@@ -71,6 +71,8 @@ footer {
   height: 110px;
   background-color: #d48953;
   background-color: #312e2e;
+  background-color: #ffd900;
+  background-color: #1c1d1c;
   color: #fafafa;
   text-align: center;
   position: relative;
@@ -183,7 +185,8 @@ html {
     font-size: 25px;
     font-family: 'Indie Flower', cursive;
     color: white;
-    color: #ffd900; }
+    color: #ffd900;
+    color: #e7bc43; }
 
 .content ul li {
   padding: 20px; }
@@ -203,7 +206,7 @@ html {
   left: -70px;
   top: 30px;
   color: #ffd900;
-  color: #ffbb00; }
+  color: #e6bd4e; }
 
 .exp-item h4 {
   font-size: 20px;
@@ -241,7 +244,7 @@ html {
   background-color: #313134;
   background-color: #e00404;
   background-color: #a41111;
-  background-color: #ffd900;
+  background-color: #ffa600;
   color: white;
   color: black;
   display: inline-block;
@@ -253,7 +256,7 @@ html {
   text-align: center; }
   .btn:hover {
     background-color: #b80101;
-    background-color: #ffa600; }
+    background-color: #ff9900; }
 
 /*End Portfolio.--------------------------
 ------------------------------------------- */
@@ -362,7 +365,7 @@ html {
 .contact {
   padding: 90px 0;
   background-color: #ffd900;
-  background-color: #ffbb00; }
+  background-color: white; }
   .contact h2 {
     text-align: center;
     font-family: 'Indie Flower', cursive;
@@ -379,7 +382,6 @@ html {
     padding-top: 10px;
     border-radius: 20px;
     background-color: #242424;
-    background-color: #ffbb00;
     color: white;
     padding: 40px;
     box-shadow: 1px 0px 44px 0px rgba(0, 0, 0, 0.41);

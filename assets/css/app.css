@@ -245,18 +245,20 @@ html {
   background-color: #e00404;
   background-color: #a41111;
   background-color: #ffa600;
+  background-color: #1c1d1c;
   color: white;
-  color: black;
+  color: #ffd900;
   display: inline-block;
   margin-top: 20px;
   padding: 15px;
   text-decoration: none;
-  transition: all 2s;
+  transition: all 1s;
   width: 100%;
   text-align: center; }
   .btn:hover {
     background-color: #b80101;
-    background-color: #ff9900; }
+    background-color: #ffcc00;
+    color: black; }
 
 /*End Portfolio.--------------------------
 ------------------------------------------- */
@@ -300,11 +302,13 @@ html {
   text-decoration: none;
   margin-top: 15px;
   display: inline-block;
+  color: #ffd900;
   font-size: 17px;
   transition: all 0.2s; }
   .btn-blog:hover {
     background-color: #232222;
-    color: white; }
+    color: white;
+    color: #ffd900; }
 
 /*End Blog.--------------------------
 ------------------------------------------- */
@@ -507,6 +511,9 @@ main {
 @media (min-width: 320px) and (max-width: 767px) {
   /*Start Responsive Menu---------------------
   ------------------------------------------- */
+  .top-bar {
+    display: none; }
+
   .welcome-msg {
     /* display: inline-block; */
     text-align: center;
@@ -519,6 +526,7 @@ main {
     font-size: 20px;
     color: #131313;
     color: #ffd900;
+    color: #e7cb2f;
     text-shadow: 4px 4px 15px rgba(0, 0, 0, 0.2); }
 
   .menu ul {
@@ -533,7 +541,7 @@ main {
     padding: 10px;
     position: absolute;
     width: 49px;
-    top: 30px;
+    top: 12px;
     left: 30px;
     color: #ffd900; }
 
@@ -568,11 +576,12 @@ main {
     width: 30px;
     height: 30px;
     position: absolute;
-    top: 40px;
+    top: 20px;
     right: 40px;
     fill: #999898;
     fill: #d37d3fda;
-    fill: #ffd900; }
+    fill: #ffd900;
+    fill: #e7cb2f; }
 
   /*End Responsive Menu---------------------
   ------------------------------------------- */
@@ -760,7 +769,7 @@ main {
     width: 95%; }
 
   .cover-img {
-    background-image: url("../imgs/cover/cover-mobile.webp"); }
+    background-image: url("../imgs/cover/cover-img.png"); }
 
   .profile-content p {
     width: 100%; }
@@ -842,7 +851,7 @@ main {
     font-size: 15px; } }
 @media (min-width: 769px) and (max-width: 1024px) {
   .cover-img {
-    background-image: url("../imgs/cover/cover-mobile.webp"); }
+    background-image: url("../imgs/cover/cover-img.png"); }
 
   .cover-img-content h2 {
     font-size: 35px;
@@ -944,7 +953,7 @@ main {
     left: 30%; } }
 @media (min-width: 1025px) and (max-width: 1200px) {
   .cover-img {
-    background-image: url("../imgs/cover/cover-mobile.webp");
+    background-image: url("../imgs/cover/cover-img.png");
     height: 650px; }
 
   .cover-img-content h2 {

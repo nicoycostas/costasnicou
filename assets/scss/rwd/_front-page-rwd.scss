@@ -3,6 +3,11 @@
 
     /*Start Responsive Menu---------------------
     ------------------------------------------- */
+        .top-bar{
+            display: none;
+        }
+   
+
         .welcome-msg {
             /* display: inline-block; */
             text-align: center;
@@ -16,6 +21,7 @@
             font-size: 20px;
             color: #131313;
             color: $main_color;
+            color: rgb(231, 203, 47);
             text-shadow: 4px 4px 15px rgba(0,0,0,0.2);
         }
 
@@ -34,7 +40,7 @@
             padding: 10px;
             position: absolute;
             width: 49px;
-            top: 30px;
+            top: 12px;
             left: 30px;
             color: $main_color;
         }
@@ -81,11 +87,12 @@
             width: 30px;
             height: 30px;
             position: absolute;
-            top: 40px;
+            top: 20px;
             right: 40px;
             fill: #999898;
             fill: #d37d3fda;
             fill: $main_color;
+            fill: rgb(231, 203, 47);
            
         }
 
@@ -366,7 +373,7 @@
         }
 
         .cover-img{
-            background-image: url("../imgs/cover/cover-mobile.webp");
+            background-image: url("../imgs/cover/cover-img.png");
         }
 
     // end header
@@ -513,7 +520,7 @@
     // start header
 
         .cover-img{
-            background-image: url("../imgs/cover/cover-mobile.webp");
+            background-image: url("../imgs/cover/cover-img.png");
         }
 
         .cover-img-content h2 {
@@ -681,7 +688,7 @@
 
     // start cover
         .cover-img{
-            background-image: url("../imgs/cover/cover-mobile.webp");
+            background-image: url("../imgs/cover/cover-img.png");
             height: 650px;
         }
 

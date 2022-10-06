@@ -4,7 +4,7 @@
             <h1>Hi I'm Costas Nicou</h1>
             <h2>Linux System Admin and Wordpress Web Developer</h2>
         
-            <a href="https://drive.google.com/file/d/1A0J8Lf2qwcsZecuGXqIhRBmFo7lNj8PI/view?usp=sharing" target="_blank" class="btn-cover">Download my Resume</a>
+            <a href="https://drive.google.com/file/d/1Q46iLZGlqSmiPdr4fDDyCMBdC0o26mP1/view?usp=sharing" target="_blank" class="btn-cover">Download my Resume</a>
         
         </div>
 
@@ -35,7 +35,7 @@
                 <section class="exp-item">                  
                     <i class="fas fa-briefcase"></i>                    
                     <h4>IT Support Engineer</h4>
-                    <p>Primetel PLC, (Sep 2021 - Current)</p>
+                    <p>Primetel PLC, (Sep 2021 - Sep 2022)</p>
                 </section>
                 <section class="exp-item">
                     <i class="fas fa-briefcase"></i>   

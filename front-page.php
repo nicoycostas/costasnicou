@@ -92,8 +92,8 @@
         <h2>Portfolio</h2>
         <div class="content">
             <article class="project">
-                <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/looplab.webp';?>" alt="">
-                <a href="https://nicoycostas.github.io/LoopLab/" target="_blank" class="btn">View Project</a>
+                <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/mizuxe.webp';?>" alt="">
+                <a href="https://nicoycostas.github.io/mizuxe/" target="_blank" class="btn">View Project</a>
                 
 
             </article>

@@ -1,0 +1,36 @@
+.services-cover{
+    background: url("../imgs/services/services-page-cover.jpg");
+    // background: url("../imgs/services/services-page-cover.png");
+    height: 650px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-position: center;
+    h1{
+        margin: 0;
+        color: white;
+        // display: flex;
+        // justify-content: center;
+        position: absolute;
+        text-shadow: 2px 5px 9px #000000;
+        top: 50%;
+        left: 35%;
+        font-size: 60px;
+        // text-align: center;
+    }
+}
+
+.page-content{
+    width: 60%;
+    margin: 0 auto;
+    min-height:800px;
+
+   .page-content-article{
+        width: 60%;
+        // background-color: rgb(203, 125, 125);
+        margin: 0 auto;
+        padding: 40px;
+
+      
+    }
+}

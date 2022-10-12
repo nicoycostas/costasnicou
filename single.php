@@ -5,7 +5,7 @@
                
     </div>
 
-    <main>
+    <main class="main-single">
         <aside id="sidebar-left" class="grid-box">
 
         </aside>

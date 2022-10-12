@@ -13,11 +13,11 @@
 
     <section id="profile" class="profile">
         <!-- Profile -->
-        <div class="profile-content">
+        <article class="profile-content">
             <!-- img -->
             <img src=" <?php echo get_template_directory_uri() . '/assets/imgs/profile/profile-pic.webp'; ?>" alt="" width="200" height="200">
             <p>As an  <span class="brand">enthusiastic</span> researcher and <span class="brand"> hands on </span>learner during the last years, I have gained valuable experiences through studies and professional encounters. With an immense drive for <span class="brand">success</span> I am determined to build a great track record that will benefit any collaboration career path and organization.</p>
-        </div>
+        </article>
        
         
 
@@ -44,7 +44,7 @@
                 </section>
                 <section class="exp-item">
                     <i class="fas fa-briefcase"></i>
-                    <h4>Linux Support Officer </h4>
+                    <h4>Support Officer </h4>
                     <p>Tototheo Maritime, (Apr 2019 - Aug 2019) </p>
                 </section>
                 <section class="exp-item">
@@ -122,7 +122,7 @@
         <h2>Blog</h2>
         <div class="blog-content">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-            <article>
+            <article class="blog-content-article">
               
                 <!-- image -->
                 <div class="img" style="background-size:cover; background-position: center; background-image: url(<?php echo the_post_thumbnail_url();?>)">
@@ -142,6 +142,7 @@
 
     </section>
 
+    <!-- services -->
     <section id="services" class="services">
 
         <h2>Services I Offer</h2>
@@ -152,18 +153,21 @@
                 <h4>Technical Support</h4>
                 <p>Installation & configuration of any computer device hardware, operating systems and applications. Maintenance and monitoring of computer security and performance.</p>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M624 384h-608C7.25 384 0 391.3 0 400V416c0 35.25 28.75 64 64 64h512c35.25 0 64-28.75 64-64v-16C640 391.3 632.8 384 624 384zM128 96h384v256h64V80C576 53.63 554.4 32 528 32h-416C85.63 32 64 53.63 64 80V352h64V96zM304 336h32c8.801 0 16-7.201 16-16V272h48C408.8 272 416 264.8 416 256V224c0-8.801-7.199-16-16-16H352V160c0-8.801-7.199-16-16-16h-32C295.2 144 288 151.2 288 160v48H240C231.2 208 224 215.2 224 224v32c0 8.799 7.199 16 16 16H288V320C288 328.8 295.2 336 304 336z"/></svg>
+                <a href="<?php echo get_home_url(); ?>/technical-support">Learn More</a>    
             </div>
 
             <div class="service">
                 <h4>Wordpress Web Development</h4>
                 <p>Web Development tailored to your individual needs with the most powerful CMS system. Theme customization and installation of additional plugins for site functionality expansion.</p>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M61.7 169.4l101.5 278C92.2 413 43.3 340.2 43.3 256c0-30.9 6.6-60.1 18.4-86.6zm337.9 75.9c0-26.3-9.4-44.5-17.5-58.7-10.8-17.5-20.9-32.4-20.9-49.9 0-19.6 14.8-37.8 35.7-37.8.9 0 1.8.1 2.8.2-37.9-34.7-88.3-55.9-143.7-55.9-74.3 0-139.7 38.1-177.8 95.9 5 .2 9.7.3 13.7.3 22.2 0 56.7-2.7 56.7-2.7 11.5-.7 12.8 16.2 1.4 17.5 0 0-11.5 1.3-24.3 2l77.5 230.4L249.8 247l-33.1-90.8c-11.5-.7-22.3-2-22.3-2-11.5-.7-10.1-18.2 1.3-17.5 0 0 35.1 2.7 56 2.7 22.2 0 56.7-2.7 56.7-2.7 11.5-.7 12.8 16.2 1.4 17.5 0 0-11.5 1.3-24.3 2l76.9 228.7 21.2-70.9c9-29.4 16-50.5 16-68.7zm-139.9 29.3l-63.8 185.5c19.1 5.6 39.2 8.7 60.1 8.7 24.8 0 48.5-4.3 70.6-12.1-.6-.9-1.1-1.9-1.5-2.9l-65.4-179.2zm183-120.7c.9 6.8 1.4 14 1.4 21.9 0 21.6-4 45.8-16.2 76.2l-65 187.9C426.2 403 468.7 334.5 468.7 256c0-37-9.4-71.8-26-102.1zM504 256c0 136.8-111.3 248-248 248C119.2 504 8 392.7 8 256 8 119.2 119.2 8 256 8c136.7 0 248 111.2 248 248zm-11.4 0c0-130.5-106.2-236.6-236.6-236.6C125.5 19.4 19.4 125.5 19.4 256S125.6 492.6 256 492.6c130.5 0 236.6-106.1 236.6-236.6z"/></svg>
+                <a href="<?php echo get_home_url(); ?>/technical-support">Learn More</a>    
             </div>
 
             <div class="service">
                 <h4>Web Hosting & Domain Registration</h4>
                 <p>Register your domain name and choose from a variety of web hosting solutions. Dedicated or shared web hosting based on your needs. Early Bird Offer <strong>FIRST MONTH FREE</strong> on AWS Cloud Web Server.</p>
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Pro 6.1.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M480 288H32c-17.62 0-32 14.38-32 32v128c0 17.62 14.38 32 32 32h448c17.62 0 32-14.38 32-32v-128C512 302.4 497.6 288 480 288zM352 408c-13.25 0-24-10.75-24-24s10.75-24 24-24s24 10.75 24 24S365.3 408 352 408zM416 408c-13.25 0-24-10.75-24-24s10.75-24 24-24s24 10.75 24 24S429.3 408 416 408zM480 32H32C14.38 32 0 46.38 0 64v128c0 17.62 14.38 32 32 32h448c17.62 0 32-14.38 32-32V64C512 46.38 497.6 32 480 32zM352 152c-13.25 0-24-10.75-24-24S338.8 104 352 104S376 114.8 376 128S365.3 152 352 152zM416 152c-13.25 0-24-10.75-24-24S402.8 104 416 104S440 114.8 440 128S429.3 152 416 152z"/></svg>
+                <a href="">Learn More</a>    
             </div>
 
         </div>

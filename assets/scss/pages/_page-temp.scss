@@ -1,6 +1,6 @@
 #technical-support-cover{
     background: url("../imgs/services/services-page-cover.jpg");
-    height: 650px;
+   
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -8,7 +8,6 @@
 
 #web-hosting-cover{
     background: url("../imgs/services/web-hosting-service-cover.jpg");
-    height: 650px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -17,7 +16,7 @@
 .services-cover{
     
     // background: url("../imgs/services/services-page-cover.png");
-   
+    height: 650px;
     display: flex;
     justify-content: center;
     align-items: center;

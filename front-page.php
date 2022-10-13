@@ -176,6 +176,7 @@
 
     </section>
 
+    <!-- contact -->
     <section id="contact" class="contact">
         <h2>Contact Me</h2>
         <div class="contact-content">

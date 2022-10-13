@@ -1084,7 +1084,7 @@ html, body {
       width: 250px; }
 
   .page-content {
-    width: 95%;
+    width: 100%;
     margin: 0 auto;
     min-height: 800px; } }
 @media (min-width: 769px) and (max-width: 1024px) {

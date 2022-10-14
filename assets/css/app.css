@@ -471,22 +471,26 @@ html {
     width: 60%;
     margin: 0 auto;
     padding: 40px; }
+  .page-content .get-back-page {
+    color: #d37d3fda;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400; }
+    .page-content .get-back-page:hover {
+      color: #ec8237da; }
 
 html, body {
   padding: 0;
   margin: 0; }
 
-.single-post-img {
-  background-size: cover;
-  background-position: center;
-  height: 650px;
-  text-align: center;
-  box-shadow: 10px 10px 229px 0px rgba(0, 0, 0, 0.58) inset;
-  -webkit-box-shadow: 10px 10px 229px 0px rgba(0, 0, 0, 0.58) inset;
-  -moz-box-shadow: 10px 10px 229px 0px rgba(0, 0, 0, 0.58) inset; }
-
 #sidebar-left {
-  grid-area: sidebar-left; }
+  grid-area: sidebar-left;
+  padding-top: 50px;
+  background-color: #f9f9f9;
+  padding-bottom: 50px; }
+  #sidebar-left h2 {
+    text-align: center; }
 
 #sidebar-right {
   grid-area: sidebar-right; }
@@ -499,6 +503,38 @@ html, body {
   display: grid;
   grid-template-columns: 20% 55% 1fr;
   grid-template-areas: "sidebar-left post-content sidebar-right"; }
+
+.single-post-img {
+  background-size: cover;
+  background-position: center;
+  height: 650px;
+  text-align: center;
+  box-shadow: 10px 10px 229px 0px rgba(0, 0, 0, 0.58) inset;
+  -webkit-box-shadow: 10px 10px 229px 0px rgba(0, 0, 0, 0.58) inset;
+  -moz-box-shadow: 10px 10px 229px 0px rgba(0, 0, 0, 0.58) inset; }
+
+.sidebar-posts {
+  padding: 0; }
+
+.sidebar-post {
+  padding: 10px 50px 50px 50px;
+  margin-left: 50px; }
+  .sidebar-post .sidebar-post-img {
+    width: 200px;
+    height: 200px; }
+  .sidebar-post p {
+    height: 40px;
+    overflow: hidden; }
+
+.get-back-sidebar {
+  color: #d37d3fda;
+  display: block;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  display: none; }
+  .get-back-sidebar:hover {
+    color: #ec8237da; }
 
 .single-post-content {
   padding: 40px 80px 40px 80px;
@@ -1086,7 +1122,15 @@ html, body {
   .page-content {
     width: 100%;
     margin: 0 auto;
-    min-height: 800px; } }
+    min-height: 800px; }
+
+  .page-content .get-back-page {
+    color: #d37d3fda;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: left; } }
 @media (min-width: 769px) and (max-width: 1024px) {
   .services-cover {
     height: 500px;
@@ -1138,7 +1182,7 @@ html, body {
     min-height: none;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-areas: "post-content"; }
+    grid-template-areas: "post-content" "sidebar-left"; }
 
   .single-post-content {
     padding: 40px 20px 40px 20px; }
@@ -1155,13 +1199,42 @@ html, body {
     margin-top: 40px;
     text-align: left;
     margin-left: 5px;
-    font-size: 18px; } }
+    font-size: 18px;
+    display: none; }
+
+  .sidebar-post {
+    padding: 10px 50px 50px 50px;
+    /* margin-left: 50px; */
+    margin: 0 auto;
+    width: 300px; }
+
+  .get-back-sidebar {
+    color: #d37d3fda;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    display: block;
+    margin: 0 auto;
+    width: 300px; }
+    .get-back-sidebar:hover {
+      color: #ec8237da; } }
 @media (min-width: 769px) and (max-width: 1024px) {
   .main-single {
     min-height: none;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-areas: "post-content"; }
+    grid-template-areas: "post-content" "sidebar-left"; }
+
+  .sidebar-posts {
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap; }
+
+  .sidebar-post {
+    padding: 10px 50px 50px 50px;
+    margin-left: 50px;
+    width: 300px; }
 
   .single-post-content h1 {
     text-align: left; }
@@ -1174,8 +1247,8 @@ html, body {
   .main-single {
     min-height: none;
     display: grid;
-    grid-template-columns: 1fr;
-    grid-template-areas: "post-content"; }
+    grid-template-columns: 30% 1fr;
+    grid-template-areas: "sidebar-left post-content"; }
 
   .single-post-content h1 {
     text-align: left; }
@@ -1189,7 +1262,7 @@ html, body {
     min-height: none;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-areas: "post-content"; }
+    grid-template-areas: "sidebar-left post-content"; }
 
   .single-post-content h1 {
     text-align: left; }

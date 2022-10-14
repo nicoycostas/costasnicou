@@ -11,7 +11,7 @@
                 <?php the_content(); ?> 
                 <?php endwhile; ?>
             <?php endif; ?>
-            <a class="get-back" href="<?php echo get_home_url(); ?>">Back to Homepage</a>
+            <a class="get-back-page" href="<?php echo get_home_url(); ?>">Back to Homepage</a>
         </article>
         
     </main>

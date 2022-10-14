@@ -23,6 +23,15 @@
         margin: 0 auto;
         min-height: 800px;
     }
+
+    .page-content .get-back-page {
+        color: #d37d3fda;
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+        text-align: left;
+    }
 }
 
 @media(min-width: 769px) and (max-width:1024px){

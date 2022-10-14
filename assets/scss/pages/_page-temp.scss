@@ -43,4 +43,16 @@
 
       
     }
+
+    .get-back-page{
+        color: #d37d3fda;
+        display: block;
+        text-align: center;
+        font-size: 18px;
+        font-weight: 400;
+
+        &:hover{
+            color: #ec8237da;
+        }
+    }
 }

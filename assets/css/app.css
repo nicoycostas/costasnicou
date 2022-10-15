@@ -499,7 +499,8 @@ html, body {
     text-align: center; }
 
 #sidebar-right {
-  grid-area: sidebar-right; }
+  grid-area: sidebar-right;
+  background-color: #f9f9f9; }
 
 #post-content {
   grid-area: post-content; }

@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-    <header id="technical-support-cover" class="services-cover">
+    <header id="wordpress-development-cover" class="services-cover">
        <h1><?php the_title(); ?></h1>
     </header>
 

@@ -4,7 +4,7 @@
             <h1>Hi I'm Costas Nicou</h1>
             <h2>Linux System Admin and Wordpress Web Developer</h2>
         
-            <a href="https://drive.google.com/file/d/1Q46iLZGlqSmiPdr4fDDyCMBdC0o26mP1/view?usp=sharing" target="_blank" class="btn-cover">Download my Resume</a>
+            <a href="https://drive.google.com/file/d/1dMf0PRFVd023t9I3Ct28i4s_NReFc3N3/view?usp=sharing" target="_blank" class="btn-cover">Download my Resume</a>
         
         </div>
 

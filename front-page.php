@@ -15,7 +15,7 @@
         <!-- Profile -->
         <article class="profile-content">
             <!-- img -->
-            <img src=" <?php echo get_template_directory_uri() . '/assets/imgs/profile/profile-pic.webp'; ?>" alt="" width="200" height="200">
+            <img src=" <?php echo get_template_directory_uri() . '/assets/imgs/profile/profile-pic.webp'; ?>" alt="Profile Photo" width="200" height="200">
             <p>As an  <span class="brand">enthusiastic</span> researcher and <span class="brand"> hands on </span>learner during the last years, I have gained valuable experiences through studies and professional encounters. With an immense drive for <span class="brand">success</span> I am determined to build a great track record that will benefit any collaboration career path and organization.</p>
         </article>
        
@@ -92,24 +92,24 @@
         <h2>Portfolio</h2>
         <div class="content">
             <article class="project">
-                <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/mizuxe.webp';?>" alt="">
+                <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/mizuxe.webp';?>" alt="Bootstrap Project">
                 <a href="https://nicoycostas.github.io/mizuxe/" target="_blank" class="btn">View Project</a>
                 
 
             </article>
 
             <article class="project">
-                <img class="project-img" src="<?php echo get_template_directory_uri() . '/assets/imgs/portfolio/leviotech.webp'; ?>" alt="">
+                <img class="project-img" src="<?php echo get_template_directory_uri() . '/assets/imgs/portfolio/leviotech.webp'; ?>" alt="Ecommerce Template made with HTML and CSS">
                 <a href="https://nicoycostas.github.io/leviotech/" target="_blank" class="btn">View Project</a>
             </article>
 
             <article class="project">
-                <img class="project-img" src="<?php echo get_template_directory_uri() . '/assets/imgs/portfolio/nasa.webp';?>" alt="">
+                <img class="project-img" src="<?php echo get_template_directory_uri() . '/assets/imgs/portfolio/nasa.webp';?>" alt="Nasa's Web API Picture of the Day">
                 <a href="https://nicoycostas.github.io/server-arex/" target="_blank" class="btn">View Project</a>
             </article>
 
             <article class="project">
-                <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/google-search.webp';?>" alt="">
+                <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/google-search.webp';?>" alt="Google Search Project">
                 <a href="https://nicoycostas.github.io/google-search/" target="_blank" class="btn">View Project</a>
             </article>
            
@@ -183,7 +183,7 @@
            
             <!-- content left -->
             <div class="contact-content-left">
-                <img src=" <?php echo get_template_directory_uri() . '/assets/imgs/contact/contact.webp'; ?>" alt="" width="600" height="500">
+                <img src=" <?php echo get_template_directory_uri() . '/assets/imgs/contact/contact.webp'; ?>" alt="Contact Me Icons" width="600" height="500">
                 <div class="social-icons">
                     
 

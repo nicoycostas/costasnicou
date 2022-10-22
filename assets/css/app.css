@@ -258,9 +258,9 @@ html {
 
 .blog-content {
   display: flex;
-  width: 70%;
+  width: 80%;
   margin: 0 auto;
-  justify-content: space-between; }
+  justify-content: space-evenly; }
   .blog-content .blog-content-article {
     width: 250px;
     height: 500px;

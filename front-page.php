@@ -4,7 +4,7 @@
             <h1>Hi I'm Costas Nicou</h1>
             <h2>Linux System Admin and Wordpress Web Developer</h2>
         
-            <a href="https://drive.google.com/file/d/1dMf0PRFVd023t9I3Ct28i4s_NReFc3N3/view?usp=sharing" target="_blank" class="btn-cover">Download my Resume</a>
+            <a href="https://drive.google.com/file/d/1eAUH3yrUF4GbgGMj0UPqVsn06vNHXS3s/view?usp=sharing" target="_blank" class="btn-cover">Download my Resume</a>
         
         </div>
 
@@ -73,8 +73,8 @@
 
                 <section class="exp-item">
                     <i class="fas fa-university"></i>
-                    <h4>BEng Computer Systems and Networks</h4>
-                    <p>Edinburgh Napier University, (2016 - 2018)</p>
+                    <h4>BSc (Hons) Computing</h4>
+                    <p>Edinburgh Napier University, (2016 - 2020)</p>
                 </section>
 
                 <section class="exp-item">

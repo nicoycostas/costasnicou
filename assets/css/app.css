@@ -210,9 +210,9 @@ html {
 
 .portfolio .content {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
-  width: 65%; }
+  width: 80%; }
 
 .project {
   /* border: 1px solid black; */

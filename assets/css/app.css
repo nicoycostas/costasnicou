@@ -101,7 +101,11 @@ html {
 
 .cover-img-content {
   color: white;
-  margin-top: 40px; }
+  margin-top: 40px;
+  animation-name: bounce;
+  position: relative;
+  animation-duration: 2s;
+  animation-delay: 1.5s; }
   .cover-img-content h1 {
     font-size: 70px;
     line-height: 25px;
@@ -109,23 +113,27 @@ html {
   .cover-img-content h2 {
     font-size: 50px;
     text-shadow: 4px 5px 13px rgba(0, 0, 0, 0.74); }
+  .cover-img-content .btn-cover {
+    background-color: #d37d3f;
+    color: white;
+    padding: 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 15px;
+    display: inline-block;
+    box-shadow: 80px 21px 237px 6px rgba(0, 0, 0, 0.84);
+    -webkit-box-shadow: 80px 21px 237px 6px rgba(0, 0, 0, 0.84);
+    -moz-box-shadow: 80px 21px 237px 6px rgba(0, 0, 0, 0.84);
+    font-size: 17px;
+    transition: all 0.5s; }
+    .cover-img-content .btn-cover:hover {
+      background-color: #c26b2d; }
 
-.btn-cover {
-  background-color: #d37d3f;
-  color: white;
-  padding: 20px;
-  border-radius: 5px;
-  text-decoration: none;
-  margin-top: 15px;
-  display: inline-block;
-  box-shadow: 80px 21px 237px 6px rgba(0, 0, 0, 0.84);
-  -webkit-box-shadow: 80px 21px 237px 6px rgba(0, 0, 0, 0.84);
-  -moz-box-shadow: 80px 21px 237px 6px rgba(0, 0, 0, 0.84);
-  font-size: 17px;
-  transition: all 0.5s; }
-  .btn-cover:hover {
-    background-color: #c26b2d; }
-
+@keyframes bounce {
+  from {
+    top: 100px; }
+  to {
+    top: 0; } }
 .home-icon {
   width: 20px;
   height: 20px;

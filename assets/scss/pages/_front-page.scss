@@ -22,7 +22,8 @@
         animation-name: bounce;
         position: relative;
         animation-duration: 2s;
-        animation-delay: 1.5s;
+        // animation-delay: 1s;
+        animation-timing-function: ease-in;
         h1{
             font-size: 70px;
             line-height: 25px;
@@ -51,18 +52,21 @@
             &:hover{
                 background-color: rgb(194, 107, 45);
             }
+
+          
         }
-        
+
+             
         
     }
 
     @keyframes bounce {
         from{
-            top:100px;
+            opacity: 0;
         }
 
         to{
-            top: 0;
+            opacity: 1;
         }
     }
   

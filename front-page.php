@@ -4,7 +4,7 @@
             <h1>Hi I'm Costas Nicou</h1>
             <h2>Linux System Admin and Wordpress Web Developer</h2>
         
-            <a href="https://drive.google.com/file/d/1eAUH3yrUF4GbgGMj0UPqVsn06vNHXS3s/view?usp=sharing" target="_blank" class="btn-cover">Download my Resume</a>
+            <a href="https://drive.google.com/file/d/1grv_OKPrr3UKf2E6hpjY-QAGbe-VBdnw/view?usp=share_link" target="_blank" class="btn-cover">Download my Resume</a>
         
         </div>
 
@@ -31,7 +31,12 @@
              <!-- experience -->
             <article class="eduexp">
                 <h3>Experience</h3>
-                
+                <section class="exp-item">
+                    <i class="fas fa-briefcase"></i>
+                    <h4>NOC Analyst</h4>
+                    <p>Equiti Group, (Nov 2022 - Current)</p>
+                </section>
+                             
                 <section class="exp-item">                  
                     <i class="fas fa-briefcase"></i>                    
                     <h4>IT Support Engineer</h4>
@@ -47,12 +52,7 @@
                     <h4>Support Officer </h4>
                     <p>Tototheo Maritime, (Apr 2019 - Aug 2019) </p>
                 </section>
-                <section class="exp-item">
-                    <i class="fas fa-briefcase"></i>
-                    <h4>Ecommerce Web Developer</h4>
-                    <p>Cellmacke, (2016 - 2017)</p>
-                </section>
-             
+                
             </article>
 
              <!-- education -->

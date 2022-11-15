@@ -26,7 +26,7 @@
 .blog-post{
     display: flex;
     justify-content: flex-start;
-    min-width: 700px;
+    width: 700px;
     margin: 50px 0;
     .blog-post-img{
         width: 250px;
@@ -41,5 +41,17 @@
         p{
             width: 600px;
         }
+    }
+}
+
+.get-back-blog{
+    color: #d37d3fda;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+
+    &:hover{
+        color: #ec8237da;
     }
 }

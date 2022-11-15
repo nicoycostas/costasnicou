@@ -5,7 +5,7 @@
         </aside>
 
         <main class="blog-main-area">
-            <h1>Blog</h1>
+           <h1>Blog</h1>
             <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                 <article class="blog-post">
                     <div class="blog-post-img" style="background-size:cover; background-position: center; background-image: url(<?php echo the_post_thumbnail_url();?>)">
@@ -25,7 +25,7 @@
                 <?php endwhile; else : ?>
                 <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
             <?php endif; ?>
-
+            <a class="get-back-blog" href="<?php echo get_home_url(); ?>">Back to Homepage</a>
         </main>
 
         <aside class="blog-right-sidebar">

@@ -592,8 +592,10 @@ html, body {
   display: grid;
   grid-template-columns: 20% 1fr 20%;
   grid-auto-rows: minmax(800px, auto);
-  margin-top: 80px;
   padding: 50px 0; }
+
+.blog-left-sidebar {
+  background-color: #f9f9f9; }
 
 .blog-main-area {
   margin-left: 100px; }
@@ -601,7 +603,11 @@ html, body {
     text-align: center;
     font-family: 'Indie Flower', cursive;
     letter-spacing: 0.1em;
-    margin-left: -100px; }
+    margin-left: -100px;
+    margin-top: 100px; }
+
+.blog-right-sidebar {
+  background-color: #f9f9f9; }
 
 .blog-post {
   display: flex;
@@ -612,9 +618,14 @@ html, body {
     height: 250px; }
   .blog-post .blog-post-content {
     margin-left: 50px;
-    margin-top: 10px; }
+    margin-top: 5px; }
+    .blog-post .blog-post-content h3 {
+      font-weight: 300; }
     .blog-post .blog-post-content p {
-      width: 600px; }
+      width: 600px;
+      height: 78px;
+      overflow: hidden;
+      font-weight: 300; }
 
 .get-back-blog {
   color: #d37d3fda;

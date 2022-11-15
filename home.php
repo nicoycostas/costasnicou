@@ -25,6 +25,10 @@
                 <?php endwhile; else : ?>
                 <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
             <?php endif; ?>
+            <div class="post-pagination">
+                <?php the_posts_pagination(); ?>
+            </div>
+           
             <a class="get-back-blog" href="<?php echo get_home_url(); ?>">Back to Homepage</a>
         </main>
 
@@ -32,5 +36,6 @@
 
         </aside>
 
+        
     </div>
 <?php get_footer(); ?>

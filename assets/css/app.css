@@ -627,6 +627,10 @@ html, body {
       overflow: hidden;
       font-weight: 300; }
 
+.nav-links {
+  text-align: center;
+  padding: 40px; }
+
 .get-back-blog {
   color: #d37d3fda;
   display: block;

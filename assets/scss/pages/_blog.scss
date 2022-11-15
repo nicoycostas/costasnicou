@@ -1,0 +1,45 @@
+.main-blog-grid{
+    display: grid;
+    grid-template-columns: 20% 1fr 20%;
+    grid-auto-rows: minmax(800px,auto);
+    margin-top: 80px;
+    // grid-column-gap: 50px;
+    padding: 50px 0;
+}
+
+.blog-left-sidebar{
+//    background-color: burlywood;
+}
+
+.blog-main-area{
+   margin-left: 100px;
+
+   h1{
+    text-align: center;
+   }
+}
+
+.blog-right-sidebar{
+  
+}
+
+.blog-post{
+    display: flex;
+    justify-content: flex-start;
+    min-width: 700px;
+    margin: 50px 0;
+    .blog-post-img{
+        width: 250px;
+        height: 250px;
+       
+    }
+
+    .blog-post-content{
+        margin-left: 50px;
+        margin-top: 10px;
+
+        p{
+            width: 600px;
+        }
+    }
+}

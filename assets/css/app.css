@@ -297,6 +297,13 @@ html {
     background-color: #232222;
     color: white; }
 
+.btn-view-more {
+  text-align: center;
+  display: block;
+  padding: 20px;
+  font-size: 1.2rem;
+  color: #ba7c02; }
+
 /*End Blog.--------------------------
 ------------------------------------------- */
 /*Start Services.--------------------------
@@ -580,6 +587,32 @@ html, body {
 
 .shared-counts-wrap.after_content.style-rounded {
   margin-top: 30px; }
+
+.main-blog-grid {
+  display: grid;
+  grid-template-columns: 20% 1fr 20%;
+  grid-auto-rows: minmax(800px, auto);
+  margin-top: 80px;
+  padding: 50px 0; }
+
+.blog-main-area {
+  margin-left: 100px; }
+  .blog-main-area h1 {
+    text-align: center; }
+
+.blog-post {
+  display: flex;
+  justify-content: flex-start;
+  min-width: 700px;
+  margin: 50px 0; }
+  .blog-post .blog-post-img {
+    width: 250px;
+    height: 250px; }
+  .blog-post .blog-post-content {
+    margin-left: 50px;
+    margin-top: 10px; }
+    .blog-post .blog-post-content p {
+      width: 600px; }
 
 @media (min-width: 320px) and (max-width: 767px) {
   /*Start Responsive Menu---------------------

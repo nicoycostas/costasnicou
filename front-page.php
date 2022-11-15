@@ -121,23 +121,32 @@
     <section id="blog" class="blog">
         <h2>Blog</h2>
         <div class="blog-content">
-        <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-            <article class="blog-content-article">
-              
-                <!-- image -->
-                <div class="img" style="background-size:cover; background-position: center; background-image: url(<?php echo the_post_thumbnail_url();?>)">
-                    
-                </div>
-                <h3><?php the_title(); ?></h3>
-                <?php the_excerpt() ?>
-                <!-- butn -->
-                <a href="<?php echo get_permalink(); ?>" class="btn-blog">Read More</a>
-            </article>
-            <?php endwhile; else : ?>
-            <p><?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?></p>
-        <?php endif; ?>
+            <!-- The query -->
+            <?php $loop = new WP_Query( array
+                ( 'post_type' => 'post',
+                'posts_per_page' => 4, 
+                
+                ) );
+            ?>
+            <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
+                <article class="blog-content-article">
+                
+                    <!-- image -->
+                    <div class="img" style="background-size:cover; background-position: center; background-image: url(<?php echo the_post_thumbnail_url();?>)">
+                        
+                    </div>
+                    <h3><?php the_title(); ?></h3>
+                    <?php the_excerpt() ?>
+                    <!-- butn -->
+                    <a href="<?php echo get_permalink(); ?>" class="btn-blog">Read More</a>
+                </article>
+                <?php endwhile; wp_reset_query(); ?>
+            <?php wp_reset_postdata(); ?>
+
 
         </div>
+
+        <a class="btn-view-more" href="<?php echo get_home_url(); ?>/blog">View More</a>
         
 
     </section>

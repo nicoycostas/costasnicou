@@ -16,6 +16,9 @@
 
    h1{
     text-align: center;
+    font-family: 'Indie Flower', cursive;
+    letter-spacing:0.1em;
+    margin-left: -100px;
    }
 }
 
@@ -26,8 +29,7 @@
 .blog-post{
     display: flex;
     justify-content: flex-start;
-    width: 700px;
-    margin: 50px 0;
+    margin: 80px 0;
     .blog-post-img{
         width: 250px;
         height: 250px;

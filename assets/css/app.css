@@ -591,14 +591,14 @@ html, body {
 .main-blog-grid {
   display: grid;
   grid-template-columns: 20% 1fr 20%;
-  grid-auto-rows: minmax(800px, auto);
-  padding: 50px 0; }
+  grid-auto-rows: minmax(800px, auto); }
 
 .blog-left-sidebar {
   background-color: #f9f9f9; }
 
 .blog-main-area {
-  margin-left: 100px; }
+  margin-left: 100px;
+  padding: 50px 0; }
   .blog-main-area h1 {
     text-align: center;
     font-family: 'Indie Flower', cursive;
@@ -630,6 +630,10 @@ html, body {
 .nav-links {
   text-align: center;
   padding: 40px; }
+
+.nav-links > * {
+  padding: 10px;
+  color: #d09602; }
 
 .get-back-blog {
   color: #d37d3fda;

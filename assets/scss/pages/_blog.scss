@@ -2,9 +2,7 @@
     display: grid;
     grid-template-columns: 20% 1fr 20%;
     grid-auto-rows: minmax(800px,auto);
-    // -top: 80px;
-    // grid-column-gap: 50px;
-    padding: 50px 0;
+   
 }
 
 .blog-left-sidebar{
@@ -13,7 +11,7 @@
 
 .blog-main-area{
    margin-left: 100px;
-
+   padding: 50px 0;
    h1{
     text-align: center;
     font-family: 'Indie Flower', cursive;
@@ -56,8 +54,13 @@
 .nav-links{
     text-align: center;
     padding: 40px;
+    
 }
 
+.nav-links > *{
+    padding: 10px;
+    color: rgb(208, 150, 2);
+}
 .get-back-blog{
     color: #d37d3fda;
     display: block;

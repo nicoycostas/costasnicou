@@ -30,7 +30,7 @@
          * Add support for two custom navigation menus.
          */
         register_nav_menus( array(
-            'primary'   => __( 'Primary Menu', 'myfirsttheme' ),
+            'header-menu'   => __( 'Header Menu', 'myfirsttheme' ),
             'secondary' => __('Secondary Menu', 'myfirsttheme' )
         ) );
      
@@ -53,11 +53,11 @@
       add_action( 'wp_enqueue_scripts', 'add_theme_scripts' );
 
 
-    //   add theme support title tag
-    add_theme_support( 'title-tag' );
 
 
-
+// add woocommerce theme support
+    add_theme_support( 'woocommerce' );
+  
 
 
 

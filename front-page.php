@@ -4,7 +4,7 @@
             <h1>Hi I'm Costas Nicou</h1>
             <h2>Linux System Admin and Wordpress Web Developer</h2>
         
-            <a href="https://drive.google.com/file/d/1grv_OKPrr3UKf2E6hpjY-QAGbe-VBdnw/view?usp=share_link" target="_blank" class="btn-cover">Download my Resume</a>
+            <a href="https://drive.google.com/file/d/1hKRBu12BnGEOM9AaHIxalw64En_gDxeZ/view?usp=share_link" target="_blank" class="btn-cover">Download my Resume</a>
         
         </div>
 
@@ -47,11 +47,7 @@
                     <h4>Wordpress Web Developer</h4>
                     <p>Convertico Media, (Feb 2020 - Jul 2020)</p>
                 </section>
-                <section class="exp-item">
-                    <i class="fas fa-briefcase"></i>
-                    <h4>Support Officer </h4>
-                    <p>Tototheo Maritime, (Apr 2019 - Aug 2019) </p>
-                </section>
+               
                 
             </article>
 

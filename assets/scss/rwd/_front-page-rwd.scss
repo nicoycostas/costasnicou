@@ -64,12 +64,11 @@
         
         // when toggle is checked
         #toggle:checked + .menu-bar{
-            visibility:visible;
-            margin-top: 110px;
+            visibility: visible;
+            margin-top: 50px;
             transition: opacity 1s ease-out;
             opacity: 1;
-            // height: 250px;
-            height: 295px;
+            height: 380px;
             transition: height 0.5s ease-out;
         }
 

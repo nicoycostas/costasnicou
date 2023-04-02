@@ -18,6 +18,9 @@ section {
 a {
   text-decoration: none; }
 
+a:visited {
+  color: inherit; }
+
 /* END Global-----------
 ------------------------ */
 /*Start Header-----------
@@ -48,7 +51,9 @@ a {
     display: flex;
     justify-content: center;
     list-style: none;
-    padding: 0; }
+    padding: 0;
+    position: relative;
+    top: 15px; }
 
 .menu-list-item {
   padding: 0 20px; }
@@ -65,7 +70,7 @@ a {
 ------------------------ */
 /*Start Footer-----------
 ------------------------ */
-footer {
+.footer {
   height: 110px;
   background-color: #d48953;
   background-color: #312e2e;
@@ -74,7 +79,7 @@ footer {
   position: relative;
   width: 100%;
   bottom: 0; }
-  footer p {
+  .footer p {
     width: 300px;
     margin: 0 auto;
     padding: 38px 0 0 0;
@@ -695,10 +700,10 @@ html, body {
 
   #toggle:checked + .menu-bar {
     visibility: visible;
-    margin-top: 110px;
+    margin-top: 50px;
     transition: opacity 1s ease-out;
     opacity: 1;
-    height: 295px;
+    height: 380px;
     transition: height 0.5s ease-out; }
 
   .home-icon {

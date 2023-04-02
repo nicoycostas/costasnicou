@@ -10,7 +10,7 @@
 get_header();
 ?>
 
-	<main id="primary" class="site-main" style="width:70%; padding:80px; margin:0 auto;">
+	<main id="primary" class="site-main single-product-page">
 
 		<?php
 		while ( have_posts() ) :

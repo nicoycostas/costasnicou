@@ -651,6 +651,11 @@ html, body {
   .get-back-blog:hover {
     color: #ec8237da; }
 
+.site-main.single-product-page {
+  width: 70%;
+  padding: 80px;
+  margin: 0 auto; }
+
 @media (min-width: 320px) and (max-width: 767px) {
   /*Start Responsive Menu---------------------
   ------------------------------------------- */
@@ -1391,6 +1396,11 @@ html, body {
   .single-post-content {
     padding: 40px 20px 80px 20px;
     width: 60%;
+    margin: 0 auto; } }
+@media (min-width: 320px) and (max-width: 767px) {
+  .site-main.single-product-page {
+    width: 100%;
+    padding: 40px;
     margin: 0 auto; } }
 
 /*# sourceMappingURL=app.css.map */

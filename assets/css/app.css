@@ -1401,6 +1401,7 @@ html, body {
   .site-main.single-product-page {
     width: 100%;
     padding: 40px;
-    margin: 0 auto; } }
+    margin: 0 auto;
+    margin-top: 80px; } }
 
 /*# sourceMappingURL=app.css.map */

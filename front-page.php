@@ -4,7 +4,7 @@
             <h1>Hi I'm Costas Nicou</h1>
             <h2>Linux System Admin and Wordpress Web Developer</h2>
         
-            <a href="https://drive.google.com/file/d/1hKRBu12BnGEOM9AaHIxalw64En_gDxeZ/view?usp=share_link" target="_blank" class="btn-cover">Download my Resume</a>
+            <a href="https://drive.google.com/file/d/1Ia8PKuaY0qdLvPdc2lnh56E4vnz50RcW/view?usp=sharing" target="_blank" class="btn-cover">Download my Resume</a>
         
         </div>
 
@@ -32,9 +32,14 @@
             <article class="eduexp">
                 <h3>Experience</h3>
                 <section class="exp-item">
+                    <i class="fas fa-briefcase"></i>   
+                    <h4>IT Help Desk Support Engineer</h4>
+                    <p>Andreas M.Sofocleous & Co. LLC, (Mar 2023 - Current)</p>
+                </section>
+                <section class="exp-item">
                     <i class="fas fa-briefcase"></i>
                     <h4>NOC Analyst</h4>
-                    <p>Equiti Group, (Nov 2022 - Current)</p>
+                    <p>Equiti Group, (Nov 2022 - Mar 2023)</p>
                 </section>
                              
                 <section class="exp-item">                  
@@ -42,12 +47,7 @@
                     <h4>IT Support Engineer</h4>
                     <p>Primetel PLC, (Sep 2021 - Sep 2022)</p>
                 </section>
-                <section class="exp-item">
-                    <i class="fas fa-briefcase"></i>   
-                    <h4>Wordpress Web Developer</h4>
-                    <p>Convertico Media, (Feb 2020 - Jul 2020)</p>
-                </section>
-               
+                              
                 
             </article>
 

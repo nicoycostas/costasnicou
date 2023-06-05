@@ -223,7 +223,13 @@
         width: 100%;
         text-align: center;
         &:hover{
-            background-color: rgb(184, 1, 1);
+            background-color: rgb(125, 0, 0);
+            color: white;
+            
+        }
+        &:visited{
+          
+            color: white;
             
         }
     }
@@ -308,6 +314,10 @@
         padding: 20px;
         font-size: 1.2rem;
         color: rgb(186, 124, 2);
+
+        &:hover{
+            color: rgb(201, 135, 4);
+        }
     }
 
 

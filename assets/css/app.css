@@ -657,6 +657,8 @@ html, body {
   font-weight: 400; }
   .get-back-blog:hover {
     color: #ec8237da; }
+  .get-back-blog:visited {
+    color: #ec8237da; }
 
 .site-main.single-product-page {
   width: 70%;

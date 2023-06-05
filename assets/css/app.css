@@ -315,6 +315,8 @@ html {
   color: #ba7c02; }
   .btn-view-more:hover {
     color: #c98704; }
+  .btn-view-more:visited {
+    color: #c98704; }
 
 /*End Blog.--------------------------
 ------------------------------------------- */

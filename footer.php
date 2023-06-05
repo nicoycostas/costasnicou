@@ -1,7 +1,8 @@
-       <footer class="footer">
-              <p> &copy; 2022 - Designed and Developed by Costas Nicou</p>
+       <footer class="footer">       
+              <p> &copy; <span id="cpyear"></span> - Designed and Developed by Costas Nicou</p>
        </footer>
-       <?php wp_footer(); ?> 
+
+     
 
        <!--open close menu after link is clicked  -->
        <script>
@@ -14,10 +15,18 @@
               }
        </script>
 
-       <!-- smooth scrolling -->
-      
+       <!-- dynamic copyright date -->
        <script>
-           
+              var copyright = document.querySelector("#cpyear");
+              // Return today's date and time
+              var currentTime = new Date()
+              // returns the year (four digits)
+              var year = currentTime.getFullYear()
+              copyright.innerText = year;
        </script>
+
+       <!-- smooth scrolling -->
+       <?php wp_footer(); ?>
+       
 </body>
 </html>

@@ -2,7 +2,7 @@
     <div class="cover-img">
         <div class="cover-img-content">
             <h1>Hi I'm Costas Nicou</h1>
-            <h2>Linux System Admin and Wordpress Web Developer</h2>
+            <h2>IT Technician and Wordpress Web Developer</h2>
         
             <a href="https://drive.google.com/file/d/1Ia8PKuaY0qdLvPdc2lnh56E4vnz50RcW/view?usp=sharing" target="_blank" class="btn-cover">Download my Resume</a>
         
@@ -33,8 +33,13 @@
                 <h3>Experience</h3>
                 <section class="exp-item">
                     <i class="fas fa-briefcase"></i>   
+                    <h4>IT Technician</h4>
+                    <p>Noteris Services Ltd, (Aug 2023 - Current)</p>
+                </section>
+                <section class="exp-item">
+                    <i class="fas fa-briefcase"></i>   
                     <h4>IT Help Desk Support Engineer</h4>
-                    <p>Andreas M.Sofocleous & Co. LLC, (Mar 2023 - Current)</p>
+                    <p>Proteas Management Services, (Mar 2023 - Jul 2023)</p>
                 </section>
                 <section class="exp-item">
                     <i class="fas fa-briefcase"></i>

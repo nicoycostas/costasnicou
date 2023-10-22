@@ -31,7 +31,7 @@
                 <li class="menu-list-item"><a class="menu-link" href="<?php echo get_home_url(); ?>/#portfolio">Portfolio</a></li>
                 <li class="menu-list-item"><a class="menu-link" href="<?php echo get_home_url(); ?>/#blog">Blog</a></li>
                 <li class="menu-list-item"><a class="menu-link" href="<?php echo get_home_url(); ?>/#services">Services</a></li>
-                <li class="menu-list-item"><a class="menu-link" href="<?php echo get_home_url(); ?>/shop/">Shop</a></li>
+                <!-- <li class="menu-list-item"><a class="menu-link" href="<?php echo get_home_url(); ?>/shop/">Shop</a></li> -->
                 <li class="menu-list-item"><a class="menu-link" href="<?php echo get_home_url(); ?>/#contact">Contact</a></li>
             </ul>
 

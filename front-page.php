@@ -33,14 +33,10 @@
                 <h3>Experience</h3>
                 <section class="exp-item">
                     <i class="fas fa-briefcase"></i>   
-                    <h4>IT Technician</h4>
+                    <h4>IT Technician / Junior Systems Engineer</h4>
                     <p>Noteris Services Ltd, (Aug 2023 - Current)</p>
                 </section>
-                <section class="exp-item">
-                    <i class="fas fa-briefcase"></i>   
-                    <h4>IT Help Desk Support Engineer</h4>
-                    <p>Proteas Management Services, (Mar 2023 - Jul 2023)</p>
-                </section>
+              
                 <section class="exp-item">
                     <i class="fas fa-briefcase"></i>
                     <h4>NOC Analyst</h4>
@@ -62,15 +58,17 @@
 
                 <section class="exp-item">
                     <i class="fas fa-university"></i>
-                    <h4>Linux System Administrator</h4>
-                    <p>Linkedin Learning, (Jul 2022 - Aug 2022)</p>
+                    <h4>MS-102 Microsoft 365 Administrator</h4>
+                    <p>Issued by Udemy, (Nov 2023)</p>
                 </section>
+
 
                 <section class="exp-item">
                     <i class="fas fa-university"></i>
-                    <h4>Front End Web Developer</h4>
-                    <p>Linkedin Learning, (2019 - 2020)</p>
-                </section>                
+                    <h4>Active Directory & Group Policy Lab</h4>
+                    <p>Issued by Udemy, (Jul 2023)</p>
+                </section>
+            
 
                 <section class="exp-item">
                     <i class="fas fa-university"></i>

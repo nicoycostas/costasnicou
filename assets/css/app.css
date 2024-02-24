@@ -218,16 +218,13 @@ html {
 --------------------------------------- */
 /* Slideshow container */
 .additional-reading {
-  background-color: #383c4f;
-  background-color: #c64d4d; }
-  .additional-reading h2 {
-    color: white; }
+  background-color: #fafafa; }
 
 .slideshow-container {
-  max-width: 1000px;
+  max-width: 450px;
   position: relative;
   margin: auto;
-  margin-top: 100px; }
+  margin-top: 50px; }
 
 /* Hide the images by default */
 /* Next & previous buttons */
@@ -238,7 +235,7 @@ html {
   width: auto;
   margin-top: -22px;
   padding: 16px;
-  color: white;
+  color: orange;
   font-weight: bold;
   font-size: 18px;
   transition: 0.6s ease;
@@ -253,7 +250,7 @@ html {
 /* On hover, add a black background color with a little bit see-through */
 /* Caption text */
 .text {
-  color: #f2f2f2;
+  color: black;
   font-size: 15px;
   font-weight: bold;
   padding: 8px 12px;
@@ -262,19 +259,25 @@ html {
   width: 100%;
   text-align: center; }
 
+.mySlides {
+  text-align: center; }
+  .mySlides img {
+    width: 200px;
+    height: 250px; }
+
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #ffffff;
+  background-color: #c6c6c6;
   border-radius: 50%;
   display: inline-block;
   transition: background-color 0.6s ease; }
 
 .active, .dot:hover {
-  background-color: #546677; }
+  background-color: #f1973d; }
 
 /* Fading animation */
 .fade {

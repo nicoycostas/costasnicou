@@ -94,19 +94,20 @@
             <!-- Full-width images with number and caption text -->
             <div class="mySlides fade">
            
-                   
-                <div class="text">Red Hat RHCSA (EX200) Cert Guide</div>
+                <img src="<?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/rhcsa.jpeg';?>" alt="">
+                <!-- <div class="text">Red Hat RHCSA (EX200) Cert Guide</div> -->
             </div>
 
             <div class="mySlides fade">
              
                 
-                <div class="text">HTML and CSS: Design and Build Websites</div>
+            <img src="<?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/html-css.jpg';?>" alt="">
             </div>
 
             <div class="mySlides fade">
-           
-                <div class="text">Atomic Design by Brad Frost</div>
+
+            
+                 <img src="<?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/atomic-design.jpg';?>" alt="">
             </div>
 
             <!-- <div class="mySlides fade">

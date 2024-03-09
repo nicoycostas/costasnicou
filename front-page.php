@@ -4,7 +4,7 @@
             <h1>Hi I'm Costas Nicou</h1>
             <h2>IT Technician and Wordpress Web Developer</h2>
         
-            <a href="https://drive.google.com/file/d/1Ia8PKuaY0qdLvPdc2lnh56E4vnz50RcW/view?usp=sharing" target="_blank" class="btn-cover">Download my Resume</a>
+            <a href="<?php echo get_template_directory_uri() . '/assets/resume.pdf';?>" target="_blank" class="btn-cover">Download my Resume</a>
         
         </div>
 
@@ -90,27 +90,42 @@
         <h2 class="caligraphy-header">Additional Reading</h2>
         <!-- Slideshow container -->
         <div class="slideshow-container">
-            <div class="slide">
-                <img class="slide-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/rhcsa.jpeg';?>" alt="RHCSA Exam Preparation Book">
 
-                
-                    
-            </div>
-            
-            <div class="slide">
-                <img class="slide-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/html-css.jpg';?>" alt="HTML and CSS Book">
-
-                
-            </div>
-
-            <div class="slide">
-                <img class="slide-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/atomic-design.jpg';?>" alt="Bootstrap Project">
-                
-            
-                
-            </div>
-
+            <!-- Full-width images with number and caption text -->
+            <div class="mySlides fade">
            
+                <img src="<?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/rhcsa.jpeg';?>" alt="">
+                <!-- <div class="text">Red Hat RHCSA (EX200) Cert Guide</div> -->
+            </div>
+
+            <div class="mySlides fade">
+             
+                
+            <img src="<?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/html-css.jpg';?>" alt="">
+            </div>
+
+            <div class="mySlides fade">
+
+            
+                 <img src="<?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/atomic-design.jpg';?>" alt="">
+            </div>
+
+            <!-- <div class="mySlides fade">
+                <div class="text">Leader Without Title</div>
+           </div> -->
+
+            <!-- Next and previous buttons -->
+            <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+            <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <!-- <span class="dot" onclick="currentSlide(4)"></span> -->
         </div>
     </section>
 

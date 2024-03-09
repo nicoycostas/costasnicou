@@ -218,6 +218,23 @@
 
     // end portfolio
 
+    // start additional reading
+        .slide {
+            width: 100%;
+            margin: 20px auto;
+        }
+
+        .slideshow-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 80px;
+            flex-direction: column;
+            text-align: center;
+            
+        }
+
+    // end additional reading
+
     // start blog
         .blog{
             padding-bottom: 50px;
@@ -555,6 +572,17 @@
   
 
     // end edu exp
+
+    // start additional reading
+
+        .slideshow-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 80px;
+            text-align: center;
+          
+        }
+    // end additional reading
 
     // start portfolio
         .portfolio .content {

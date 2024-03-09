@@ -226,9 +226,10 @@ html {
   margin-top: 80px; }
 
 .slide {
+  height: 300px;
   width: 300px;
   margin: 0 20px; }
-  .slide .slide-img {
+  .slide .slide img {
     width: 250px;
     height: 300px; }
   .slide p {

@@ -4,7 +4,7 @@
             <h1>Hi I'm Costas Nicou</h1>
             <h2>IT Technician and Wordpress Web Developer</h2>
         
-            <a href="https://drive.google.com/file/d/1Ia8PKuaY0qdLvPdc2lnh56E4vnz50RcW/view?usp=sharing" target="_blank" class="btn-cover">Download my Resume</a>
+            <a href="<?php echo get_template_directory_uri() . '/assets/resume.pdf'; ?>" target="_blank" class="btn-cover">Download my Resume</a>
         
         </div>
 

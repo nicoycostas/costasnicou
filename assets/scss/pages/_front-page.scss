@@ -82,7 +82,9 @@
 
 // START PROFILE-------
 //-------------------------
-
+    .profile {
+        max-height: 940px;
+    }
 
     .profile-content {
         width: 50%;
@@ -110,6 +112,19 @@
         color: rgba(35, 35, 35, 0.726);
         font-weight: bold;
     }
+
+    // intro video
+    .video {
+        margin: 0 auto;
+        text-align: center;
+        position: relative;
+        // left: 30%;
+        top: 50px;
+        z-index: 1;
+      
+    
+    }
+    // ennd intro video
     
 
 /* End Profile-------------
@@ -231,30 +246,20 @@
 
 
 .slide{
-    // background-color: rgb(48, 48, 48);
-//    width: 200px;
+
     width: 850px;
     height: 250px;
-    // margin: 0 10px;
-    // background-color: red;
-    // display: inline-block;
     display: grid;
     grid-template-columns:auto auto auto;
     grid-gap:10px;
-    // grid-column: 
     flex: none;
     
     
    .slide-img{
         width: 200px ;
         height: 250px ;
-        // margin: 0 20px;
+       
     }
-    // border: 1px solid rgb(48, 48, 48);;
-   
-  
-    // margin: 20px 10px;
- 
 }
 
 

@@ -149,6 +149,9 @@ html {
 
 /*END header------------
 --------------------------- */
+.profile {
+  max-height: 940px; }
+
 .profile-content {
   width: 50%;
   margin: 0 auto;
@@ -169,6 +172,13 @@ html {
 .brand {
   color: rgba(35, 35, 35, 0.726);
   font-weight: bold; }
+
+.video {
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  top: 50px;
+  z-index: 1; }
 
 /* End Profile-------------
 ----------------------------------- */
@@ -826,6 +836,10 @@ html, body {
   .profile-content p {
     font-size: 20px;
     width: 90%; }
+
+  video {
+    width: 400px;
+    height: 300px; }
 
   .eduexp-section {
     padding: 50px 0; }

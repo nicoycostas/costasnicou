@@ -89,28 +89,30 @@
     <section class="additional-reading">
         <h2 class="caligraphy-header">Additional Reading</h2>
         <!-- Slideshow container -->
-        <div class="slideshow-container">
-            <div class="slide">
-                <img class="slide-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/rhcsa.jpeg';?>" alt="RHCSA Exam Preparation Book">
+        <div class="galery-wrap">  
+            <i id="backBtn" class="fa-solid fa-arrow-left"></i>   
+            <div class="slideshow-container">
+             
+               
+                <div class="slide">
 
-                
+                    <img class="slide-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/rhcsa.jpeg';?>" alt="RHCSA Exam Preparation Book">
+                    <img class="slide-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/html-css.jpg';?>" alt="HTML and CSS Book">
+                    <img class="slide-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/atomic-design.jpg';?>" alt="Bootstrap Project">
                     
-            </div>
+                    
+                </div>    
+
+                <div class="slide">
+
+                    <img class="slide-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/sever-habits.jpg';?>" alt="RHCSA Exam Preparation Book">
+                    <img class="slide-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/howtowinfriend.jpg';?>" alt="HTML and CSS Book">
+                    <img class="slide-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/belikewater.png';?>" alt="Bootstrap Project">
+                </div>  
+                
             
-            <div class="slide">
-                <img class="slide-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/html-css.jpg';?>" alt="HTML and CSS Book">
-
-                
             </div>
-
-            <div class="slide">
-                <img class="slide-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/atomic-design.jpg';?>" alt="Bootstrap Project">
-                
-            
-                
-            </div>
-
-           
+            <i id="nextBtn" class="fa-solid fa-arrow-right"></i>  
         </div>
     </section>
 

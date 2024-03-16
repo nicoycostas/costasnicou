@@ -220,19 +220,44 @@ html {
 .additional-reading {
   background-color: #fafafa; }
 
-.slideshow-container {
+.galery-wrap {
   display: flex;
   justify-content: center;
-  margin-top: 80px; }
+  align-items: center;
+  width: 85%;
+  margin: 0 auto; }
+  .galery-wrap .fa-solid {
+    font-size: 50px;
+    margin-top: 65px;
+    color: #fba609;
+    cursor: pointer; }
+  .galery-wrap #nextBtn {
+    position: relative;
+    right: 20%; }
+  .galery-wrap #backBtn {
+    position: relative;
+    left: 15%; }
+
+.slideshow-container {
+  display: flex;
+  width: 50%;
+  margin: 0 auto;
+  margin-top: 80px;
+  overflow-x: scroll; }
+
+.slideshow-container::-webkit-scrollbar {
+  display: none; }
 
 .slide {
-  width: 300px;
-  margin: 0 20px; }
+  width: 850px;
+  height: 250px;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  flex: none; }
   .slide .slide-img {
-    width: 250px;
-    height: 300px; }
-  .slide p {
-    margin-top: 10px; }
+    width: 200px;
+    height: 250px; }
 
 /*Start Portfolio.--------------------------
 ------------------------------------------- */
@@ -844,14 +869,29 @@ html, body {
   .project {
     margin-top: 25px; }
 
+  .fa-solid {
+    font-size: 10px; }
+
+  .galery-wrap #nextBtn {
+    display: none; }
+
+  .galery-wrap #backBtn {
+    display: none; }
+
   .slide {
     width: 100%;
-    margin: 20px auto; }
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center; }
+    .slide .slide-img {
+      margin: 20px 0; }
 
   .slideshow-container {
     display: flex;
     justify-content: center;
-    margin-top: 80px;
     flex-direction: column;
     text-align: center; }
 

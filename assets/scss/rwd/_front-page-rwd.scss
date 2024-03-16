@@ -211,23 +211,42 @@
             margin-top: 25px;
         }
 
-        .btn {
-            // background-color: #d4854cda;
-        }
-
-
     // end portfolio
 
     // start additional reading
+
+        .fa-solid {
+            font-size: 10px;
+        }
+
+        .galery-wrap #nextBtn {
+          display: none;
+        }
+
+        .galery-wrap #backBtn {
+            display: none;
+        }
+
         .slide {
+
             width: 100%;
             margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            height: 100%;
+            margin: 0 auto;
+            text-align: center;
+            
+            .slide-img{
+                margin:20px 0;
+            }
+            
         }
 
         .slideshow-container {
             display: flex;
             justify-content: center;
-            margin-top: 80px;
+            // margin-top: 80px;
             flex-direction: column;
             text-align: center;
             

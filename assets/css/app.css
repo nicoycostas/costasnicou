@@ -68,6 +68,8 @@ a:visited {
     padding-bottom: 8px;
     padding-top: 8px;
     color: #da9961; }
+  .menu-link:active {
+    color: #da9961; }
 
 /*End Header-----------
 ------------------------ */
@@ -106,36 +108,35 @@ html {
   justify-content: center;
   align-items: center;
   text-align: center; }
-
-.cover-img-content {
-  color: white;
-  margin-top: 40px;
-  animation-name: bounce;
-  position: relative;
-  animation-duration: 2s;
-  animation-timing-function: ease-in; }
-  .cover-img-content h1 {
-    font-size: 70px;
-    line-height: 25px;
-    text-shadow: 4px 5px 13px rgba(0, 0, 0, 0.74); }
-  .cover-img-content h2 {
-    font-size: 50px;
-    text-shadow: 4px 5px 13px rgba(0, 0, 0, 0.74); }
-  .cover-img-content .btn-cover {
-    background-color: #d37d3f;
+  .cover-img .cover-img-content {
     color: white;
-    padding: 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    margin-top: 15px;
-    display: inline-block;
-    box-shadow: 80px 21px 237px 6px rgba(0, 0, 0, 0.84);
-    -webkit-box-shadow: 80px 21px 237px 6px rgba(0, 0, 0, 0.84);
-    -moz-box-shadow: 80px 21px 237px 6px rgba(0, 0, 0, 0.84);
-    font-size: 17px;
-    transition: all 0.5s; }
-    .cover-img-content .btn-cover:hover {
-      background-color: #c26b2d; }
+    margin-top: 40px;
+    animation-name: bounce;
+    position: relative;
+    animation-duration: 2s;
+    animation-timing-function: ease-in; }
+    .cover-img .cover-img-content h1 {
+      font-size: 70px;
+      line-height: 25px;
+      text-shadow: 4px 5px 13px rgba(0, 0, 0, 0.74); }
+    .cover-img .cover-img-content h2 {
+      font-size: 50px;
+      text-shadow: 4px 5px 13px rgba(0, 0, 0, 0.74); }
+    .cover-img .cover-img-content .btn-cover {
+      background-color: #d37d3f;
+      color: white;
+      padding: 20px;
+      border-radius: 5px;
+      text-decoration: none;
+      margin-top: 15px;
+      display: inline-block;
+      box-shadow: 80px 21px 237px 6px rgba(0, 0, 0, 0.84);
+      -webkit-box-shadow: 80px 21px 237px 6px rgba(0, 0, 0, 0.84);
+      -moz-box-shadow: 80px 21px 237px 6px rgba(0, 0, 0, 0.84);
+      font-size: 17px;
+      transition: all 0.5s; }
+      .cover-img .cover-img-content .btn-cover:hover {
+        background-color: #c26b2d; }
 
 @keyframes bounce {
   from {
@@ -151,124 +152,103 @@ html {
 --------------------------- */
 .profile {
   max-height: 940px; }
-
-.profile-content {
-  width: 50%;
-  margin: 0 auto;
-  text-align: center; }
-
-.profile-content img {
-  border-radius: 50%;
-  text-align: center; }
-
-.profile-content p {
-  font-size: 20px;
-  font-weight: 300;
-  width: 80%;
-  margin: 0 auto;
-  width: 70%;
-  padding: 50px 0 0 0; }
-
-.brand {
-  color: rgba(35, 35, 35, 0.726);
-  font-weight: bold; }
-
-.video {
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
-  top: 50px;
-  z-index: 1; }
+  .profile .profile-content {
+    width: 50%;
+    margin: 0 auto;
+    text-align: center; }
+    .profile .profile-content img {
+      border-radius: 50%;
+      text-align: center; }
+    .profile .profile-content p {
+      font-size: 20px;
+      font-weight: 300;
+      width: 80%;
+      margin: 0 auto;
+      width: 70%;
+      padding: 50px 0 0 0; }
+      .profile .profile-content p .brand {
+        color: rgba(35, 35, 35, 0.726);
+        font-weight: bold; }
 
 /* End Profile-------------
 ----------------------------------- */
 /* Start Education & Experience-------------
 --------------------------------------- */
 #eduexp {
-  background-color: #303030; }
-
-.content {
-  width: 70%;
-  margin: 0 auto;
-  display: flex; }
-
-.eduexp {
-  /* border: 1px solid black; */
-  width: 50%;
-  color: white;
-  padding: 50px; }
-  .eduexp h3 {
-    font-size: 25px;
-    font-family: 'Indie Flower', cursive;
-    color: white; }
-
-.content ul li {
-  padding: 20px; }
-
-.exp-item {
-  padding: 10px;
-  margin-left: 100px;
-  position: relative;
-  color: whitesmoke; }
-  .exp-item p {
-    font-size: 19px; }
-
-.exp-item .fas {
-  font-size: 40px;
-  /* float: left; */
-  position: absolute;
-  left: -70px;
-  top: 30px; }
-
-.exp-item h4 {
-  font-size: 20px;
-  line-height: 0px; }
+  padding: 0; }
+  #eduexp .content {
+    background-color: #303030;
+    padding: 100px 0; }
+    #eduexp .content .eduxexp-content-wrapping {
+      width: 70%;
+      margin: 0 auto;
+      display: flex; }
+      #eduexp .content .eduxexp-content-wrapping .eduexp {
+        /* border: 1px solid black; */
+        width: 50%;
+        color: white;
+        padding: 50px; }
+        #eduexp .content .eduxexp-content-wrapping .eduexp h3 {
+          font-size: 25px;
+          font-family: 'Indie Flower', cursive;
+          color: white; }
+        #eduexp .content .eduxexp-content-wrapping .eduexp .exp-item {
+          padding: 10px;
+          margin-left: 100px;
+          position: relative;
+          color: whitesmoke; }
+          #eduexp .content .eduxexp-content-wrapping .eduexp .exp-item p {
+            font-size: 19px; }
+          #eduexp .content .eduxexp-content-wrapping .eduexp .exp-item h4 {
+            font-size: 20px;
+            line-height: 0px; }
+          #eduexp .content .eduxexp-content-wrapping .eduexp .exp-item .fas {
+            font-size: 40px;
+            /* float: left; */
+            position: absolute;
+            left: -70px;
+            top: 30px; }
+  #eduexp .additional-reading {
+    background-color: #fafafa;
+    padding: 100px 0; }
+    #eduexp .additional-reading .galery-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 85%;
+      margin: 0 auto; }
+      #eduexp .additional-reading .galery-wrap .fa-solid {
+        font-size: 50px;
+        margin-top: 65px;
+        color: #fba609;
+        cursor: pointer; }
+      #eduexp .additional-reading .galery-wrap #nextBtn {
+        position: relative;
+        right: 20%; }
+      #eduexp .additional-reading .galery-wrap #backBtn {
+        position: relative;
+        left: 15%; }
+      #eduexp .additional-reading .galery-wrap .slideshow-container {
+        display: flex;
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 80px;
+        overflow-x: scroll; }
+        #eduexp .additional-reading .galery-wrap .slideshow-container .slide {
+          width: 850px;
+          height: 250px;
+          display: grid;
+          grid-template-columns: auto auto auto;
+          grid-gap: 10px;
+          flex: none; }
+          #eduexp .additional-reading .galery-wrap .slideshow-container .slide .slide-img {
+            width: 200px;
+            height: 250px; }
+      #eduexp .additional-reading .galery-wrap .slideshow-container::-webkit-scrollbar {
+        display: none; }
 
 /* End Education & Experience-------------
 --------------------------------------- */
-/* Slideshow container */
-.additional-reading {
-  background-color: #fafafa; }
-
-.galery-wrap {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 85%;
-  margin: 0 auto; }
-  .galery-wrap .fa-solid {
-    font-size: 50px;
-    margin-top: 65px;
-    color: #fba609;
-    cursor: pointer; }
-  .galery-wrap #nextBtn {
-    position: relative;
-    right: 20%; }
-  .galery-wrap #backBtn {
-    position: relative;
-    left: 15%; }
-
-.slideshow-container {
-  display: flex;
-  width: 50%;
-  margin: 0 auto;
-  margin-top: 80px;
-  overflow-x: scroll; }
-
-.slideshow-container::-webkit-scrollbar {
-  display: none; }
-
-.slide {
-  width: 850px;
-  height: 250px;
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-gap: 10px;
-  flex: none; }
-  .slide .slide-img {
-    width: 200px;
-    height: 250px; }
-
 /*Start Portfolio.--------------------------
 ------------------------------------------- */
 .caligraphy-header {
@@ -287,7 +267,8 @@ html {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 80%; }
+  width: 80%;
+  margin: 0 auto; }
 
 .project {
   /* border: 1px solid black; */
@@ -328,29 +309,27 @@ html {
   padding-bottom: 90px;
   background-color: #ececec;
   font-weight: 300; }
-
-.blog h2 {
-  text-align: center;
-  font-family: 'Indie Flower', cursive;
-  letter-spacing: 0.1em; }
-
-.blog-content {
-  display: flex;
-  width: 80%;
-  margin: 0 auto;
-  justify-content: space-evenly; }
-  .blog-content .blog-content-article {
-    width: 250px;
-    height: 500px;
-    margin-top: 40px; }
-    .blog-content .blog-content-article h3 {
-      font-weight: 400; }
-    .blog-content .blog-content-article .img {
+  .blog h2 {
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    letter-spacing: 0.1em; }
+  .blog .blog-content {
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: space-evenly; }
+    .blog .blog-content .blog-content-article {
       width: 250px;
-      height: 250px; }
-    .blog-content .blog-content-article p {
-      height: 50px;
-      overflow: hidden; }
+      height: 500px;
+      margin-top: 40px; }
+      .blog .blog-content .blog-content-article h3 {
+        font-weight: 400; }
+      .blog .blog-content .blog-content-article .img {
+        width: 250px;
+        height: 250px; }
+      .blog .blog-content .blog-content-article p {
+        height: 50px;
+        overflow: hidden; }
 
 .btn-blog {
   background-color: #161616;
@@ -802,11 +781,10 @@ html, body {
     background-image: url("../imgs/cover/cover-mobile.webp");
     height: 650px;
     background-position: center; }
+    .cover-img .cover-img-content {
+      animation-name: none; }
 
-  .cover-img-content {
-    animation-name: none; }
-
-  .cover-img-content h1 {
+  .cover-img .cover-img-content h1 {
     font-size: 45px;
     line-height: 55px;
     padding: 0;
@@ -814,7 +792,7 @@ html, body {
     width: 80%;
     margin: 0 auto; }
 
-  .cover-img-content h2 {
+  .cover-img .cover-img-content h2 {
     font-size: 30px;
     width: 80%;
     margin: 0 auto;
@@ -829,90 +807,74 @@ html, body {
   .profile {
     padding: 100px 0 80px 0; }
 
-  .profile-content {
+  .profile .profile-content {
     width: 100%;
     margin: 0 auto; }
 
-  .profile-content p {
+  .profile .profile-content p {
     font-size: 20px;
     width: 90%; }
 
-  video {
-    width: 400px;
-    height: 300px; }
-
-  .eduexp-section {
+  #eduexp .content {
+    background-color: #303030;
     padding: 50px 0; }
 
-  .content {
-    width: 90%;
+  #eduexp .content .eduxexp-content-wrapping .eduexp {
+    width: 100%;
+    color: white;
+    padding: 0 20px; }
+
+  #eduexp .content .eduxexp-content-wrapping {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
     flex-direction: column; }
 
-  .eduexp {
-    width: 100%;
-    padding: 10px; }
-
-  .eduexp h3 {
-    margin-left: 5px; }
-
-  .exp-item {
-    padding: 5px 5px;
-    margin-left: 75px;
-    color: whitesmoke; }
-
-  .exp-item .fas {
-    top: 14px; }
-
-  .exp-item h4 {
+  #eduexp .content .eduxexp-content-wrapping .eduexp .exp-item h4 {
     font-size: 18px;
     line-height: 25px;
     padding: 0;
     margin: 0; }
 
-  .exp-item p {
-    font-size: 16px;
-    line-height: 30px; }
+  #eduexp .content .eduxexp-content-wrapping .eduexp .exp-item p {
+    font-size: 16px; }
 
-  .exp-item p {
-    font-size: 16px;
-    line-height: 30px; }
+  #eduexp .additional-reading .galery-wrap #backBtn {
+    position: relative;
+    left: 3%; }
 
-  .portfolio {
-    padding: 100px 0 50px 0; }
+  #eduexp .additional-reading .galery-wrap #nextBtn {
+    position: relative;
+    right: 3%; }
 
-  .project {
-    margin-top: 25px; }
+  #eduexp .additional-reading .galery-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    margin: 0 auto; }
 
   .fa-solid {
     font-size: 10px; }
 
-  .galery-wrap #nextBtn {
-    display: none; }
+  .portfolio {
+    padding: 100px 0 50px 0; }
 
-  .galery-wrap #backBtn {
-    display: none; }
-
-  .slide {
-    width: 100%;
-    margin: 20px auto;
+  .portfolio .content {
     display: flex;
-    flex-direction: column;
-    height: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 80%;
     margin: 0 auto;
-    text-align: center; }
-    .slide .slide-img {
-      margin: 20px 0; }
+    flex-direction: column; }
 
-  .slideshow-container {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    text-align: center; }
+  .project {
+    margin-top: 25px; }
 
   .blog {
     padding-bottom: 50px; }
 
-  .blog-content {
+  .blog .blog-content {
     flex-direction: column;
     justify-content: space-between;
     align-items: center; }
@@ -1014,7 +976,11 @@ html, body {
   .cover-img {
     background-image: url("../imgs/cover/cover-mobile.webp"); }
 
-  .profile-content p {
+  .cover-img .cover-img-content h2 {
+    font-size: 40px;
+    text-shadow: 4px 5px 13px rgba(0, 0, 0, 0.74); }
+
+  .profile .profile-content p {
     width: 100%; }
 
   .eduexp-section {
@@ -1026,6 +992,32 @@ html, body {
   .eduexp {
     width: 100%;
     padding: 10px; }
+
+  #eduexp .content .eduxexp-content-wrapping .eduexp {
+    /* border: 1px solid black; */
+    width: 100%;
+    color: white;
+    padding: 25px; }
+
+  #eduexp .content .eduxexp-content-wrapping {
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column; }
+
+  #eduexp .content .eduxexp-content-wrapping .eduexp {
+    /* border: 1px solid black; */
+    width: 100%;
+    color: white;
+    padding: 50px; }
+
+  #eduexp .additional-reading .galery-wrap #backBtn {
+    position: relative;
+    left: 5%; }
+
+  #eduexp .additional-reading .galery-wrap #nextBtn {
+    position: relative;
+    right: 5%; }
 
   .portfolio .content {
     flex-wrap: wrap;
@@ -1111,12 +1103,17 @@ html, body {
     width: 95%;
     flex-direction: row; }
 
-  .exp-item h4 {
+  #eduexp .content .eduxexp-content-wrapping .eduexp .exp-item h4 {
     font-size: 18px;
     line-height: 28px; }
 
   .exp-item p {
     font-size: 17px; }
+
+  #eduexp .content .eduxexp-content-wrapping {
+    width: 100%;
+    margin: 0 auto;
+    display: flex; }
 
   .slideshow-container {
     display: flex;
@@ -1273,12 +1270,17 @@ html, body {
   .content {
     width: 85%; }
 
-  .exp-item h4 {
+  #eduexp .content .eduxexp-content-wrapping .eduexp .exp-item h4 {
     font-size: 18px;
     line-height: 25px; }
 
   .exp-item p {
     font-size: 17px; }
+
+  #eduexp .content {
+    background-color: #303030;
+    padding: 100px 0;
+    width: 100%; }
 
   .portfolio .content {
     width: 85%; }

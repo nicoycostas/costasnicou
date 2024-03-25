@@ -28,94 +28,98 @@
     <!-- Education & Experience -->
     <section id="eduexp" class="eduexp-section" >
         <div class="content ">
-           
-             <!-- experience -->
-            <article class="eduexp">
-                <h3>Experience</h3>
-                <section class="exp-item">
-                    <i class="fas fa-briefcase"></i>   
-                    <h4>IT Technician / Junior Systems Engineer</h4>
-                    <p>Noteris Services Ltd, (Aug 2023 - Current)</p>
-                </section>
-              
-                <section class="exp-item">
-                    <i class="fas fa-briefcase"></i>
-                    <h4>NOC Analyst</h4>
-                    <p>Equiti Group, (Nov 2022 - Mar 2023)</p>
-                </section>
-                             
-                <section class="exp-item">                  
-                    <i class="fas fa-briefcase"></i>                    
-                    <h4>IT Support Engineer</h4>
-                    <p>Primetel PLC, (Sep 2021 - Sep 2022)</p>
-                </section>
-                              
+           <div class="eduxexp-content-wrapping">
+                <!-- experience -->
+                <article class="eduexp">
+                    <h3>Experience</h3>
+                    <section class="exp-item">
+                        <i class="fas fa-briefcase"></i>   
+                        <h4>IT Technician / Junior Systems Engineer</h4>
+                        <p>Noteris Services Ltd, (Aug 2023 - Current)</p>
+                    </section>
                 
-            </article>
-
-             <!-- education -->
-            <article class="eduexp">
-                <h3>Education</h3>
-
-                <section class="exp-item">
-                    <i class="fas fa-university"></i>
-                    <h4>MS-102 Microsoft 365 Administrator</h4>
-                    <p>Issued by Udemy, (Nov 2023)</p>
-                </section>
-
-
-                <section class="exp-item">
-                    <i class="fas fa-university"></i>
-                    <h4>Active Directory & Group Policy Lab</h4>
-                    <p>Issued by Udemy, (Jul 2023)</p>
-                </section>
-            
-
-                <section class="exp-item">
-                    <i class="fas fa-university"></i>
-                    <h4>BSc (Hons) Computing</h4>
-                    <p>Edinburgh Napier University, (2016 - 2020)</p>
-                </section>
-
-                <section class="exp-item">
-                    <i class="fas fa-university"></i>
-                    <h4>Diploma in Computer Technology</h4>
-                    <p>Cyprus College, (2013 - 2015)</p>
-                </section>
-             
-            </article>
-        </div>
-    </section>
-
-    <section class="additional-reading">
-        <h2 class="caligraphy-header">Additional Reading</h2>
-        <!-- Slideshow container -->
-        <div class="galery-wrap">  
-            <i id="backBtn" class="fa-solid fa-arrow-left"></i>   
-            <div class="slideshow-container">
-             
-               
-                <div class="slide">
-
-                    <img class="slide-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/rhcsa.jpeg';?>" alt="RHCSA Exam Preparation Book">
-                    <img class="slide-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/html-css.jpg';?>" alt="HTML and CSS Book">
-                    <img class="slide-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/atomic-design.jpg';?>" alt="Bootstrap Project">
+                    <section class="exp-item">
+                        <i class="fas fa-briefcase"></i>
+                        <h4>NOC Analyst</h4>
+                        <p>Equiti Group, (Nov 2022 - Mar 2023)</p>
+                    </section>
+                                
+                    <section class="exp-item">                  
+                        <i class="fas fa-briefcase"></i>                    
+                        <h4>IT Support Engineer</h4>
+                        <p>Primetel PLC, (Sep 2021 - Sep 2022)</p>
+                    </section>
+                                
                     
-                    
-                </div>    
+                </article>
 
-                <div class="slide">
+                <!-- education -->
+                <article class="eduexp">
+                    <h3>Education</h3>
 
-                    <img class="slide-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/sever-habits.jpg';?>" alt="RHCSA Exam Preparation Book">
-                    <img class="slide-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/howtowinfriend.jpg';?>" alt="HTML and CSS Book">
-                    <img class="slide-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/belikewater.png';?>" alt="Bootstrap Project">
-                </div>  
+                    <section class="exp-item">
+                        <i class="fas fa-university"></i>
+                        <h4>MS-102 Microsoft 365 Administrator</h4>
+                        <p>Issued by Udemy, (Nov 2023)</p>
+                    </section>
+
+
+                    <section class="exp-item">
+                        <i class="fas fa-university"></i>
+                        <h4>Active Directory & Group Policy Lab</h4>
+                        <p>Issued by Udemy, (Jul 2023)</p>
+                    </section>
                 
-            
+
+                    <section class="exp-item">
+                        <i class="fas fa-university"></i>
+                        <h4>BSc (Hons) Computing</h4>
+                        <p>Edinburgh Napier University, (2016 - 2020)</p>
+                    </section>
+
+                    <section class="exp-item">
+                        <i class="fas fa-university"></i>
+                        <h4>Diploma in Computer Technology</h4>
+                        <p>Cyprus College, (2013 - 2015)</p>
+                    </section>
+                
+                </article>
             </div>
-            <i id="nextBtn" class="fa-solid fa-arrow-right"></i>  
         </div>
+
+        <div class="additional-reading">
+            <h2 class="caligraphy-header">Additional Reading</h2>
+            <!-- Slideshow container -->
+            <div class="galery-wrap">  
+                <i id="backBtn" class="fa-solid fa-arrow-left"></i>   
+                <div class="slideshow-container">
+                
+                
+                    <div class="slide">
+
+                        <img class="slide-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/rhcsa.jpeg';?>" alt="RHCSA Exam Preparation Book">
+                        <img class="slide-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/html-css.jpg';?>" alt="HTML and CSS Book">
+                        <img class="slide-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/atomic-design.jpg';?>" alt="Bootstrap Project">
+                        
+                        
+                    </div>    
+
+                    <div class="slide">
+
+                        <img class="slide-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/sever-habits.jpg';?>" alt="RHCSA Exam Preparation Book">
+                        <img class="slide-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/howtowinfriend.jpg';?>" alt="HTML and CSS Book">
+                        <img class="slide-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/reading-slider/belikewater.png';?>" alt="Bootstrap Project">
+                    </div>  
+                    
+                
+                </div>
+                <i id="nextBtn" class="fa-solid fa-arrow-right"></i>  
+            </div>
+        </div>
+        
     </section>
+
+  
 
     <!-- Portfolio Web Work -->
     <section id="portfolio" class="portfolio">

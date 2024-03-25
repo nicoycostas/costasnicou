@@ -95,13 +95,14 @@
             background-image: url("../imgs/cover/cover-mobile.webp");
             height: 650px;
             background-position: center;
+
+            .cover-img-content{
+                animation-name:none;
+            }
         }
 
-        .cover-img-content{
-            animation-name:none;
-        }
 
-        .cover-img-content h1 {
+        .cover-img .cover-img-content h1 {
             font-size: 45px;
             line-height: 55px;
             padding: 0;
@@ -110,9 +111,7 @@
             margin: 0 auto;
         }
 
-        
-
-        .cover-img-content h2 {
+        .cover-img .cover-img-content h2 {
             font-size: 30px;
             width: 80%;
             margin: 0 auto;
@@ -137,79 +136,102 @@
             padding: 100px 0 80px 0;
         }
 
-        .profile-content {
+        .profile .profile-content  {
             width: 100%;
             margin: 0 auto;
 
         }
 
-        .profile-content p {
+        .profile .profile-content p {
             font-size: 20px;
             width: 90%;
         }
 
-        video{
-            width: 400px;
-            height: 300px;
-        }
 
     // end profile
 
     // start eduexp
-
-        .eduexp-section{
+        #eduexp .content {
+            background-color: #303030;
             padding: 50px 0;
         }
 
-        .content {
-            width: 90%;          
+        #eduexp .content .eduxexp-content-wrapping .eduexp {
+            // border: 1px solid black;
+            width: 100%;
+            color: white;
+            padding: 0 20px;
+        }
+        
+        #eduexp .content .eduxexp-content-wrapping {
+            width: 95%;
+            margin: 0 auto;
+            display: flex;
             flex-direction: column;
         }
 
-
-        .eduexp{
-            width: 100%;
-            padding: 10px;
-        }
-
-        .eduexp h3 {
-            margin-left: 5px;
-        }
-
-        .exp-item {
-            padding: 5px 5px;
-            margin-left: 75px;
-            color: whitesmoke;
-        }
-
-
-        .exp-item .fas {
-            top: 14px;
-        }
-        .exp-item h4 {
+        #eduexp .content .eduxexp-content-wrapping .eduexp .exp-item h4 {
             font-size: 18px;
             line-height: 25px;
             padding: 0;
             margin: 0;
         }
-        .exp-item p {
+        #eduexp .content .eduxexp-content-wrapping .eduexp .exp-item p {
             font-size: 16px;
-            line-height: 30px;
         }
 
-        .exp-item p {
-            font-size: 16px;
-            line-height: 30px;
-            // margin: 0;
+      
+        
+        // additional reading
+
+    
+
+        #eduexp .additional-reading .galery-wrap #backBtn {
+            position: relative;
+            left: 3%;
         }
 
-       
+        #eduexp .additional-reading .galery-wrap #nextBtn {
+            position: relative;
+            right: 3%;
+        }
+
+        #eduexp .additional-reading .galery-wrap {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 85%;
+            margin: 0 auto;
+        }
+
+
+        .fa-solid {
+            font-size: 10px;
+        }
+
+        // end additional reading
+
+  
+
+
+
+  
     // end eduexp
 
     // start-portfolio
 
+
         .portfolio{
             padding: 100px 0 50px 0;
+        }
+
+        .portfolio .content{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 80%;
+            margin: 0 auto;
+            flex-direction: column;
         }
 
         .project {
@@ -218,53 +240,12 @@
 
     // end portfolio
 
-    // start additional reading
-
-        .fa-solid {
-            font-size: 10px;
-        }
-
-        .galery-wrap #nextBtn {
-          display: none;
-        }
-
-        .galery-wrap #backBtn {
-            display: none;
-        }
-
-        .slide {
-
-            width: 100%;
-            margin: 20px auto;
-            display: flex;
-            flex-direction: column;
-            height: 100%;
-            margin: 0 auto;
-            text-align: center;
-            
-            .slide-img{
-                margin:20px 0;
-            }
-            
-        }
-
-        .slideshow-container {
-            display: flex;
-            justify-content: center;
-            // margin-top: 80px;
-            flex-direction: column;
-            text-align: center;
-            
-        }
-
-    // end additional reading
-
     // start blog
         .blog{
             padding-bottom: 50px;
         }
         
-        .blog-content {
+        .blog .blog-content{
             
             flex-direction: column;
             justify-content: space-between;
@@ -408,13 +389,20 @@
             background-image: url("../imgs/cover/cover-mobile.webp");
         }
 
+        .cover-img .cover-img-content h2 {
+            font-size: 40px;
+            text-shadow: 4px 5px 13px rgba(0, 0, 0, 0.74);
+        }
+
     // end header
 
     // start profile
 
-        .profile-content p {
+         .profile .profile-content p {
             width: 100%;
         }
+
+        
 
     // end profile
 
@@ -433,6 +421,39 @@
             width: 100%;
             padding: 10px;
         }
+
+
+        #eduexp .content .eduxexp-content-wrapping .eduexp {
+            /* border: 1px solid black; */
+            width: 100%;
+            color: white;
+            padding: 25px;
+        }
+
+        #eduexp .content .eduxexp-content-wrapping {
+            width: 85%;
+            margin: 0 auto;
+            display: flex;
+            flex-direction: column;
+        }
+
+        #eduexp .content .eduxexp-content-wrapping .eduexp {
+            /* border: 1px solid black; */
+            width: 100%;
+            color: white;
+            padding: 50px;
+        }
+
+        #eduexp .additional-reading .galery-wrap #backBtn {
+            position: relative;
+            left: 5%;
+        }
+
+        #eduexp .additional-reading .galery-wrap #nextBtn {
+            position: relative;
+            right: 5%;
+        }
+
 
     // end eduexp
 
@@ -585,7 +606,7 @@
         }
 
 
-        .exp-item h4 {
+        #eduexp .content .eduxexp-content-wrapping .eduexp .exp-item h4 {
             font-size: 18px;
             line-height: 28px;
         }
@@ -594,7 +615,13 @@
             font-size: 17px;
         }
         
+      
   
+        #eduexp .content .eduxexp-content-wrapping {
+            width: 100%;
+            margin: 0 auto;
+            display: flex;
+        }
 
     // end edu exp
 
@@ -860,13 +887,19 @@
             width: 85%;
         }
 
-        .exp-item h4 {
+        #eduexp .content .eduxexp-content-wrapping .eduexp .exp-item h4  {
             font-size: 18px;
             line-height: 25px;
         }
 
         .exp-item p {
             font-size: 17px;
+        }
+
+        #eduexp .content {
+            background-color: #303030;
+            padding: 100px 0;
+            width: 100%;
         }
     // end eduexp
 

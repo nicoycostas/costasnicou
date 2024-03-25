@@ -26,6 +26,8 @@
         color: inherit;
       }
 
+  
+
 
     // a:visited{
     //     text-decoration: none; 
@@ -97,9 +99,11 @@
             padding-top: 8px;
             // font-weight: 400;
             color: rgb(218, 153, 97);
-            
-            // color: rgb(188, 2, 2);
-            // font-weight:bold;
+
+        }
+
+        &:active{
+            color: rgb(218, 153, 97);
         }
     }
 /*End Header-----------

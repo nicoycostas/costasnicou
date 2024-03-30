@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-    <div class="cover-img">
+    <section id="home" class="cover-img">
         <div class="cover-img-content">
             <h1>Hi I'm Costas Nicou</h1>
             <h2>IT Technician and Wordpress Web Developer</h2>
@@ -9,7 +9,7 @@
         </div>
 
         
-    </div>
+    </section>
 
     <section id="profile" class="profile">
         <!-- Profile -->
@@ -18,9 +18,6 @@
             <img src=" <?php echo get_template_directory_uri() . '/assets/imgs/profile/profile-pic.webp'; ?>" alt="Profile Photo" width="200" height="200">
             <p>As an  <span class="brand">enthusiastic</span> researcher and <span class="brand"> hands on </span>learner during the last years, I have gained valuable experiences through studies and professional encounters. With an immense drive for <span class="brand">success</span> I am determined to build a great track record that will benefit any collaboration career path and organization.</p>
         </article>
-
-       
-        
 
         <!-- text -->
     </section>
@@ -118,8 +115,6 @@
         </div>
         
     </section>
-
-  
 
     <!-- Portfolio Web Work -->
     <section id="portfolio" class="portfolio">

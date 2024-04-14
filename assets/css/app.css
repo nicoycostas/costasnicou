@@ -181,7 +181,7 @@ html {
   padding: 0; }
   #eduexp .content {
     background-color: #303030;
-    padding: 100px 0; }
+    padding: 25px 0; }
     #eduexp .content .eduxexp-content-wrapping {
       width: 70%;
       margin: 0 auto;
@@ -249,6 +249,10 @@ html {
             height: 250px; }
       #eduexp .additional-reading .galery-wrap .slideshow-container::-webkit-scrollbar {
         display: none; }
+
+.rhcsa-cert {
+  line-height: 30px !important;
+  margin: 0; }
 
 /* End Education & Experience-------------
 --------------------------------------- */

@@ -25,7 +25,7 @@
     <!-- Education & Experience -->
     <section id="eduexp" class="eduexp-section" >
         <div class="content ">
-           <div class="eduxexp-content-wrapping">
+            <div class="eduxexp-content-wrapping">
                 <!-- experience -->
                 <article class="eduexp">
                     <h3>Experience</h3>
@@ -56,17 +56,15 @@
 
                     <section class="exp-item">
                         <i class="fas fa-university"></i>
-                        <h4>MS-102 Microsoft 365 Administrator</h4>
-                        <p>Issued by Udemy, (Nov 2023)</p>
-                    </section>
-
+                        <h4 class="rhcsa-cert">Red Hat Certified System Administrator (RHCSA) RHEL 9</h4>
+                        <p>By Sander van Vugt / Pearson <br/> (Feb 2024 - Mar 2024)</p>
+                    </section> 
 
                     <section class="exp-item">
                         <i class="fas fa-university"></i>
-                        <h4>Active Directory & Group Policy Lab</h4>
-                        <p>Issued by Udemy, (Jul 2023)</p>
-                    </section>
-                
+                        <h4>MS-102 Microsoft 365 Administrator</h4>
+                        <p>Issued by Udemy, (Nov 2023)</p>
+                    </section>             
 
                     <section class="exp-item">
                         <i class="fas fa-university"></i>

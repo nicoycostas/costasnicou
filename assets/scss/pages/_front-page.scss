@@ -126,7 +126,7 @@
         padding: 0;
         .content{
             background-color: rgb(48, 48, 48);
-            padding: 100px 0;
+            padding: 25px 0;
 
             .eduxexp-content-wrapping{
                 width: 70%;    
@@ -169,12 +169,15 @@
                             left: -70px;
                             top: 30px;
                         }
+
+                        
                     }
                 }
             }
 
         }
 
+      
         .additional-reading{
             background-color: #fafafa;
             padding: 100px 0;
@@ -242,6 +245,10 @@
 
     } 
 
+    .rhcsa-cert{
+        line-height: 30px !important ;
+        margin: 0;
+    }
    
 /* End Education & Experience-------------
 --------------------------------------- */

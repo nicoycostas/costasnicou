@@ -2,7 +2,7 @@
     <section id="home" class="cover-img">
         <div class="cover-img-content">
             <h1>Hi I'm Costas Nicou</h1>
-            <h2>IT Technician and Wordpress Web Developer</h2>
+            <h2>IT Technician and Certified Red Hat System Administrator</h2>
         
             <a href="<?php echo get_template_directory_uri() . '/assets/resume.pdf'; ?>" target="_blank" class="btn-cover">Download my Resume</a>
         
@@ -57,7 +57,7 @@
                     <section class="exp-item">
                         <i class="fas fa-university"></i>
                         <h4 class="rhcsa-cert">Red Hat Certified System Administrator (RHCSA) RHEL 9</h4>
-                        <p>By Sander van Vugt / Pearson <br/> (Feb 2024 - Mar 2024)</p>
+                        <p>Issued by Red Hat (Apr 2024)</p>
                     </section> 
 
                     <section class="exp-item">

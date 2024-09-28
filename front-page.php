@@ -2,9 +2,9 @@
     <section id="home" class="cover-img">
         <div class="cover-img-content">
             <h1>Hi I'm Costas Nicou</h1>
-            <h2>IT Technician and Certified Red Hat System Administrator</h2>
+            <h2>IT Technician and Front End Web Developer</h2>
         
-            <a href="<?php echo get_template_directory_uri() . '/assets/resume.pdf'; ?>" target="_blank" class="btn-cover">Download my Resume</a>
+            <a href="<?php echo get_template_directory_uri() . '/assets/Kostas Nikou - Resume.pdf'; ?>" target="_blank" class="btn-cover">Download my Resume</a>
         
         </div>
 
@@ -56,15 +56,15 @@
 
                     <section class="exp-item">
                         <i class="fas fa-university"></i>
-                        <h4 class="rhcsa-cert">Red Hat Certified System Administrator (RHCSA) RHEL 9</h4>
-                        <p>Issued by Red Hat (Apr 2024)</p>
-                    </section> 
-
+                        <h4>HTML and CSS in Depth</h4>
+                        <p>Issued by Meta, Coursera (Apr 2023)</p>
+                    </section>   
+                    
                     <section class="exp-item">
                         <i class="fas fa-university"></i>
-                        <h4>MS-102 Microsoft 365 Administrator</h4>
-                        <p>Issued by Udemy, (Nov 2023)</p>
-                    </section>             
+                        <h4>Programming with Javascript</h4>
+                        <p>Issued by Meta, Coursera (Oct 2022)</p>
+                    </section> 
 
                     <section class="exp-item">
                         <i class="fas fa-university"></i>
@@ -126,8 +126,8 @@
             </article>
 
             <article class="project">
-                <img class="project-img" src="<?php echo get_template_directory_uri() . '/assets/imgs/portfolio/leviotech.webp'; ?>" alt="Ecommerce Template made with HTML and CSS">
-                <a href="https://nicoycostas.github.io/leviotech/" target="_blank" class="btn">View Project</a>
+                <img class="project-img" src="<?php echo get_template_directory_uri() . '/assets/imgs/portfolio/money-monitor.webp'; ?>" alt="Ecommerce Template made with HTML and CSS">
+                <a href="https://costasnicou.github.io/money-monitor/" target="_blank" class="btn">View Project</a>
             </article>
 
             <article class="project">

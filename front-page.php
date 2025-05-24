@@ -72,18 +72,19 @@
                         <p>Issued by Red Hat (Apr 2024)</p>
                     </section>   
 
-                    <section class="exp-item">
-                        <i class="fas fa-university"></i>
-                        <h4>HTML and CSS in Depth</h4>
-                        <p>Issued by Meta, Coursera (Nov 2022)</p>
-                    </section>   
-                    
+                                    
                     <section class="exp-item">
                         <i class="fas fa-university"></i>
                         <h4>Programming with Javascript</h4>
-                        <p>Issued by Meta, Coursera (Oct 2022)</p>
+                        <p>Issued by Meta, Coursera (Nov 2022)</p>
                     </section> 
 
+                    <section class="exp-item">
+                        <i class="fas fa-university"></i>
+                        <h4>HTML and CSS in Depth</h4>
+                        <p>Issued by Meta, Coursera (Oct 2022)</p>
+                    </section>  
+                 
                     <section class="exp-item">
                         <i class="fas fa-university"></i>
                         <h4>BSc (Hons) Computing</h4>

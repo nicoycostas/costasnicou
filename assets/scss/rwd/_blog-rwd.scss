@@ -26,8 +26,14 @@
 
     .blog-post {
         flex-direction: column;
-        width: 250px;
-        margin: 80px auto;
+        width: 300px;
+        margin: 40px auto;
+        align-items: center;
+    }
+
+    .blog-post:hover{
+        background-color: unset;
+        color: unset;
     }
 
     .blog-post .blog-post-content {
@@ -37,7 +43,7 @@
 
     .blog-post .blog-post-content p {
         width: 250px;
-        height: 55px;
+        height: 70px;
         overflow: hidden;
     }
 }

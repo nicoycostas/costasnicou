@@ -180,7 +180,11 @@
             font-size: 16px;
         }
 
-      
+       .eduexp.scroll{
+            overflow:unset;
+            // height: 500px;
+            height: unset;
+        }
         
         // additional reading
 
@@ -252,6 +256,15 @@
             align-items: center;
         }
 
+        .btn-view-more {
+            text-align: center;
+            display: block;
+            padding: 20px;
+            font-size: 1.2rem;
+            color: #ba7602;
+            position: relative;
+            top: 30px;
+        }
     // end blog
 
     // start services
@@ -455,6 +468,10 @@
         }
 
 
+        .eduexp.scroll{
+            height: unset;
+            overflow: unset;
+        }
     // end eduexp
 
     // start porfolio

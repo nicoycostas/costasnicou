@@ -204,7 +204,7 @@ html {
             font-size: 19px; }
           #eduexp .content .eduxexp-content-wrapping .eduexp .exp-item h4 {
             font-size: 20px;
-            line-height: 0px; }
+            line-height: 30px; }
           #eduexp .content .eduxexp-content-wrapping .eduexp .exp-item .fas {
             font-size: 40px;
             /* float: left; */
@@ -253,6 +253,10 @@ html {
 .rhcsa-cert {
   line-height: 30px !important;
   margin: 0; }
+
+.eduexp.scroll {
+  overflow-y: scroll;
+  height: 750px; }
 
 /* End Education & Experience-------------
 --------------------------------------- */
@@ -326,31 +330,41 @@ html {
     margin: 0 auto;
     justify-content: space-evenly; }
     .blog .blog-content .blog-content-article {
-      width: 250px;
+      width: 330px;
       height: 500px;
-      margin-top: 40px; }
-      .blog .blog-content .blog-content-article h3 {
-        font-weight: 400; }
+      margin-top: 40px;
+      padding: 40px;
+      background-color: white;
+      box-shadow: 10px 10px 67px 0px rgba(0, 0, 0, 0.1);
+      -webkit-box-shadow: 10px 10px 67px 0px rgba(0, 0, 0, 0.1);
+      -moz-box-shadow: 10px 10px 67px 0px rgba(0, 0, 0, 0.1);
+      transition: all 1s ease-in;
+      border-radius: 10px; }
       .blog .blog-content .blog-content-article .img {
         width: 250px;
         height: 250px; }
       .blog .blog-content .blog-content-article p {
         height: 50px;
         overflow: hidden; }
+      .blog .blog-content .blog-content-article:hover {
+        transform: scale(1.1);
+        box-shadow: 10px 10px 67px 0px rgba(0, 0, 0, 0.23);
+        -webkit-box-shadow: 10px 10px 67px 0px rgba(0, 0, 0, 0.23);
+        -moz-box-shadow: 10px 10px 67px 0px rgba(0, 0, 0, 0.23); }
 
 .btn-blog {
   background-color: #161616;
   color: white;
   color: white;
-  padding: 20px;
+  padding: 10px 20px;
   border-radius: 5px;
   text-decoration: none;
-  margin-top: 15px;
+  margin-top: 0px;
   display: inline-block;
   font-size: 17px;
   transition: all 0.2s; }
   .btn-blog:hover {
-    background-color: #232222;
+    background-color: #db5626;
     color: white; }
   .btn-blog:visited {
     color: white; }
@@ -360,7 +374,9 @@ html {
   display: block;
   padding: 20px;
   font-size: 1.2rem;
-  color: #ba7c02; }
+  color: #ba7602;
+  position: relative;
+  top: 50px; }
   .btn-view-more:hover {
     color: #c98704; }
   .btn-view-more:visited {
@@ -607,7 +623,7 @@ html, body {
     width: 200px;
     height: 200px; }
   .sidebar-post p {
-    height: 40px;
+    height: 50px;
     overflow: hidden; }
   .sidebar-post p, .sidebar-post h3 {
     font-weight: 400; }
@@ -674,20 +690,26 @@ html, body {
 .blog-post {
   display: flex;
   justify-content: flex-start;
-  margin: 80px 0; }
+  margin: 40px 0;
+  padding: 20px;
+  border-radius: 5px;
+  transition: all 0.5s ease-in; }
   .blog-post .blog-post-img {
     width: 250px;
     height: 250px; }
   .blog-post .blog-post-content {
     margin-left: 50px;
-    margin-top: 5px; }
+    margin-top: 15px; }
     .blog-post .blog-post-content h3 {
       font-weight: 300; }
     .blog-post .blog-post-content p {
       width: 600px;
-      height: 78px;
+      height: 75px;
       overflow: hidden;
       font-weight: 300; }
+  .blog-post:hover {
+    background-color: #747474;
+    color: white; }
 
 .nav-links {
   text-align: center;
@@ -846,6 +868,10 @@ html, body {
   #eduexp .content .eduxexp-content-wrapping .eduexp .exp-item p {
     font-size: 16px; }
 
+  .eduexp.scroll {
+    overflow: unset;
+    height: unset; }
+
   #eduexp .additional-reading .galery-wrap #backBtn {
     position: relative;
     left: 3%; }
@@ -885,6 +911,15 @@ html, body {
     flex-direction: column;
     justify-content: space-between;
     align-items: center; }
+
+  .btn-view-more {
+    text-align: center;
+    display: block;
+    padding: 20px;
+    font-size: 1.2rem;
+    color: #ba7602;
+    position: relative;
+    top: 30px; }
 
   .services .services-content {
     flex-direction: column;
@@ -1025,6 +1060,10 @@ html, body {
   #eduexp .additional-reading .galery-wrap #nextBtn {
     position: relative;
     right: 5%; }
+
+  .eduexp.scroll {
+    height: unset;
+    overflow: unset; }
 
   .portfolio .content {
     flex-wrap: wrap;
@@ -1450,8 +1489,13 @@ html, body {
 
   .blog-post {
     flex-direction: column;
-    width: 250px;
-    margin: 80px auto; }
+    width: 300px;
+    margin: 40px auto;
+    align-items: center; }
+
+  .blog-post:hover {
+    background-color: unset;
+    color: unset; }
 
   .blog-post .blog-post-content {
     margin-left: 0;
@@ -1459,7 +1503,7 @@ html, body {
 
   .blog-post .blog-post-content p {
     width: 250px;
-    height: 55px;
+    height: 70px;
     overflow: hidden; } }
 @media (min-width: 320px) and (max-width: 768px) {
   .main-single {

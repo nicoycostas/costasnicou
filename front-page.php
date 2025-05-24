@@ -2,7 +2,7 @@
     <section id="home" class="cover-img">
         <div class="cover-img-content">
             <h1>Hi I'm Costas Nicou</h1>
-            <h2>IT Technician and Front End Web Developer</h2>
+            <h2>IT Technician and Wordpress Web Developer</h2>
         
             <a href="<?php echo get_template_directory_uri() . '/assets/Kostas Nikou - Resume.pdf'; ?>" target="_blank" class="btn-cover">Download my Resume</a>
         
@@ -46,18 +46,36 @@
                         <h4>IT Support Engineer</h4>
                         <p>Primetel PLC, (Sep 2021 - Sep 2022)</p>
                     </section>
+
+                    <section class="exp-item">                  
+                        <i class="fas fa-briefcase"></i>                    
+                        <h4>Junior Wordpress Web Developer</h4>
+                        <p>Convertico Media, (Feb 2020 - Jul 2020)</p>
+                    </section>
                                 
                     
                 </article>
 
                 <!-- education -->
-                <article class="eduexp">
+                <article class="eduexp scroll">
                     <h3>Education</h3>
 
                     <section class="exp-item">
                         <i class="fas fa-university"></i>
+                        <h4>AZ-900 Microsoft Azure Fundamentls</h4>
+                        <p>Issued by Microsoft (Apr 2025)</p>
+                    </section>   
+
+                    <section class="exp-item">
+                        <i class="fas fa-university"></i>
+                        <h4>Linux Red Hat System Administration</h4>
+                        <p>Issued by Red Hat (Apr 2024)</p>
+                    </section>   
+
+                    <section class="exp-item">
+                        <i class="fas fa-university"></i>
                         <h4>HTML and CSS in Depth</h4>
-                        <p>Issued by Meta, Coursera (Apr 2023)</p>
+                        <p>Issued by Meta, Coursera (Nov 2022)</p>
                     </section>   
                     
                     <section class="exp-item">

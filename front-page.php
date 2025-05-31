@@ -57,9 +57,9 @@
                 </article>
 
                 <!-- education -->
-                <article class="eduexp scroll">
+                <article class="eduexp ">
                     <h3>Education</h3>
-
+                <div class="scroll">
                     <section class="exp-item">
                         <i class="fas fa-university"></i>
                         <h4>AZ-900 Microsoft Azure Fundamentls</h4>
@@ -96,7 +96,7 @@
                         <h4>Diploma in Computer Technology</h4>
                         <p>Cyprus College, (2013 - 2015)</p>
                     </section>
-                
+                 </div>
                 </article>
             </div>
         </div>
@@ -136,17 +136,40 @@
     <!-- Portfolio Web Work -->
     <section id="portfolio" class="portfolio">
         <h2>Portfolio</h2>
-        <div class="content">
-            <article class="project">
-                <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/mizuxe.webp';?>" alt="Bootstrap Project">
-                <a href="https://nicoycostas.github.io/mizuxe/" target="_blank" class="btn">View Project</a>
-                
+        <div class="tabs-container">
+            <button class="tab tab-active" data-tab="1">CSS & Bootstrap</button>
+            <button class="tab" data-tab="2">Javascript</button>
+            <button class="tab"data-tab="3" >Wordpress</button>
+            <button class="tab" data-tab="4">Django</button>
+        </div>
 
+        <!-- css & bootstrap -->
+        <div class="tab-content tab-content-1  tab-content-active">
+            <article class="project">
+                <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/blog.png';?>" alt="Personal blog developed with html and css">
+                <a href="https://nicoycostas.github.io/personalblog" target="_blank" class="btn">View Project</a>
             </article>
 
             <article class="project">
-                <img class="project-img" src="<?php echo get_template_directory_uri() . '/assets/imgs/portfolio/money-monitor.webp'; ?>" alt="Ecommerce Template made with HTML and CSS">
-                <a href="https://costasnicou.github.io/money-monitor/" target="_blank" class="btn">View Project</a>
+                <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/google-search.webp';?>" alt="Google Search Project">
+                <a href="https://nicoycostas.github.io/google-search/" target="_blank" class="btn">View Project</a>
+            </article>
+            
+            <article class="project">
+                <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/mizuxe.webp';?>" alt="Bootstrap Project">
+                <a href="https://nicoycostas.github.io/mizuxe/" target="_blank" class="btn">View Project</a>
+            </article>
+
+           
+           
+        </div>
+
+        <!-- javascript -->
+        <div class="tab-content tab-content-2 ">
+          
+            <article class="project">
+                <img class="project-img" src="<?php echo get_template_directory_uri() . '/assets/imgs/portfolio/guess.png';?>" alt="Guess my number game">
+                <a href="https://nicoycostas.github.io/guessmynumber" target="_blank" class="btn">View Project</a>
             </article>
 
             <article class="project">
@@ -155,9 +178,38 @@
             </article>
 
             <article class="project">
-                <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/google-search.webp';?>" alt="Google Search Project">
-                <a href="https://nicoycostas.github.io/google-search/" target="_blank" class="btn">View Project</a>
+                <img class="project-img" src="<?php echo get_template_directory_uri() . '/assets/imgs/portfolio/money-monitor.webp'; ?>" alt="Ecommerce Template made with HTML and CSS">
+                <a href="https://costasnicou.github.io/money-monitor/" target="_blank" class="btn">View Project</a>
             </article>
+
+            
+        </div>
+
+        <!-- wordpress -->
+        <div class="tab-content tab-content-3">
+            <article class="project">
+                <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/backoffice.png';?>" alt="Wordpress Theme Backoffice">
+                <a href="http://213.207.180.122/backoffice/" target="_blank" class="btn">View Project</a>
+                
+
+            </article>
+
+           
+           
+        </div>
+
+        <!-- django -->
+        <div class="tab-content tab-content-4">
+            <article class="project">
+                <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/youtio.png';?>" alt="Youtube video collection">
+                <a href="http://213.207.180.122/youtio" target="_blank" class="btn">View Project</a>
+            </article>
+
+            <article class="project">
+                <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/spend-sense.png';?>" alt="Income/Expense Tracker Web Application">
+                <a href="https://spend-sense.com" target="_blank" class="btn">View Project</a>  
+            </article>
+
            
         </div>
 

@@ -254,9 +254,9 @@ html {
   line-height: 30px !important;
   margin: 0; }
 
-.eduexp.scroll {
+.scroll {
   overflow-y: scroll;
-  height: 750px; }
+  height: 650px; }
 
 /* End Education & Experience-------------
 --------------------------------------- */
@@ -274,18 +274,34 @@ html {
   /* margin-top: 40px; */
   letter-spacing: 0.1em; }
 
-.portfolio .content {
+.tabs-container {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+  flex-wrap: wrap; }
+  .tabs-container button {
+    background-color: orange;
+    color: white;
+    margin: 10px;
+    border-radius: 5px; }
+  .tabs-container .tab-active {
+    position: relative;
+    bottom: 5px; }
+
+.portfolio .tab-content-active {
+  display: flex;
+  justify-content: center;
   align-items: center;
   width: 80%;
   margin: 0 auto; }
+
+.tab-content {
+  display: none; }
 
 .project {
   /* border: 1px solid black; */
   width: 260px;
   height: 300px;
-  margin-top: 50px;
+  margin: 50px 20px;
   /* position: relative; */ }
 
 .project-img {
@@ -868,7 +884,7 @@ html, body {
   #eduexp .content .eduxexp-content-wrapping .eduexp .exp-item p {
     font-size: 16px; }
 
-  .eduexp.scroll {
+  .scroll {
     overflow: unset;
     height: unset; }
 
@@ -903,6 +919,9 @@ html, body {
 
   .project {
     margin-top: 25px; }
+
+  .tab-content-active {
+    flex-direction: column; }
 
   .blog {
     padding-bottom: 50px; }

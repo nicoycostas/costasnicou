@@ -180,7 +180,7 @@
             font-size: 16px;
         }
 
-       .eduexp.scroll{
+       .scroll{
             overflow:unset;
             // height: 500px;
             height: unset;
@@ -242,6 +242,9 @@
             margin-top: 25px;
         }
 
+        .tab-content-active{
+            flex-direction: column;
+        }
     // end portfolio
 
     // start blog

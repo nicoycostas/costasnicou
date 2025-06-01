@@ -146,8 +146,8 @@
         <!-- css & bootstrap -->
         <div class="tab-content tab-content-1  tab-content-active">
             <article class="project">
-                <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/blog.png';?>" alt="Personal blog developed with html and css">
-                <a href="https://nicoycostas.github.io/personalblog" target="_blank" class="btn">View Project</a>
+                <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/signup-form.png';?>" alt="Personal blog developed with html and css">
+                <a href="https://costasnicou.github.io/signup-form" target="_blank" class="btn">View Project</a>
             </article>
 
             <article class="project">

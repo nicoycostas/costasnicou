@@ -11,7 +11,7 @@
         
     </section>
 
-    <section id="profile" class="profile">
+    <section id="profile" class="profile section">
         <!-- Profile -->
         <article class="profile-content">
             <!-- img -->
@@ -23,7 +23,7 @@
     </section>
 
     <!-- Education & Experience -->
-    <section id="eduexp" class="eduexp-section" >
+    <section id="eduexp" class="eduexp-section section" >
         <div class="content ">
             <div class="eduxexp-content-wrapping">
                 <!-- experience -->
@@ -134,7 +134,7 @@
     </section>
 
     <!-- Portfolio Web Work -->
-    <section id="portfolio" class="portfolio">
+    <section id="portfolio" class="portfolio section">
         <h2>Portfolio</h2>
         <div class="tabs-container">
             <button class="tab tab-active" data-tab="1">CSS & Bootstrap</button>
@@ -216,7 +216,7 @@
     </section>
 
     <!-- Articles -->
-    <section id="blog" class="blog">
+    <section id="blog" class="blog section">
         <h2>Blog</h2>
         <div class="blog-content">
             <!-- The query -->
@@ -250,7 +250,7 @@
     </section>
 
     <!-- services -->
-    <section id="services" class="services">
+    <section id="services" class="services section">
 
         <h2>Services I Offer</h2>
 
@@ -284,7 +284,7 @@
     </section>
 
     <!-- contact -->
-    <section id="contact" class="contact">
+    <section id="contact" class="contact section">
         <h2>Contact Me</h2>
         <div class="contact-content">
            

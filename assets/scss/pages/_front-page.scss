@@ -304,10 +304,18 @@
         align-items: center;
         width: 80%;
         margin: 0 auto;
+        // opacity: 100;
+        // transform: scale(1.1);
+        // transition:all 3s ease-in;
+        
+       
     }
 
+    
+    
     .tab-content{
         display: none;
+        // opacity: 0;
     }
     // .portfolio .content article {
        
@@ -319,6 +327,7 @@
         height: 300px;
         margin: 50px 20px;
         /* position: relative; */
+        
     }
 
     .project-img{

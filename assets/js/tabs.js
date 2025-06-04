@@ -10,7 +10,7 @@ tabsContainer.addEventListener('click',function(e){
     const clickedTab = e.target.closest('.tab');
 
     if (!clickedTab) return;
-    console.log(clickedTab);
+    // console.log(clickedTab);
     tabs.forEach(t => t.classList.remove('tab-active'));
     clickedTab.classList.add('tab-active');
 //   console.log(clickedTab);
@@ -18,11 +18,19 @@ tabsContainer.addEventListener('click',function(e){
 //   // activate content area
 //   // remove
     tabsContent.forEach(
-        content => content.classList.remove('tab-content-active')
+        content => {
+            content.classList.remove('tab-content-active');
+            
+        }
     );
     
-    document.querySelector(`.tab-content-${clickedTab.dataset.tab}`)
-    .classList.add('tab-content-active');
-    
+    const activeContent = document.querySelector(`.tab-content-${clickedTab.dataset.tab}`);
+    activeContent.classList.add('tab-content-active');
+        // Apply transform
+    // activeContent.style.transform = 'rotate(360deg)';
+    // activeContent.style.transition = 'all 1s ease-in'; // Smooth animation
+
+    // document.querySelector(`.tab-content-${clickedTab.dataset.tab}`)
+    // .style.opacity = "1";
  
 });

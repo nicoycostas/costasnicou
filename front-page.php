@@ -59,44 +59,50 @@
                 <!-- education -->
                 <article class="eduexp ">
                     <h3>Education</h3>
-                <div class="scroll">
-                    <section class="exp-item">
-                        <i class="fas fa-university"></i>
-                        <h4>AZ-900 Microsoft Azure Fundamentls</h4>
-                        <p>Issued by Microsoft (Apr 2025)</p>
-                    </section>   
+                    <div class="scroll">
+                        <section class="exp-item">
+                            <i class="fas fa-university"></i>
+                            <h4>AZ-104 Microsoft Azure Administrator Associate</h4>
+                            <p>Issued by Udemy (May 2025)</p>
+                        </section>  
 
-                    <section class="exp-item">
-                        <i class="fas fa-university"></i>
-                        <h4>Linux Red Hat System Administration</h4>
-                        <p>Issued by Red Hat (Apr 2024)</p>
-                    </section>   
+                        <section class="exp-item">
+                            <i class="fas fa-university"></i>
+                            <h4>AZ-900 Microsoft Azure Fundamentls</h4>
+                            <p>Issued by Microsoft (Apr 2025)</p>
+                        </section>   
 
-                                    
-                    <section class="exp-item">
-                        <i class="fas fa-university"></i>
-                        <h4>Programming with Javascript</h4>
-                        <p>Issued by Meta, Coursera (Nov 2022)</p>
-                    </section> 
+                        <section class="exp-item">
+                            <i class="fas fa-university"></i>
+                            <h4>Linux Red Hat System Administration</h4>
+                            <p>Issued by Red Hat (Apr 2024)</p>
+                        </section>   
 
-                    <section class="exp-item">
-                        <i class="fas fa-university"></i>
-                        <h4>HTML and CSS in Depth</h4>
-                        <p>Issued by Meta, Coursera (Oct 2022)</p>
-                    </section>  
-                 
-                    <section class="exp-item">
-                        <i class="fas fa-university"></i>
-                        <h4>BSc (Hons) Computing</h4>
-                        <p>Edinburgh Napier University, (2016 - 2020)</p>
-                    </section>
+                                        
+                        <section class="exp-item">
+                            <i class="fas fa-university"></i>
+                            <h4>Programming with Javascript</h4>
+                            <p>Issued by Meta, Coursera (Nov 2022)</p>
+                        </section> 
 
-                    <section class="exp-item">
-                        <i class="fas fa-university"></i>
-                        <h4>Diploma in Computer Technology</h4>
-                        <p>Cyprus College, (2013 - 2015)</p>
-                    </section>
-                 </div>
+                        <section class="exp-item">
+                            <i class="fas fa-university"></i>
+                            <h4>HTML and CSS in Depth</h4>
+                            <p>Issued by Meta, Coursera (Oct 2022)</p>
+                        </section>  
+                    
+                        <section class="exp-item">
+                            <i class="fas fa-university"></i>
+                            <h4>BSc (Hons) Computing</h4>
+                            <p>Edinburgh Napier University, (2016 - 2020)</p>
+                        </section>
+
+                        <section class="exp-item">
+                            <i class="fas fa-university"></i>
+                            <h4>Diploma in Computer Technology</h4>
+                            <p>Cyprus College, (2013 - 2015)</p>
+                        </section>
+                    </div>
                 </article>
             </div>
         </div>
@@ -185,23 +191,25 @@
             
         </div>
 
-        <!-- wordpress -->
+        <!-- pho & wordpress -->
         <div class="tab-content tab-content-3">
+
             <article class="project">
                 <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/dyn-pages.png';?>" alt="Dynamic pages using PHP">
                 <a href="http://213.207.180.122/dyn-php-pages/" target="_blank" class="btn">View Project</a>
 
             </article>
 
-             <article class="project">
-                <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/backoffice.png';?>" alt="Wordpress Theme Backoffice">
-                <a href="http://213.207.180.122/backoffice/" target="_blank" class="btn">View Project</a>
-                
+            <article class="project">
+                <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/recipie-app.png';?>" alt="Dynamic pages using PHP">
+                <a href="http://213.207.180.122/recipie-app/" target="_blank" class="btn">View Project</a>
 
             </article>
 
-           
-          
+             <article class="project">
+                <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/backoffice.png';?>" alt="Wordpress Theme Backoffice">
+                <a href="http://213.207.180.122/backoffice/" target="_blank" class="btn">View Project</a>
+            </article>
         </div>
 
         <!-- django -->

@@ -206,6 +206,14 @@
 
             </article>
 
+            <article class="project">
+                <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/img-gallery.png';?>" alt="Dynamic pages using PHP">
+                <a href="http://213.207.180.122/img-gallery/" target="_blank" class="btn">View Project</a>
+
+            </article>
+
+            
+
              <article class="project">
                 <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/backoffice.png';?>" alt="Wordpress Theme Backoffice">
                 <a href="http://213.207.180.122/backoffice/" target="_blank" class="btn">View Project</a>

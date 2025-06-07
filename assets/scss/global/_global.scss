@@ -29,12 +29,14 @@
         // decoration: none; 
     }
 
-     a:visited {
-        color: inherit;
-      }
+    //  a:visited {
+    //     color: inherit;
+    //   }
 
   
-
+    a.btn:visited,a.btn:active{
+        color: white !important;
+    }
 
     // a:visited{
     //     text-decoration: none; 

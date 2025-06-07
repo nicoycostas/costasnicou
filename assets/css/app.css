@@ -25,8 +25,8 @@ section {
 a {
   text-decoration: none; }
 
-a:visited {
-  color: inherit; }
+a.btn:visited, a.btn:active {
+  color: white !important; }
 
 /* END Global-----------
 ------------------------ */
@@ -317,8 +317,6 @@ html {
 
 .btn {
   /* width: 200px; */
-  background-color: #313134;
-  background-color: #e00404;
   background-color: #a41111;
   color: white;
   display: inline-block;
@@ -332,7 +330,9 @@ html {
     background-color: #7d0000;
     color: white; }
   .btn:visited {
-    color: white; }
+    color: white !important; }
+  .btn:active {
+    color: white !important; }
 
 /*End Portfolio.--------------------------
 ------------------------------------------- */

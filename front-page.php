@@ -153,17 +153,17 @@
         <div class="tab-content tab-content-1  tab-content-active">
             <article class="project">
                 <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/signup-form.png';?>" alt="Modern Sign Up form developed with html and css">
-                <a href="https://costasnicou.github.io/signup-form" target="_blank" class="btn">View Project</a>
+                <a href="https://costasnicou.github.io/signup-form" style="color: #ffffff !important;" target="_blank" class="btn">View Project</a>
             </article>
 
             <article class="project">
                 <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/google-search.webp';?>" alt="Google Search Project">
-                <a href="https://nicoycostas.github.io/google-search/" target="_blank" class="btn">View Project</a>
+                <a href="https://nicoycostas.github.io/google-search/" style="color: #ffffff !important;" target="_blank" class="btn">View Project</a>
             </article>
             
             <article class="project">
                 <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/mizuxe.webp';?>" alt="Bootstrap Project">
-                <a href="https://nicoycostas.github.io/mizuxe/" target="_blank" class="btn">View Project</a>
+                <a href="https://nicoycostas.github.io/mizuxe/" style="color: #ffffff !important;" target="_blank" class="btn">View Project</a>
             </article>
 
            
@@ -175,17 +175,17 @@
           
             <article class="project">
                 <img class="project-img" src="<?php echo get_template_directory_uri() . '/assets/imgs/portfolio/guess.png';?>" alt="Guess my number game">
-                <a href="https://nicoycostas.github.io/guessmynumber" target="_blank" class="btn">View Project</a>
+                <a href="https://nicoycostas.github.io/guessmynumber" style="color: #ffffff !important;" target="_blank" class="btn">View Project</a>
             </article>
 
             <article class="project">
                 <img class="project-img" src="<?php echo get_template_directory_uri() . '/assets/imgs/portfolio/nasa.webp';?>" alt="Nasa's Web API Picture of the Day">
-                <a href="https://nicoycostas.github.io/server-arex/" target="_blank" class="btn">View Project</a>
+                <a href="https://nicoycostas.github.io/server-arex/" style="color: #ffffff !important;" target="_blank" class="btn">View Project</a>
             </article>
 
             <article class="project">
                 <img class="project-img" src="<?php echo get_template_directory_uri() . '/assets/imgs/portfolio/money-monitor.webp'; ?>" alt="Ecommerce Template made with HTML and CSS">
-                <a href="https://costasnicou.github.io/money-monitor/" target="_blank" class="btn">View Project</a>
+                <a href="https://costasnicou.github.io/money-monitor/" style="color: #ffffff !important;" target="_blank" class="btn">View Project</a>
             </article>
 
             
@@ -196,19 +196,19 @@
 
             <article class="project">
                 <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/dyn-pages.png';?>" alt="Dynamic pages using PHP">
-                <a href="http://213.207.180.122/dyn-php-pages/" target="_blank" class="btn">View Project</a>
+                <a href="http://213.207.180.122/dyn-php-pages/" style="color: #ffffff !important;" target="_blank" class="btn">View Project</a>
 
             </article>
 
             <article class="project">
                 <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/recipie-app.png';?>" alt="Dynamic pages using PHP">
-                <a href="http://213.207.180.122/recipie-app/" target="_blank" class="btn">View Project</a>
+                <a href="http://213.207.180.122/recipie-app/" style="color: #ffffff !important;" target="_blank" class="btn">View Project</a>
 
             </article>
 
             <article class="project">
                 <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/img-gallery.png';?>" alt="Dynamic pages using PHP">
-                <a href="http://213.207.180.122/img-gallery/" target="_blank" class="btn">View Project</a>
+                <a href="http://213.207.180.122/img-gallery/" style="color: #ffffff !important;" target="_blank" class="btn">View Project</a>
 
             </article>
 
@@ -216,7 +216,7 @@
 
              <article class="project">
                 <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/backoffice.png';?>" alt="Wordpress Theme Backoffice">
-                <a href="http://213.207.180.122/backoffice/" target="_blank" class="btn">View Project</a>
+                <a href="http://213.207.180.122/backoffice/" style="color: #ffffff !important;" target="_blank" class="btn">View Project</a>
             </article>
         </div>
 
@@ -224,12 +224,12 @@
         <div class="tab-content tab-content-4">
             <article class="project">
                 <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/youtio.png';?>" alt="Youtube video collection">
-                <a href="http://213.207.180.122/youtio" target="_blank" class="btn">View Project</a>
+                <a href="http://213.207.180.122/youtio" style="color: #ffffff !important;" target="_blank" class="btn">View Project</a>
             </article>
 
             <article class="project">
                 <img class="project-img" src=" <?php echo get_template_directory_uri() . '/assets/imgs/portfolio/spend-sense.png';?>" alt="Income/Expense Tracker Web Application">
-                <a href="https://spend-sense.com" target="_blank" class="btn">View Project</a>  
+                <a href="https://spend-sense.com" style="color: #ffffff !important;" target="_blank" class="btn">View Project</a>  
             </article>
 
            

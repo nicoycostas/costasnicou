@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-    <section id="home" class="cover-img">
+    <section id="home" data-section="home" class="cover-img">
         <div class="cover-img-content">
             <h1>Hi I'm Costas Nicou</h1>
             <h2>IT Technician and Wordpress Web Developer</h2>
@@ -11,7 +11,7 @@
         
     </section>
 
-    <section id="profile" class="profile section">
+    <section id="profile" data-section="profile" class="profile section">
         <!-- Profile -->
         <article class="profile-content">
             <!-- img -->
@@ -23,7 +23,7 @@
     </section>
 
     <!-- Education & Experience -->
-    <section id="eduexp" class="eduexp-section section" >
+    <section id="eduexp"  class="eduexp-section section" >
         <div class="content ">
             <div class="eduxexp-content-wrapping">
                 <!-- experience -->
@@ -140,7 +140,7 @@
     </section>
 
     <!-- Portfolio Web Work -->
-    <section id="portfolio" class="portfolio section">
+    <section id="portfolio" data-section="portfolio" class="portfolio section">
         <h2>Portfolio</h2>
         <div class="tabs-container">
             <button class="tab tab-active" data-tab="1">CSS & Bootstrap</button>
@@ -238,7 +238,7 @@
     </section>
 
     <!-- Articles -->
-    <section id="blog" class="blog section">
+    <section id="blog" data-section="blog" class="blog section">
         <h2>Blog</h2>
         <div class="blog-content">
             <!-- The query -->
@@ -272,7 +272,7 @@
     </section>
 
     <!-- services -->
-    <section id="services" class="services section">
+    <section id="services" data-section="services" class="services section">
 
         <h2>Services I Offer</h2>
 
@@ -306,7 +306,7 @@
     </section>
 
     <!-- contact -->
-    <section id="contact" class="contact section">
+    <section id="contact" data-section="contact" class="contact section">
         <h2>Contact Me</h2>
         <div class="contact-content">
            

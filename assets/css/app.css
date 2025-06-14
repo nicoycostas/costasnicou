@@ -25,9 +25,6 @@ section {
 a {
   text-decoration: none; }
 
-a.btn:visited, a.btn:active {
-  color: white !important; }
-
 /* END Global-----------
 ------------------------ */
 /*Start Header-----------
@@ -62,20 +59,22 @@ a.btn:visited, a.btn:active {
     position: relative;
     top: 15px; }
 
-.menu-list-item {
+.menu-list-item, .menu-list-item-home {
   padding: 0 20px; }
 
-.menu-link {
+.menu-link, .menu-link-not-home {
   text-decoration: none;
   color: #575555;
   font-weight: 300;
   transition: all 0.2s; }
-  .menu-link:hover {
+  .menu-link:visited, .menu-link-not-home:visited {
+    color: #575555; }
+  .menu-link:hover, .menu-link-not-home:hover {
     color: black;
     padding-bottom: 8px;
     padding-top: 8px;
     color: #da9961; }
-  .menu-link:active {
+  .menu-link .active, .menu-link-not-home .active {
     color: #da9961; }
 
 .active {

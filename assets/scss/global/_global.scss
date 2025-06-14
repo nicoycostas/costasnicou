@@ -34,9 +34,9 @@
     //   }
 
   
-    a.btn:visited,a.btn:active{
-        color: white !important;
-    }
+    // a:visited{
+    //     color: black;
+    // }
 
     // a:visited{
     //     text-decoration: none; 
@@ -90,17 +90,21 @@
     }
 
     // menu items
-    .menu-list-item{
+    .menu-list-item,.menu-list-item-home{
         padding:0 20px;
 
     }
     // menu links
-    .menu-link{
+    .menu-link,.menu-link-not-home{
         text-decoration: none;
         color: rgb(87, 85, 85);
         font-weight: 300;
         
         transition: all 0.2s;
+
+        &:visited{
+            color: rgb(87, 85, 85);
+        }
         &:hover{
             color: rgb(0, 0, 0);
             
@@ -111,10 +115,12 @@
 
         }
 
-        &:active{
-            color: rgb(218, 153, 97);
-        }
+      
 
+         .active{
+            color: rgb(218, 153, 97);
+
+        }
     
     }
 

@@ -11,10 +11,13 @@
             <h2>Latest Posts</h2>
             <section class="sidebar-posts">
                 <?php
+                 // Get the ID of the current post
+                    $current_post_id = get_the_ID();
                     // the query
                     $the_query = new WP_Query( array( 
                         'post_type' =>'post',
-                        'posts_per_page'=> 3,
+                        // 'posts_per_page'=> 3,
+                        'post__not_in'        => array( $current_post_id ), // Exclude current post
                         ) );
                     ?>
                     
@@ -25,6 +28,7 @@
 
                         <!-- the loop -->
                         <?php while ( $the_query->have_posts() ) : $the_query->the_post(); ?>
+
                             <article class="sidebar-post">
                                 <div class="sidebar-post-img" style="background-size:cover; background-position: center; background-image: url(<?php echo the_post_thumbnail_url();?>)">
                                 

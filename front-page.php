@@ -62,8 +62,8 @@
                     <div class="scroll">
                         <section class="exp-item">
                             <i class="fas fa-university"></i>
-                            <h4>AZ-104 Microsoft Azure Administrator Associate</h4>
-                            <p>Issued by Udemy (May 2025)</p>
+                            <h4>AZ-104 Microsoft Azure Administrator with Simulations</h4>
+                            <p>Issued by Udemy (Jul 2025)</p>
                         </section>  
 
                         <section class="exp-item">
@@ -71,25 +71,24 @@
                             <h4>AZ-900 Microsoft Azure Fundamentls</h4>
                             <p>Issued by Microsoft (Apr 2025)</p>
                         </section>   
+                        
+                        <section class="exp-item">
+                            <i class="fas fa-university"></i>
+                            <h4>Advanced Bash Scripting</h4>
+                            <p>Issued by Kodekloud (Dec 2024)</p>
+                        </section>  
+
+                         <section class="exp-item">
+                            <i class="fas fa-university"></i>
+                            <h4>Programming in Python</h4>
+                            <p>Issued by Meta, Coursera (Aug 2024)</p>
+                        </section> 
 
                         <section class="exp-item">
                             <i class="fas fa-university"></i>
                             <h4>Linux Red Hat System Administration</h4>
                             <p>Issued by Red Hat (Apr 2024)</p>
                         </section>   
-
-                                        
-                        <section class="exp-item">
-                            <i class="fas fa-university"></i>
-                            <h4>Programming with Javascript</h4>
-                            <p>Issued by Meta, Coursera (Nov 2022)</p>
-                        </section> 
-
-                        <section class="exp-item">
-                            <i class="fas fa-university"></i>
-                            <h4>HTML and CSS in Depth</h4>
-                            <p>Issued by Meta, Coursera (Oct 2022)</p>
-                        </section>  
                     
                         <section class="exp-item">
                             <i class="fas fa-university"></i>
